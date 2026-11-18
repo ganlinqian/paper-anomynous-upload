@@ -1,0 +1,24 @@
+from pathlib import Path
+import hashlib,json
+B=Path(__file__).resolve().parent;S=B/'sustained_burst_study'
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+old=B/'burst_confirmation_study/collect_burst_confirm.py';worker=B/'burst_confirmation_study/pi_api.py';rig=B/'rig_capture_stagger.py'
+assert sha(old)=='017a62ecb6cc0de479b92958abd15c56fb29031eb9aecca4fd62fdd1ccdd4e49';assert sha(worker)=='99d7b3254f7919178b5b45146fdb4e2a650cfa97ad8524b5c63b70e43a56a963';assert sha(rig)=='1f4e22112ef002ed8f239e268a8ae648de8607f8420d02b4543bd1a57c3ffe43'
+code=old.read_text(encoding='utf-8-sig')
+def change(a,b):
+ global code
+ assert code.count(a)==1,('source fragment count',a,code.count(a));code=code.replace(a,b)
+code=code.replace('burstconfirm_','sustainedburst_').replace('telltale_burst_confirmation_20261104','telltale_sustained_burst_20261105').replace('<DATA>/telltale_sustained_burst_20261105','F:/Data/telltale_sustained_burst_20261105').replace('burst_confirmation','sustained_burst_confirmation').replace("B/'collect_burst_confirm.py'","B/'collect_sustained_burst.py'").replace("B.parent/'rig_capture_stagger.py'","B/'rig_capture_stagger.py'")
+change("  assert (B.parent/'wait_transfer/WAIT_UPLOAD_COMPLETE.json').exists(),'J source reads not complete'","  assert json.loads((B.parent/'confirmation_processing_20261105/F_UPLOAD_COMPLETE.json').read_text(encoding='utf-8-sig'))['files']==244\n  assert json.loads((B.parent/'untraced_processing_20261105/F/HASH_COMPLETE.json').read_text(encoding='utf-8-sig'))['files']==64\n  assert json.loads((B.parent/'untraced_processing_20261105/F/HASH_COMMAND.json').read_text(encoding='utf-8-sig'))['rc']==0\n  assert not (B.parent/'confirmation_processing_20261105/FAILURE.log').exists()\n  assert not (B.parent/'untraced_processing_20261105/BRIDGE_PICK.json').exists(),'C13 must not start F uploads during C15 capture'")
+change("for ms in (0,10,30,100,300,1000) for cover in (False,True)","for ms in (0,10,100,1000) for cover in (True,)")
+change('random.Random(2026110409+block)','random.Random(2026110515+block)')
+change("id='v'+os.urandom(6).hex()","id='s'+os.urandom(6).hex()")
+change("for ms,cv in [(0,False),(1000,True)]","for ms,cv in [(0,True),(1000,True)]")
+change("  h=hashlib.sha256()\n  for _ in range(64):h.update(b'C'*1048576)\n  expected_cover_hash=h.hexdigest();time.sleep(25)","  expected_cover_hash=hashlib.sha256(b'C'*1048576).hexdigest();time.sleep(25)")
+change("   if cfg['cover']:valid=valid and row['private']['cover'].get('sha256')==expected_cover_hash","   if cfg['cover']:\n    cv=row['private']['cover'];valid=valid and cv.get('sha256')==expected_cover_hash and cv.get('blocks',0)>0 and cv.get('block_bytes')==1048576\n    valid=valid and 1500000000<=cv['end_ns']-cv['begin_ns']<=1900000000 and cv['begin_ns']<=row['private']['burst_begin_ns']<row['private']['burst_end_ns']<=cv['end_ns']")
+change("'all_trials_test_only':True,'concurrent_transfer':concurrent","'all_trials_test_only':True,'continuous_sha_min_s':1.5,'planned_bytes':7680000000,'reserve_bytes':12000000000,'selected_after_C09_outcome':True,'concurrent_transfer':concurrent")
+assert '<DATA>/telltale_sustained' not in code
+path=S/'collect_sustained_burst.py';assert not path.exists();path.write_text(code,encoding='utf-8',newline='');compile(code,str(path),'exec')
+w=worker.read_text(encoding='utf-8-sig');a=" os.sched_setaffinity(0,{2});cover['begin_ns']=time.monotonic_ns();ready.set();h=hashlib.sha256()\n for _ in range(64):h.update(block)\n cover.update(sha256=h.hexdigest(),end_ns=time.monotonic_ns())";b=" os.sched_setaffinity(0,{2});cover['begin_ns']=time.monotonic_ns();deadline=cover['begin_ns']+1500000000;ready.set();count=0;digest=None\n while time.monotonic_ns()<deadline:\n  digest=hashlib.sha256(block).hexdigest();count+=1\n cover.update(sha256=digest,end_ns=time.monotonic_ns(),blocks=count,block_bytes=len(block),minimum_seconds=1.5)";assert w.count(a)==1;w=w.replace(a,b);p=S/'pi_api.py';assert not p.exists();p.write_text(w,encoding='utf-8',newline='');compile(w,str(p),'exec')
+r=rig.read_text(encoding='utf-8-sig');assert r.count('-lt 35GB')==1 and r.count('space below35GB')==1;r=r.replace('-lt 35GB','-lt 19680000000').replace('space below35GB','space below planned7680000000+reserve12000000000 bytes');p=S/'rig_capture_stagger.py';assert not p.exists();p.write_text(r,encoding='utf-8',newline='');compile(r,str(p),'exec')
+receipt={'original_sources':{str(p):sha(p) for p in [old,worker,rig]},'new_sources':{p.name:sha(p) for p in [S/'PROTOCOL.md',S/'collect_sustained_burst.py',S/'pi_api.py',S/'rig_capture_stagger.py']},'changes':'new24-test study on F; only new rig capacity budget changed, not original; fixed1.5s SHA checksum loop; old model freeze unchanged'};(S/'SOURCE_CONSTRUCTION_RECEIPT.json').write_text(json.dumps(receipt,indent=2),encoding='utf-8',newline='');print(json.dumps(receipt))

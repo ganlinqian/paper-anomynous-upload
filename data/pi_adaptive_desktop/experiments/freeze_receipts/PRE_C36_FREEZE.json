@@ -1,0 +1,27 @@
+{
+ "utc": "2026-11-15T16:27:27.473238+00:00",
+ "note": "C36 (s1l): cross-day hold-out after Pi reboot (2026-11-15 ~15:50 UTC) and probe re-mount by the user to the previous placement, ~4.0 days after C35 (s1k); frozen detectors only (C35 self_roll4_p70 primary, C31 ensemble secondary; endpoints as scripts/c36_stats.py); ALIENTEK C2 Pro in-line power meter logged at 1000 SPS on capture_pc in parallel, analysis pre-registered in ws_power/results/power_c36/POWER_PLAN.md; fixed before any C36 run (session ws_power)",
+ "sha256": {
+  "experiments/models/C35_SELFROLL_MODELS.json": "d3fd4760cc5bc847a2a7f2232d8da67a37da4a08527c0e67ec3db65bef28fd3e",
+  "experiments/models/C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments/models/C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments/models/C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments/models/C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments/models/C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments/process_sp2027.py": "a426837e34532a62fe60e95641891652fc6ed44b246f174b5054ff70a95b88e5",
+  "experiments/collect_sp2027_wait.py": "414b13c9edd4b5c429b08a4e6e60028eadca314dd8c7631e61ac50798d54dd7c",
+  "experiments/pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "experiments/run_sp2027_chain.ps1": "3737dc1ae53e6519ef33057a26ad48fe587fea900ebe1867752e5b93aa8433ba",
+  "experiments/start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments/rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts/c35_stats.py": "1548a679c804e477bf8fdfda81cdd005ab21600a34f6fd27f799ab73df8f0f3d",
+  "scripts/c36_stats.py": "1798db6e4216cb6e2ead8f67b70a24a421a9a7ca7e395a1da7db786884bdb3b2",
+  "scratch/patch_c36_stage.py": "d64b202011ca42d61ca4063bb9ccd0c4557ff3a1aecf2b25c0cc43ebc584350b",
+  "power_c36/POWER_PLAN.md": "105e3ba5eff4636b946348969617ce2c813ecbf1b8d50e5de8c96f2c88b24fed",
+  "power_c36/sync_pulses.py": "09e3288ed5d5ced24447c423071ed3c7e1ab3a5df3b5b21d21d3c2253ac834f3",
+  "power_c36/align_sync.py": "7b8e99e880dc4c29d7440ef4873faf225ba129794c98e752a2907ff544e0f4cc"
+ },
+ "c36_started": false,
+ "user_approved": true,
+ "approval": "user 2026-11-15:  (approves C36 + power-meter logging)"
+}

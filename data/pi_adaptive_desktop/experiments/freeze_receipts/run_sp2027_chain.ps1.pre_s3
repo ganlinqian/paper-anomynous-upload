@@ -1,0 +1,48 @@
+# Runs the supplement stages back to back: collect -> capture-pc-local extraction -> fetch -> frozen evaluation (or the
+# one-time S2 model freeze), stopping at the first failure.  ToDesk on capture-pc was stopped for this collection
+# (2026-11-06, user instruction); it is restarted at the end whether the chain completes or stops.
+param([string]$Stages = 's1,s3,s2train,s2test')
+$ErrorActionPreference = 'Continue'
+Set-Location -LiteralPath $PSScriptRoot
+(Get-Process -Id $PID).PriorityClass = 'BelowNormal'
+$env:OMP_NUM_THREADS='1'; $env:OPENBLAS_NUM_THREADS='1'; $env:MKL_NUM_THREADS='1'; $env:PYTHONUTF8='1'
+$py = '<PYTHON>'
+$jobs = Join-Path $PSScriptRoot 'jobs'; [IO.Directory]::CreateDirectory($jobs) | Out-Null
+$chain = Join-Path $jobs 'chain.log'; $utf8 = New-Object System.Text.UTF8Encoding($false)
+function Log([string]$m) { [IO.File]::AppendAllText($chain, ([DateTime]::UtcNow.ToString('yyyy-MM-ddTHH:mm:ssZ') + ' ' + $m + "`r`n"), $utf8) }
+function Py([string]$name, [string[]]$argv) {
+    $out = Join-Path $jobs ($name + '.stdout.log'); $err = Join-Path $jobs ($name + '.stderr.log')
+    $p = Start-Process -FilePath $py -ArgumentList (@('-X', 'utf8', '-u') + $argv) -WorkingDirectory $PSScriptRoot -RedirectStandardOutput $out -RedirectStandardError $err -NoNewWindow -PassThru
+    $null = $p.Handle; $p.WaitForExit(); Log ($name + ' rc=' + $p.ExitCode); return $p.ExitCode
+}
+function Latest([string]$stage) { (Get-Content -Raw -LiteralPath (Join-Path $PSScriptRoot ('campaigns\LATEST_' + $stage + '.json')) | ConvertFrom-Json).directory }
+function Post([string]$stage, [string]$evalcmd) {
+    $c = Latest $stage; $ok = $false
+    for ($i = 1; $i -le 3 -and -not $ok; $i++) {
+        $null = Py ($stage + '_extract' + $i) @('process_sp2027.py', 'extract', '--campaign', $c, '--budget', '1500')
+        $ok = (Py ($stage + '_fetch' + $i) @('process_sp2027.py', 'fetch', '--campaign', $c)) -eq 0
+    }
+    if (-not $ok) { throw ($stage + ' extraction/fetch failed') }
+    if ((Py ($stage + '_' + $evalcmd) @('process_sp2027.py', $evalcmd, '--campaign', $c)) -ne 0) { throw ($stage + ' ' + $evalcmd + ' failed') }
+}
+$collect = @{ 's1' = @('collect_sp2027_wait.py', '--stage', 's1'); 's3' = @('collect_sp2027_wait.py', '--stage', 's3')
+              's2train' = @('collect_sp2027_order.py', '--stage', 'train'); 's2test' = @('collect_sp2027_order.py', '--stage', 'test') }
+$evals = @{ 's1' = 'eval-wait'; 's3' = 'eval-wait'; 's2train' = 'train-order'; 's2test' = 'eval-order' }
+Log ('chain start stages=' + $Stages + ' pid=' + $PID)
+$status = 'complete'
+try {
+    foreach ($s in ($Stages -split ',')) {
+        if (-not $collect.ContainsKey($s)) { throw ('unknown stage ' + $s) }
+        Log ('stage ' + $s + ' collect')
+        if ((Py $s $collect[$s]) -ne 0) { throw ($s + ' collection failed') }
+        Post $s $evals[$s]
+        Log ('stage ' + $s + ' done')
+    }
+} catch { $status = 'stopped: ' + $_.Exception.Message; Log ('chain ' + $status) }
+finally {
+    $code = 'Start-Service ToDesk_Service; Start-Sleep -Seconds 8; "service=" + (Get-Service ToDesk_Service).Status + " processes=" + @(Get-Process -Name ToDesk -ErrorAction SilentlyContinue).Count'
+    $b64 = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($code))
+    $r = & ssh -o BatchMode=yes -o ConnectTimeout=12 -i '<SSH_KEY>' win@192.0.2.4 ('powershell -NoProfile -NonInteractive -EncodedCommand ' + $b64) 2>&1 | Out-String
+    Log ('todesk restore: ' + $r.Trim())
+    [IO.File]::WriteAllText((Join-Path $jobs 'chain.exit.json'), ('{"status":"' + $status.Replace('"', "'").Replace('\', '/') + '","utc":"' + [DateTime]::UtcNow.ToString('o') + '"}'), $utf8)
+}

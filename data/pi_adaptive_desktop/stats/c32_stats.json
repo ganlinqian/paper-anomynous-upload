@@ -1,0 +1,1817 @@
+{
+ "campaign": "s1g_20261110_174804_582e24",
+ "primary": "C32/avg_whole_temporal",
+ "primary_summary": {
+  "hidden_alerts": [
+   48,
+   48
+  ],
+  "hidden_cp95": [
+   0.926,
+   1.0
+  ],
+  "silent_false_alarms": [
+   0,
+   32
+  ],
+  "silent_fa_cp95": [
+   0.0,
+   0.109
+  ],
+  "correct": [
+   80,
+   80
+  ],
+  "by_condition": {
+   "gzip16": [
+    8,
+    8
+   ],
+   "gzip4_d25": [
+    8,
+    8
+   ],
+   "gzip6_d37": [
+    8,
+    8
+   ],
+   "gzip3_d19": [
+    8,
+    8
+   ],
+   "json8": [
+    8,
+    8
+   ],
+   "bzip2_r": [
+    8,
+    8
+   ],
+   "silent": [
+    0,
+    32
+   ]
+  }
+ },
+ "primary_by_condition": {
+  "gzip16": {
+   "alerts": 8,
+   "n": 8,
+   "cp95": [
+    0.631,
+    1.0
+   ],
+   "by_block": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+   }
+  },
+  "gzip4_d25": {
+   "alerts": 8,
+   "n": 8,
+   "cp95": [
+    0.631,
+    1.0
+   ],
+   "by_block": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+   }
+  },
+  "gzip6_d37": {
+   "alerts": 8,
+   "n": 8,
+   "cp95": [
+    0.631,
+    1.0
+   ],
+   "by_block": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+   }
+  },
+  "gzip3_d19": {
+   "alerts": 8,
+   "n": 8,
+   "cp95": [
+    0.631,
+    1.0
+   ],
+   "by_block": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+   }
+  },
+  "json8": {
+   "alerts": 8,
+   "n": 8,
+   "cp95": [
+    0.631,
+    1.0
+   ],
+   "by_block": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+   }
+  },
+  "bzip2_r": {
+   "alerts": 8,
+   "n": 8,
+   "cp95": [
+    0.631,
+    1.0
+   ],
+   "by_block": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+   }
+  },
+  "silent": {
+   "alerts": 0,
+   "n": 32,
+   "cp95": [
+    0.0,
+    0.109
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  }
+ },
+ "block_tests": {
+  "C32/avg_whole_temporal vs C31/avg_whole_temporal": {
+   "all": {
+    "a_correct": [
+     80,
+     80
+    ],
+    "b_correct": [
+     79,
+     80
+    ],
+    "test": {
+     "blocks": 8,
+     "mean_diff": 0.012499999999999997,
+     "p_two_sided": 1.0
+    }
+   },
+   "silent_only": {
+    "a_correct": [
+     32,
+     32
+    ],
+    "b_correct": [
+     31,
+     32
+    ],
+    "test": {
+     "blocks": 8,
+     "mean_diff": 0.03125,
+     "p_two_sided": 1.0
+    }
+   }
+  },
+  "C32/avg_whole_temporal vs C29/call_whole_sesscal": {
+   "all": {
+    "a_correct": [
+     80,
+     80
+    ],
+    "b_correct": [
+     74,
+     80
+    ],
+    "test": {
+     "blocks": 8,
+     "mean_diff": 0.07499999999999998,
+     "p_two_sided": 0.0625
+    }
+   },
+   "silent_only": {
+    "a_correct": [
+     32,
+     32
+    ],
+    "b_correct": [
+     27,
+     32
+    ],
+    "test": {
+     "blocks": 8,
+     "mean_diff": 0.15625,
+     "p_two_sided": 0.125
+    }
+   }
+  }
+ },
+ "mcnemar_silent_vs_c31": {
+  "fa_only_c31": 1,
+  "fa_only_c32": 0,
+  "p_one_sided": 0.5
+ },
+ "all_detectors": {
+  "C07_frozen/temporal_260": {
+   "hidden_alerts": [
+    13,
+    48
+   ],
+   "hidden_cp95": [
+    0.153,
+    0.418
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    45,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     6,
+     8
+    ],
+    "gzip4_d25": [
+     0,
+     8
+    ],
+    "gzip6_d37": [
+     0,
+     8
+    ],
+    "gzip3_d19": [
+     0,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     7,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C07_frozen/whole_260": {
+   "hidden_alerts": [
+    16,
+    48
+   ],
+   "hidden_cp95": [
+    0.204,
+    0.484
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    48,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     0,
+     8
+    ],
+    "gzip6_d37": [
+     0,
+     8
+    ],
+    "gzip3_d19": [
+     0,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C10_transfer/temporal_260/cover_False": {
+   "hidden_alerts": [
+    20,
+    48
+   ],
+   "hidden_cp95": [
+    0.276,
+    0.568
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    52,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     0,
+     8
+    ],
+    "gzip6_d37": [
+     3,
+     8
+    ],
+    "gzip3_d19": [
+     1,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C10_transfer/temporal_260/plain": {
+   "hidden_alerts": [
+    10,
+    48
+   ],
+   "hidden_cp95": [
+    0.105,
+    0.35
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    42,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     7,
+     8
+    ],
+    "gzip4_d25": [
+     0,
+     8
+    ],
+    "gzip6_d37": [
+     0,
+     8
+    ],
+    "gzip3_d19": [
+     0,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     3,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C10_transfer/whole_260/cover_False": {
+   "hidden_alerts": [
+    12,
+    48
+   ],
+   "hidden_cp95": [
+    0.136,
+    0.396
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    44,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     7,
+     8
+    ],
+    "gzip4_d25": [
+     0,
+     8
+    ],
+    "gzip6_d37": [
+     0,
+     8
+    ],
+    "gzip3_d19": [
+     0,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     5,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C10_transfer/whole_260/plain": {
+   "hidden_alerts": [
+    3,
+    48
+   ],
+   "hidden_cp95": [
+    0.013,
+    0.172
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    35,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     2,
+     8
+    ],
+    "gzip4_d25": [
+     0,
+     8
+    ],
+    "gzip6_d37": [
+     0,
+     8
+    ],
+    "gzip3_d19": [
+     0,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     1,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C27_diverse/call_temporal": {
+   "hidden_alerts": [
+    22,
+    48
+   ],
+   "hidden_cp95": [
+    0.314,
+    0.608
+   ],
+   "silent_false_alarms": [
+    1,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.001,
+    0.162
+   ],
+   "correct": [
+    53,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     1,
+     8
+    ],
+    "gzip6_d37": [
+     2,
+     8
+    ],
+    "gzip3_d19": [
+     2,
+     8
+    ],
+    "json8": [
+     1,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     1,
+     32
+    ]
+   }
+  },
+  "C27_diverse/call_whole": {
+   "hidden_alerts": [
+    25,
+    48
+   ],
+   "hidden_cp95": [
+    0.372,
+    0.667
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    57,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     2,
+     8
+    ],
+    "gzip6_d37": [
+     6,
+     8
+    ],
+    "gzip3_d19": [
+     1,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C27_diverse/record_temporal": {
+   "hidden_alerts": [
+    18,
+    48
+   ],
+   "hidden_cp95": [
+    0.24,
+    0.526
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    50,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     0,
+     8
+    ],
+    "gzip6_d37": [
+     2,
+     8
+    ],
+    "gzip3_d19": [
+     0,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C29/call_temporal_sesscal": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    7,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.093,
+    0.4
+   ],
+   "correct": [
+    73,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     7,
+     32
+    ]
+   }
+  },
+  "C29/call_whole_raw": {
+   "hidden_alerts": [
+    32,
+    48
+   ],
+   "hidden_cp95": [
+    0.516,
+    0.796
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    64,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     3,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     3,
+     8
+    ],
+    "json8": [
+     2,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C29/call_whole_sesscal": {
+   "hidden_alerts": [
+    47,
+    48
+   ],
+   "hidden_cp95": [
+    0.889,
+    0.999
+   ],
+   "silent_false_alarms": [
+    5,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.053,
+    0.328
+   ],
+   "correct": [
+    74,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     5,
+     32
+    ]
+   }
+  },
+  "C30/call_temporal_sesscal": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    16,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.319,
+    0.681
+   ],
+   "correct": [
+    64,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     16,
+     32
+    ]
+   }
+  },
+  "C30/call_whole_raw": {
+   "hidden_alerts": [
+    46,
+    48
+   ],
+   "hidden_cp95": [
+    0.857,
+    0.995
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    78,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "json8": [
+     7,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C30/call_whole_sesscal": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    12,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.211,
+    0.563
+   ],
+   "correct": [
+    68,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     12,
+     32
+    ]
+   }
+  },
+  "C31/avg_whole_temporal": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    1,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.001,
+    0.162
+   ],
+   "correct": [
+    79,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     1,
+     32
+    ]
+   }
+  },
+  "C31/temporal_C0.1": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    10,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.161,
+    0.5
+   ],
+   "correct": [
+    70,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     10,
+     32
+    ]
+   }
+  },
+  "C31/whole_C0.1": {
+   "hidden_alerts": [
+    47,
+    48
+   ],
+   "hidden_cp95": [
+    0.889,
+    0.999
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    79,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C32/avg_whole_temporal": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    80,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "C32/temporal_C0.1": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    3,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.02,
+    0.25
+   ],
+   "correct": [
+    77,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     3,
+     32
+    ]
+   }
+  },
+  "C32/whole_C0.1": {
+   "hidden_alerts": [
+    45,
+    48
+   ],
+   "hidden_cp95": [
+    0.828,
+    0.987
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    77,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     5,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "burst/max_minus_p50": {
+   "hidden_alerts": [
+    45,
+    48
+   ],
+   "hidden_cp95": [
+    0.828,
+    0.987
+   ],
+   "silent_false_alarms": [
+    26,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.636,
+    0.928
+   ],
+   "correct": [
+    51,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     7,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     7,
+     8
+    ],
+    "silent": [
+     26,
+     32
+    ]
+   }
+  },
+  "burst/p99_minus_p50": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    32,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.891,
+    1.0
+   ],
+   "correct": [
+    48,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ]
+   }
+  },
+  "burst/top3mean_minus_p50": {
+   "hidden_alerts": [
+    47,
+    48
+   ],
+   "hidden_cp95": [
+    0.889,
+    0.999
+   ],
+   "silent_false_alarms": [
+    29,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.75,
+    0.98
+   ],
+   "correct": [
+    50,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     7,
+     8
+    ],
+    "silent": [
+     29,
+     32
+    ]
+   }
+  },
+  "relative_ref/temporal_260": {
+   "hidden_alerts": [
+    20,
+    48
+   ],
+   "hidden_cp95": [
+    0.276,
+    0.568
+   ],
+   "silent_false_alarms": [
+    2,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.008,
+    0.208
+   ],
+   "correct": [
+    50,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     1,
+     8
+    ],
+    "gzip6_d37": [
+     1,
+     8
+    ],
+    "gzip3_d19": [
+     1,
+     8
+    ],
+    "json8": [
+     1,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     2,
+     32
+    ]
+   }
+  },
+  "relative_ref/whole_260": {
+   "hidden_alerts": [
+    44,
+    48
+   ],
+   "hidden_cp95": [
+    0.8,
+    0.977
+   ],
+   "silent_false_alarms": [
+    23,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.533,
+    0.863
+   ],
+   "correct": [
+    53,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     7,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     6,
+     8
+    ],
+    "json8": [
+     7,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     23,
+     32
+    ]
+   }
+  },
+  "window_call_bracket/temporal_260": {
+   "hidden_alerts": [
+    30,
+    48
+   ],
+   "hidden_cp95": [
+    0.474,
+    0.76
+   ],
+   "silent_false_alarms": [
+    2,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.008,
+    0.208
+   ],
+   "correct": [
+    60,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     4,
+     8
+    ],
+    "gzip6_d37": [
+     3,
+     8
+    ],
+    "gzip3_d19": [
+     4,
+     8
+    ],
+    "json8": [
+     3,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     2,
+     32
+    ]
+   }
+  },
+  "window_call_bracket/whole_260": {
+   "hidden_alerts": [
+    26,
+    48
+   ],
+   "hidden_cp95": [
+    0.392,
+    0.686
+   ],
+   "silent_false_alarms": [
+    0,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.0,
+    0.109
+   ],
+   "correct": [
+    58,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     2,
+     8
+    ],
+    "gzip6_d37": [
+     7,
+     8
+    ],
+    "gzip3_d19": [
+     1,
+     8
+    ],
+    "json8": [
+     0,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ]
+   }
+  },
+  "window_prefix_0p2/temporal_260": {
+   "hidden_alerts": [
+    48,
+    48
+   ],
+   "hidden_cp95": [
+    0.926,
+    1.0
+   ],
+   "silent_false_alarms": [
+    30,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.792,
+    0.992
+   ],
+   "correct": [
+    50,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip4_d25": [
+     8,
+     8
+    ],
+    "gzip6_d37": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "json8": [
+     8,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     30,
+     32
+    ]
+   }
+  },
+  "window_prefix_0p2/whole_260": {
+   "hidden_alerts": [
+    37,
+    48
+   ],
+   "hidden_cp95": [
+    0.627,
+    0.88
+   ],
+   "silent_false_alarms": [
+    23,
+    32
+   ],
+   "silent_fa_cp95": [
+    0.533,
+    0.863
+   ],
+   "correct": [
+    46,
+    80
+   ],
+   "by_condition": {
+    "gzip16": [
+     7,
+     8
+    ],
+    "gzip4_d25": [
+     4,
+     8
+    ],
+    "gzip6_d37": [
+     6,
+     8
+    ],
+    "gzip3_d19": [
+     6,
+     8
+    ],
+    "json8": [
+     6,
+     8
+    ],
+    "bzip2_r": [
+     8,
+     8
+    ],
+    "silent": [
+     23,
+     32
+    ]
+   }
+  }
+ }
+}

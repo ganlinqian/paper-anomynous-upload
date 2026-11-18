@@ -1,0 +1,32 @@
+{
+ "C08_order temporal vs whole": {
+  "blocks": 10,
+  "mean_diff": 0.5,
+  "p_two_sided": 0.001953125
+ },
+ "C08_order call-window vs pre-dispatch (temporal)": {
+  "blocks": 10,
+  "mean_diff": 0.475,
+  "p_two_sided": 0.00390625
+ },
+ "C08_presence relative-ref vs original (whole)": {
+  "blocks": 10,
+  "mean_diff": 0.25,
+  "p_two_sided": 0.015625
+ },
+ "C10 temporal vs best timing (coordinator)": {
+  "blocks": 8,
+  "mean_diff": 0.265625,
+  "p_two_sided": 0.0078125
+ },
+ "C13 temporal vs timing (both)": {
+  "blocks": 8,
+  "mean_diff": 0.5,
+  "p_two_sided": 0.0078125
+ },
+ "C13 calib-transfer temporal vs timing (both)": {
+  "blocks": 8,
+  "mean_diff": 0.5625,
+  "p_two_sided": 0.0078125
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "utc": "2026-11-06T06:50:45.8259377Z",
+ "note": "C28 (s1c) protocol, controller/chain changes, pilot record and analysis code fixed before any C28 run; frozen C27 model unchanged",
+ "sha256": {
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "03113fe7f5cdbc634cbd7784fbde208cc39b0dee3c55e75944ba01a292dd3dbc",
+  "experiments\\collect_sp2027_wait.py": "ceee54f56db1cf1e425ba4dc4131351b5d6fe25c01956dc295830f2af60af1d2",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\run_sp2027_chain.ps1": "b9f1ad787ccc3b08fc968ac848c79c05dc5966f44529a9c1fa65314ed1a954bb",
+  "experiments\\start_sp2027_chain.ps1": "16097bbf42c9ca75084b2439452d0b290e0adba5dbf8d28cb29bbe0c1b20b318",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "experiments\\pilot_c28.py": "25a544b854b7694f54ff881d8474843fdc6626513ddf84268620d892daa382cb",
+  "experiments\\pi_pilots\\C28_DUTY_PILOT.json": "6cbe431d49e2b5b746a1b1f0d1301a9daae85ca08b086a073279e20ab738c387",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "03_.md": "a21867190b06a2dd67283f88672e0d649e78a808e2f26ccf54f30957d5fd8c62"
+ },
+ "c28_started": false
+}

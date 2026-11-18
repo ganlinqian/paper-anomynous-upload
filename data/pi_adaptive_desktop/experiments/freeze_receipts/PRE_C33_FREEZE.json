@@ -1,0 +1,28 @@
+{
+ "utc": "2026-11-10T19:44:42.7606239Z",
+ "note": "C33 (s1h): unseen tools/sizes + contract-permitted background work, frozen detectors only (primary C31 ensemble); fixed before any C33 run; requested by user 2026-11-10 (session ws_followup)",
+ "sha256": {
+  "experiments\\models\\C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments\\models\\C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments\\models\\C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "98c683493454be405321426c1d91fe8b9431c0b89cf564372d6d1c68768dd983",
+  "experiments\\collect_sp2027_wait.py": "913be0ecf758f26db47204f2b002d5c241fd1d1a33b4688a2e4e57b58136a52f",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "scripts\\make_pi_api_c33.py": "83c594dd6eb3484d5aa98e2742ffd40ecb71bee4c591c21622db493960bf79c3",
+  "experiments\\run_sp2027_chain.ps1": "1ba7586ca21eb7cd36d97fee107ecf1740840cb6ed65bf05f9ef8edcdad1b54e",
+  "experiments\\start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts\\c33_stats.py": "c5236c12919cf896d0c7743782509fd8177ee045504a58831fd4aec67bfade8e",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "scratch\\smoke_c33_worker.py": "9551b4d0eaad7790994a985c5e231caeaaac8bbcfdd08e9c7b7e913c9b1bd03b",
+  "scratch\\c33_smoke\\SMOKE_RESULT.json": "0d02b8b17ac1fa62815076b1d1c4df31c8b75067a1b6ed7786a012c44ae509e6",
+  "scripts\\explore_calibration_budget.py": "7f9a4136935c60a6861890850336663d91377fc67d3e18e8c6931de6a78bf0ee",
+  "stats\\explore_calibration_budget.json": "2fcb266ae40d7ae1a9718751be3b39b356295871bddba5de689b3fe60e0c9e1e",
+  "PROTOCOL_LEGACY.md": "874388a388cbbfe56ea599cec8b4f998161da0042909de20e22949cc188a43bb"
+ },
+ "c33_started": false,
+ "user_requested": true
+}

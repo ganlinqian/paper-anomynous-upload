@@ -1,0 +1,110 @@
+{
+ "utc": "2026-11-06T03:57:39Z",
+ "campaign": "s2test_20261106_032920_dddf78",
+ "model_sha256": "0abb15100690ad888caa8347a711edc3b47853332f5e25fff21efbd7d92e8ef5",
+ "n": 40,
+ "primary": "call_temporal",
+ "transcript_bound_correct": 20,
+ "summary": {
+  "call_temporal": {
+   "tp": 19,
+   "fn": 1,
+   "fp": 0,
+   "tn": 20,
+   "accuracy": 0.975,
+   "accuracy_95pct": [
+    0.8684141415172343,
+    0.9993672550679505
+   ],
+   "tpr": 0.95,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.7512672372279723,
+    0.9987349105020502
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.16843347098308528
+   ],
+   "balanced_accuracy": 0.975,
+   "auc": 1.0,
+   "perfect_blocks": 9,
+   "blocks": 10
+  },
+  "record_temporal": {
+   "tp": 4,
+   "fn": 16,
+   "fp": 1,
+   "tn": 19,
+   "accuracy": 0.575,
+   "accuracy_95pct": [
+    0.4089005804269633,
+    0.7295709687311371
+   ],
+   "tpr": 0.2,
+   "fpr": 0.05,
+   "tpr_95pct": [
+    0.05733399705003276,
+    0.43661400299666825
+   ],
+   "fpr_95pct": [
+    0.0012650894979498038,
+    0.24873276277202766
+   ],
+   "balanced_accuracy": 0.575,
+   "auc": 0.7325,
+   "perfect_blocks": 0,
+   "blocks": 10
+  },
+  "record_whole": {
+   "tp": 20,
+   "fn": 0,
+   "fp": 18,
+   "tn": 2,
+   "accuracy": 0.55,
+   "accuracy_95pct": [
+    0.38490679453401333,
+    0.7074116499601201
+   ],
+   "tpr": 1.0,
+   "fpr": 0.9,
+   "tpr_95pct": [
+    0.8315665290169146,
+    1.0
+   ],
+   "fpr_95pct": [
+    0.6830172859809176,
+    0.9876514728297052
+   ],
+   "balanced_accuracy": 0.55,
+   "auc": 0.4625,
+   "perfect_blocks": 1,
+   "blocks": 10
+  },
+  "elapsed": {
+   "tp": 10,
+   "fn": 10,
+   "fp": 10,
+   "tn": 10,
+   "accuracy": 0.5,
+   "accuracy_95pct": [
+    0.33801781373723455,
+    0.6619821862627655
+   ],
+   "tpr": 0.5,
+   "fpr": 0.5,
+   "tpr_95pct": [
+    0.2719578495607918,
+    0.7280421504392082
+   ],
+   "fpr_95pct": [
+    0.2719578495607918,
+    0.7280421504392082
+   ],
+   "balanced_accuracy": 0.5,
+   "auc": 0.52,
+   "perfect_blocks": 1,
+   "blocks": 10
+  }
+ }
+}

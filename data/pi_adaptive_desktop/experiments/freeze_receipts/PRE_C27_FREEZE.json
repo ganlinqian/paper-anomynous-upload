@@ -1,0 +1,16 @@
+{
+ "utc": "2026-11-06T02:57:12.2663586Z",
+ "note": "C27 diverse-workload model, protocol and controller fixed after the frozen C24 evaluation and before any C27 run",
+ "sha256": {
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "03113fe7f5cdbc634cbd7784fbde208cc39b0dee3c55e75944ba01a292dd3dbc",
+  "experiments\\collect_sp2027_wait.py": "5ee97c59492c93c0b6cc82cfb7c6b47a3acdf6eb7f01cfec22c2cf1bdcaf36da",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\jsongen.py": "ba3ff4d7552d81130aca42007102a38348950646d773d6f2301c02078292adf6",
+  "03_.md": "13a775b88065ef582bd817f7d82cd5ff77b8cf4efac65e7389664912ee639699",
+  "experiments\\run_sp2027_chain.ps1": "895b39812b4c201604378757314eea786d66ec33c8458a450a453c2d7d37fd66",
+  "scripts\\explore_s1_lobo.py": "a3d79334f72559dfb9bfe63116448c901cd172fa08dbdcb710821b2100b8fd42",
+  "stats\\explore_s1_lobo.json": "6a27bd252a36bc9bae3ea1289b8f831130c5f7bef91657a54f5ab90b5f51830c"
+ },
+ "c27_started": false
+}

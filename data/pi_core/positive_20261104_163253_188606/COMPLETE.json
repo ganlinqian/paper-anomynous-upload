@@ -1,0 +1,652 @@
+{
+ "stage": "positive",
+ "records": [
+  {
+   "kind": "memory",
+   "id": "rec0b332b305f",
+   "block": 0,
+   "stage": "positive",
+   "pre": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 40.25,
+     "ddr_c": 37.02
+    }
+   },
+   "supervisor": "183701\n",
+   "capture_ready": {
+    "state": "capturing",
+    "win_mono_ns": 4596402700,
+    "marks": [
+     {
+      "radio": "930c",
+      "bytes": 16515072,
+      "running": true
+     },
+     {
+      "radio": "16bc",
+      "bytes": 16515072,
+      "running": true
+     }
+    ]
+   },
+   "rf": {
+    "state": "complete",
+    "win_mono_ns": 8190669000,
+    "radios": [
+     {
+      "radio": "930c",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\rec0b332b305f_930c.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\rec0b332b305f_930c.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "1800000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\rec0b332b305f_930c.iq"
+      ],
+      "spawn_win_mono_ns": 4128088300
+     },
+     {
+      "radio": "16bc",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\rec0b332b305f_16bc.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\rec0b332b305f_16bc.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "105000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\rec0b332b305f_16bc.iq"
+      ],
+      "spawn_win_mono_ns": 4132014500
+     }
+    ]
+   },
+   "load": {
+    "mode": "memory",
+    "rounds": 139,
+    "elapsed_s": 5.390287,
+    "sink": 6855004731019299766
+   },
+   "post": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=45.7'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 40.09,
+     "ddr_c": 36.97
+    }
+   },
+   "valid_rf": true,
+   "valid": true
+  },
+  {
+   "kind": "idle",
+   "id": "r0dc6447000fa",
+   "block": 0,
+   "stage": "positive",
+   "pre": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=44.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 40.09,
+     "ddr_c": 36.97
+    }
+   },
+   "supervisor": "183724\n",
+   "capture_ready": {
+    "state": "capturing",
+    "win_mono_ns": 35377998500,
+    "marks": [
+     {
+      "radio": "930c",
+      "bytes": 16515072,
+      "running": true
+     },
+     {
+      "radio": "16bc",
+      "bytes": 16777216,
+      "running": true
+     }
+    ]
+   },
+   "rf": {
+    "state": "complete",
+    "win_mono_ns": 38976801600,
+    "radios": [
+     {
+      "radio": "930c",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r0dc6447000fa_930c.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r0dc6447000fa_930c.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "1800000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r0dc6447000fa_930c.iq"
+      ],
+      "spawn_win_mono_ns": 34841157000
+     },
+     {
+      "radio": "16bc",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r0dc6447000fa_16bc.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r0dc6447000fa_16bc.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "105000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r0dc6447000fa_16bc.iq"
+      ],
+      "spawn_win_mono_ns": 34845160900
+     }
+    ]
+   },
+   "load": {
+    "mode": "idle",
+    "rounds": 108,
+    "elapsed_s": 5.361759,
+    "sink": 0
+   },
+   "post": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=45.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 40.09,
+     "ddr_c": 36.97
+    }
+   },
+   "valid_rf": true,
+   "valid": true
+  },
+  {
+   "kind": "memory",
+   "id": "r3060eb65ac31",
+   "block": 1,
+   "stage": "positive",
+   "pre": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=45.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 41.51,
+     "ddr_c": 37.27
+    }
+   },
+   "supervisor": "183745\n",
+   "capture_ready": {
+    "state": "capturing",
+    "win_mono_ns": 66377976500,
+    "marks": [
+     {
+      "radio": "930c",
+      "bytes": 16515072,
+      "running": true
+     },
+     {
+      "radio": "16bc",
+      "bytes": 16515072,
+      "running": true
+     }
+    ]
+   },
+   "rf": {
+    "state": "complete",
+    "win_mono_ns": 70068772600,
+    "radios": [
+     {
+      "radio": "930c",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r3060eb65ac31_930c.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r3060eb65ac31_930c.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "1800000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r3060eb65ac31_930c.iq"
+      ],
+      "spawn_win_mono_ns": 65912798800
+     },
+     {
+      "radio": "16bc",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r3060eb65ac31_16bc.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r3060eb65ac31_16bc.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "105000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r3060eb65ac31_16bc.iq"
+      ],
+      "spawn_win_mono_ns": 65917106400
+     }
+    ]
+   },
+   "load": {
+    "mode": "memory",
+    "rounds": 141,
+    "elapsed_s": 5.452587,
+    "sink": 7919554897092608603
+   },
+   "post": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=48.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 41.51,
+     "ddr_c": 37.27
+    }
+   },
+   "valid_rf": true,
+   "valid": true
+  },
+  {
+   "kind": "idle",
+   "id": "r2a047c233f8b",
+   "block": 1,
+   "stage": "positive",
+   "pre": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=45.7'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 41.51,
+     "ddr_c": 37.27
+    }
+   },
+   "supervisor": "183767\n",
+   "capture_ready": {
+    "state": "capturing",
+    "win_mono_ns": 97237263200,
+    "marks": [
+     {
+      "radio": "930c",
+      "bytes": 16777216,
+      "running": true
+     },
+     {
+      "radio": "16bc",
+      "bytes": 16515072,
+      "running": true
+     }
+    ]
+   },
+   "rf": {
+    "state": "complete",
+    "win_mono_ns": 101177304500,
+    "radios": [
+     {
+      "radio": "930c",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r2a047c233f8b_930c.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r2a047c233f8b_930c.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "1800000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r2a047c233f8b_930c.iq"
+      ],
+      "spawn_win_mono_ns": 96767577400
+     },
+     {
+      "radio": "16bc",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r2a047c233f8b_16bc.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r2a047c233f8b_16bc.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "105000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r2a047c233f8b_16bc.iq"
+      ],
+      "spawn_win_mono_ns": 96771899200
+     }
+    ]
+   },
+   "load": {
+    "mode": "idle",
+    "rounds": 112,
+    "elapsed_s": 5.582395,
+    "sink": 0
+   },
+   "post": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=46.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 41.51,
+     "ddr_c": 37.27
+    }
+   },
+   "valid_rf": true,
+   "valid": true
+  },
+  {
+   "kind": "memory",
+   "id": "r08e93b282049",
+   "block": 2,
+   "stage": "positive",
+   "pre": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=45.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 42.75,
+     "ddr_c": 38.62
+    }
+   },
+   "supervisor": "183788\n",
+   "capture_ready": {
+    "state": "capturing",
+    "win_mono_ns": 128775763900,
+    "marks": [
+     {
+      "radio": "930c",
+      "bytes": 18874368,
+      "running": true
+     },
+     {
+      "radio": "16bc",
+      "bytes": 18350080,
+      "running": true
+     }
+    ]
+   },
+   "rf": {
+    "state": "complete",
+    "win_mono_ns": 132376366500,
+    "radios": [
+     {
+      "radio": "930c",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r08e93b282049_930c.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r08e93b282049_930c.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "1800000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r08e93b282049_930c.iq"
+      ],
+      "spawn_win_mono_ns": 128004680800
+     },
+     {
+      "radio": "16bc",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r08e93b282049_16bc.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r08e93b282049_16bc.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "105000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r08e93b282049_16bc.iq"
+      ],
+      "spawn_win_mono_ns": 128008719000
+     }
+    ]
+   },
+   "load": {
+    "mode": "memory",
+    "rounds": 150,
+    "elapsed_s": 5.814887,
+    "sink": 12893867267288146537
+   },
+   "post": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=49.6'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 42.75,
+     "ddr_c": 38.62
+    }
+   },
+   "valid_rf": true,
+   "valid": true
+  },
+  {
+   "kind": "idle",
+   "id": "r88ffec540e62",
+   "block": 2,
+   "stage": "positive",
+   "pre": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=47.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 43.13,
+     "ddr_c": 38.85
+    }
+   },
+   "supervisor": "183812\n",
+   "capture_ready": {
+    "state": "capturing",
+    "win_mono_ns": 159710984700,
+    "marks": [
+     {
+      "radio": "930c",
+      "bytes": 16777216,
+      "running": true
+     },
+     {
+      "radio": "16bc",
+      "bytes": 16515072,
+      "running": true
+     }
+    ]
+   },
+   "rf": {
+    "state": "complete",
+    "win_mono_ns": 163481200100,
+    "radios": [
+     {
+      "radio": "930c",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r88ffec540e62_930c.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r88ffec540e62_930c.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "1800000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r88ffec540e62_930c.iq"
+      ],
+      "spawn_win_mono_ns": 159241499100
+     },
+     {
+      "radio": "16bc",
+      "raw": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r88ffec540e62_16bc.iq",
+      "log": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r88ffec540e62_16bc.rf.log",
+      "rc": 0,
+      "bytes": 160000000,
+      "expected_bytes": 160000000,
+      "command": [
+       "C:/HackRF/bin/hackrf_transfer.exe",
+       "-d",
+       "<hackrf-serial>",
+       "-f",
+       "105000000",
+       "-s",
+       "20000000",
+       "-l",
+       "32",
+       "-g",
+       "20",
+       "-a",
+       "0",
+       "-n",
+       "80000000",
+       "-r",
+       "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606\\r88ffec540e62_16bc.iq"
+      ],
+      "spawn_win_mono_ns": 159245638500
+     }
+    ]
+   },
+   "load": {
+    "mode": "idle",
+    "rounds": 110,
+    "elapsed_s": 5.469935,
+    "sink": 0
+   },
+   "post": {
+    "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=46.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+    "temperature": {
+     "cpu_c": 43.13,
+     "ddr_c": 38.85
+    }
+   },
+   "valid_rf": true,
+   "valid": true
+  }
+ ],
+ "raw_bytes": 1920000000,
+ "utc": "2026-11-04T16:36:40Z",
+ "freeze_sha256": "7208a76e8f92f3dbc123aca34e3592816f63238f6bc88a1dfbd93fb91d4e3f20",
+ "report_recovery": "numpy bool to builtin bool only; RF unchanged; FAILURE.log retained",
+ "recovery_script_sha256": "9f290bcc8558907b4a85e735c46fd7414cd96b8c6dd4987c855e1d6032304532"
+}

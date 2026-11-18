@@ -1,0 +1,95 @@
+{
+ "campaign": "positive_20261104_163253_188606",
+ "stage": "positive",
+ "plan": [
+  {
+   "kind": "memory",
+   "id": "rec0b332b305f",
+   "block": 0,
+   "stage": "positive"
+  },
+  {
+   "kind": "idle",
+   "id": "r0dc6447000fa",
+   "block": 0,
+   "stage": "positive"
+  },
+  {
+   "kind": "memory",
+   "id": "r3060eb65ac31",
+   "block": 1,
+   "stage": "positive"
+  },
+  {
+   "kind": "idle",
+   "id": "r2a047c233f8b",
+   "block": 1,
+   "stage": "positive"
+  },
+  {
+   "kind": "memory",
+   "id": "r08e93b282049",
+   "block": 2,
+   "stage": "positive"
+  },
+  {
+   "kind": "idle",
+   "id": "r88ffec540e62",
+   "block": 2,
+   "stage": "positive"
+  }
+ ],
+ "winroot": "<DATA>/telltale_scenarios_20261104/positive_20261104_163253_188606",
+ "piroot": "/home/pi/telltale_scenarios_rf_20261104/positive_20261104_163253_188606",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=42.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 40.25,
+   "ddr_c": 37.02
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 2,
+   "model": "ST1000DM003-1ER162",
+   "free": 908904239104,
+   "console_user": null,
+   "other_workloads": 0,
+   "query_user": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "No User exists for *\n"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 2468,
+  "root": "<DATA>\\telltale_scenarios_20261104\\positive_20261104_163253_188606"
+ },
+ "radios": [
+  [
+   "930c",
+   "<hackrf-serial>",
+   1800000000
+  ],
+  [
+   "16bc",
+   "<hackrf-serial>",
+   105000000
+  ]
+ ],
+ "seconds": 4,
+ "cooldown_s": 25,
+ "source_sha256": {
+  "PROTOCOL.md": "514d902316f7a5d71a7f4e06a3375624bbc18f16000e7fc9dfabeb2e55de928c",
+  "collect.py": "10f4cbb7eca401fb66b914d4d82c4639fb82a2d648e2ae2cfdc2260b362bab98",
+  "rig_capture.py": "29a4ece9f939786a91ee311cfc8327b782f5a74277a659a48eaa07e94a8b481d",
+  "bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243",
+  "scenario_source.py": "257fe5a695b4e96990eb8f62746947103947bbcddeed002a4ad38110f811271d",
+  "pi_worker.py": "960014d1b3a4d23be1644c1d64d53f24cfb3e25203533a65da02ceecd8e41b93",
+  "qualification_load.c": "5de9865d0c1ef7987f66dd0bff3cad00642c284b67008b3b06536ce8ca0e8821"
+ },
+ "utc": "2026-11-04T16:32:58Z",
+ "trusted_policy_in_worker": false
+}

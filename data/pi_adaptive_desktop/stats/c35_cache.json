@@ -1,0 +1,83 @@
+{
+ "C24": {
+  "stage": "s1",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1_20261106_021046_a5bd83",
+  "n": 56,
+  "chronological": true,
+  "pre_frames_min": 87,
+  "pre_seconds_min": 0.89088,
+  "pre_seconds_max": 1.25952
+ },
+ "C27": {
+  "stage": "s1b",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1b_20261106_035740_995bcb",
+  "n": 64,
+  "chronological": true,
+  "pre_frames_min": 80,
+  "pre_seconds_min": 0.8192,
+  "pre_seconds_max": 1.36192
+ },
+ "C28": {
+  "stage": "s1c",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1c_20261106_065736_99d08a",
+  "n": 64,
+  "chronological": true,
+  "pre_frames_min": 72,
+  "pre_seconds_min": 0.73728,
+  "pre_seconds_max": 1.24928
+ },
+ "C29": {
+  "stage": "s1d",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1d_20261106_083646_2fa3ac",
+  "n": 72,
+  "chronological": true,
+  "pre_frames_min": 88,
+  "pre_seconds_min": 0.90112,
+  "pre_seconds_max": 1.16736
+ },
+ "C30": {
+  "stage": "s1e",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1e_20261110_145813_cae180",
+  "n": 72,
+  "chronological": true,
+  "pre_frames_min": 75,
+  "pre_seconds_min": 0.768,
+  "pre_seconds_max": 1.20832
+ },
+ "C31": {
+  "stage": "s1f",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1f_20261110_160225_823f00",
+  "n": 72,
+  "chronological": true,
+  "pre_frames_min": 81,
+  "pre_seconds_min": 0.82944,
+  "pre_seconds_max": 1.21856
+ },
+ "C32": {
+  "stage": "s1g",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1g_20261110_174804_582e24",
+  "n": 88,
+  "chronological": true,
+  "pre_frames_min": 81,
+  "pre_seconds_min": 0.82944,
+  "pre_seconds_max": 1.24928
+ },
+ "C33": {
+  "stage": "s1i",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1i_20261110_195752_fcf10d",
+  "n": 88,
+  "chronological": true,
+  "pre_frames_min": 80,
+  "pre_seconds_min": 0.8192,
+  "pre_seconds_max": 1.24928
+ },
+ "C34": {
+  "stage": "s1j",
+  "dir": "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\campaigns\\s1j_20261111_010022_812ec9",
+  "n": 96,
+  "chronological": true,
+  "pre_frames_min": 74,
+  "pre_seconds_min": 0.75776,
+  "pre_seconds_max": 1.19808
+ }
+}

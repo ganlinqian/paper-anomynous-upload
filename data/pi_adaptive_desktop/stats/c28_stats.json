@@ -1,0 +1,981 @@
+{
+ "campaign": "s1c_20261106_065736_99d08a",
+ "n": 64,
+ "valid": 64,
+ "primary": "C27_diverse/call_temporal",
+ "control": "C10_transfer/temporal_260/plain",
+ "gzip_ms_per_mib_full_speed": 73.0,
+ "timing": {
+  "gzip1_d06": {
+   "n": 8,
+   "process_s_median": 1.131,
+   "process_s_max": 1.131,
+   "cycles": [
+    56,
+    56
+   ],
+   "min_slack_s": 2.797,
+   "all_inside_wait": true
+  },
+  "gzip05_d03": {
+   "n": 8,
+   "process_s_median": 1.11,
+   "process_s_max": 1.13,
+   "cycles": [
+    55,
+    56
+   ],
+   "min_slack_s": 2.739,
+   "all_inside_wait": true
+  },
+  "gzip2_d06": {
+   "n": 8,
+   "process_s_median": 2.218,
+   "process_s_max": 2.237,
+   "cycles": [
+    110,
+    111
+   ],
+   "min_slack_s": 1.534,
+   "all_inside_wait": true
+  },
+  "gzip2_d12": {
+   "n": 8,
+   "process_s_median": 1.132,
+   "process_s_max": 1.132,
+   "cycles": [
+    56,
+    56
+   ],
+   "min_slack_s": 2.66,
+   "all_inside_wait": true
+  },
+  "gzip3_d19": {
+   "n": 8,
+   "process_s_median": 1.134,
+   "process_s_max": 1.151,
+   "cycles": [
+    56,
+    57
+   ],
+   "min_slack_s": 2.32,
+   "all_inside_wait": true
+  },
+  "gzip1_d03": {
+   "n": 8,
+   "process_s_median": 2.157,
+   "process_s_max": 2.178,
+   "cycles": [
+    107,
+    108
+   ],
+   "min_slack_s": 1.768,
+   "all_inside_wait": true
+  }
+ },
+ "primary_by_condition": {
+  "gzip3_d19": {
+   "alerts": 2,
+   "n": 8,
+   "cp95": [
+    0.032,
+    0.651
+   ],
+   "by_block": {
+    "0": false,
+    "1": true,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": true,
+    "6": false,
+    "7": false
+   },
+   "duty": 0.1875,
+   "mib": 3.0,
+   "span": "fixed",
+   "cpu_ms_equiv": 219.0
+  },
+  "gzip2_d12": {
+   "alerts": 4,
+   "n": 8,
+   "cp95": [
+    0.157,
+    0.843
+   ],
+   "by_block": {
+    "0": true,
+    "1": true,
+    "2": false,
+    "3": false,
+    "4": true,
+    "5": false,
+    "6": true,
+    "7": false
+   },
+   "duty": 0.125,
+   "mib": 2.0,
+   "span": "fixed",
+   "cpu_ms_equiv": 146.0
+  },
+  "gzip1_d06": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   },
+   "duty": 0.0625,
+   "mib": 1.0,
+   "span": "fixed",
+   "cpu_ms_equiv": 73.0
+  },
+  "gzip05_d03": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   },
+   "duty": 0.03125,
+   "mib": 0.5,
+   "span": "fixed",
+   "cpu_ms_equiv": 36.5
+  },
+  "gzip2_d06": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   },
+   "duty": 0.0625,
+   "mib": 2.0,
+   "span": "stretched",
+   "cpu_ms_equiv": 146.0
+  },
+  "gzip1_d03": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   },
+   "duty": 0.03125,
+   "mib": 1.0,
+   "span": "stretched",
+   "cpu_ms_equiv": 73.0
+  }
+ },
+ "primary_silent": {
+  "alerts": 0,
+  "n": 16,
+  "cp95": [
+   0.0,
+   0.206
+  ],
+  "by_block": {
+   "0": false,
+   "1": false,
+   "2": false,
+   "3": false,
+   "4": false,
+   "5": false,
+   "6": false,
+   "7": false
+  }
+ },
+ "control_by_condition": {
+  "gzip3_d19": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  },
+  "gzip2_d12": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  },
+  "gzip1_d06": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  },
+  "gzip05_d03": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  },
+  "gzip2_d06": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  },
+  "gzip1_d03": {
+   "alerts": 0,
+   "n": 8,
+   "cp95": [
+    0.0,
+    0.369
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  },
+  "silent": {
+   "alerts": 0,
+   "n": 16,
+   "cp95": [
+    0.0,
+    0.206
+   ],
+   "by_block": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+   }
+  }
+ },
+ "low_and_slow": {
+  "gzip2_d06 vs gzip1_d06": {
+   "stretched_alerts": 0,
+   "fixed_alerts": 0,
+   "blocks": 8,
+   "stretched_only": 0,
+   "fixed_only": 0,
+   "p_one_sided": 1.0
+  },
+  "gzip1_d03 vs gzip05_d03": {
+   "stretched_alerts": 0,
+   "fixed_alerts": 0,
+   "blocks": 8,
+   "stretched_only": 0,
+   "fixed_only": 0,
+   "p_one_sided": 1.0
+  }
+ },
+ "block_test_vs_control": {
+  "all": {
+   "primary_correct": [
+    22,
+    64
+   ],
+   "control_correct": [
+    16,
+    64
+   ],
+   "test": {
+    "blocks": 8,
+    "mean_diff": 0.09375,
+    "p_two_sided": 0.0625
+   }
+  },
+  "hidden_only": {
+   "primary_correct": [
+    6,
+    48
+   ],
+   "control_correct": [
+    0,
+    48
+   ],
+   "test": {
+    "blocks": 8,
+    "mean_diff": 0.125,
+    "p_two_sided": 0.0625
+   }
+  }
+ },
+ "evasion_budget": {
+  "rule": "largest per-call hidden work among conditions with primary alerts <= 1/8",
+  "conditions": [
+   "gzip1_d06",
+   "gzip05_d03",
+   "gzip2_d06",
+   "gzip1_d03"
+  ],
+  "max_mib_per_call": 2.0,
+  "cpu_ms_equiv": 146.0
+ },
+ "pooled_c27_c28": {
+  "gzip3_d19": {
+   "alerts": 8,
+   "n": 16,
+   "cp95": [
+    0.247,
+    0.753
+   ],
+   "c27": 6,
+   "c28": 2
+  },
+  "silent_false_alerts": {
+   "alerts": 0,
+   "n": 32,
+   "cp95": [
+    0.0,
+    0.109
+   ],
+   "c27": 0,
+   "c28": 0
+  }
+ },
+ "all_detectors": {
+  "C07_frozen/temporal_260": {
+   "gzip3_d19": [
+    1,
+    8
+   ],
+   "gzip2_d12": [
+    1,
+    8
+   ],
+   "gzip1_d06": [
+    1,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    1,
+    16
+   ]
+  },
+  "C07_frozen/whole_260": {
+   "gzip3_d19": [
+    1,
+    8
+   ],
+   "gzip2_d12": [
+    0,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    1,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "C10_transfer/temporal_260/cover_False": {
+   "gzip3_d19": [
+    0,
+    8
+   ],
+   "gzip2_d12": [
+    0,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "C10_transfer/temporal_260/plain": {
+   "gzip3_d19": [
+    0,
+    8
+   ],
+   "gzip2_d12": [
+    0,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "C10_transfer/whole_260/cover_False": {
+   "gzip3_d19": [
+    0,
+    8
+   ],
+   "gzip2_d12": [
+    0,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "C10_transfer/whole_260/plain": {
+   "gzip3_d19": [
+    0,
+    8
+   ],
+   "gzip2_d12": [
+    0,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "C27_diverse/call_temporal": {
+   "gzip3_d19": [
+    2,
+    8
+   ],
+   "gzip2_d12": [
+    4,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "C27_diverse/call_whole": {
+   "gzip3_d19": [
+    6,
+    8
+   ],
+   "gzip2_d12": [
+    4,
+    8
+   ],
+   "gzip1_d06": [
+    3,
+    8
+   ],
+   "gzip05_d03": [
+    2,
+    8
+   ],
+   "gzip2_d06": [
+    4,
+    8
+   ],
+   "gzip1_d03": [
+    2,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "C27_diverse/record_temporal": {
+   "gzip3_d19": [
+    5,
+    8
+   ],
+   "gzip2_d12": [
+    3,
+    8
+   ],
+   "gzip1_d06": [
+    1,
+    8
+   ],
+   "gzip05_d03": [
+    1,
+    8
+   ],
+   "gzip2_d06": [
+    1,
+    8
+   ],
+   "gzip1_d03": [
+    2,
+    8
+   ],
+   "silent": [
+    1,
+    16
+   ]
+  },
+  "burst/max_minus_p50": {
+   "gzip3_d19": [
+    2,
+    8
+   ],
+   "gzip2_d12": [
+    2,
+    8
+   ],
+   "gzip1_d06": [
+    2,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    1,
+    8
+   ],
+   "gzip1_d03": [
+    1,
+    8
+   ],
+   "silent": [
+    3,
+    16
+   ]
+  },
+  "burst/p99_minus_p50": {
+   "gzip3_d19": [
+    1,
+    8
+   ],
+   "gzip2_d12": [
+    1,
+    8
+   ],
+   "gzip1_d06": [
+    4,
+    8
+   ],
+   "gzip05_d03": [
+    1,
+    8
+   ],
+   "gzip2_d06": [
+    1,
+    8
+   ],
+   "gzip1_d03": [
+    2,
+    8
+   ],
+   "silent": [
+    3,
+    16
+   ]
+  },
+  "burst/top3mean_minus_p50": {
+   "gzip3_d19": [
+    2,
+    8
+   ],
+   "gzip2_d12": [
+    2,
+    8
+   ],
+   "gzip1_d06": [
+    2,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    1,
+    8
+   ],
+   "gzip1_d03": [
+    1,
+    8
+   ],
+   "silent": [
+    3,
+    16
+   ]
+  },
+  "relative_ref/temporal_260": {
+   "gzip3_d19": [
+    1,
+    8
+   ],
+   "gzip2_d12": [
+    1,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    1,
+    16
+   ]
+  },
+  "relative_ref/whole_260": {
+   "gzip3_d19": [
+    0,
+    8
+   ],
+   "gzip2_d12": [
+    1,
+    8
+   ],
+   "gzip1_d06": [
+    2,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "window_call_bracket/temporal_260": {
+   "gzip3_d19": [
+    1,
+    8
+   ],
+   "gzip2_d12": [
+    0,
+    8
+   ],
+   "gzip1_d06": [
+    0,
+    8
+   ],
+   "gzip05_d03": [
+    0,
+    8
+   ],
+   "gzip2_d06": [
+    0,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "window_call_bracket/whole_260": {
+   "gzip3_d19": [
+    4,
+    8
+   ],
+   "gzip2_d12": [
+    2,
+    8
+   ],
+   "gzip1_d06": [
+    1,
+    8
+   ],
+   "gzip05_d03": [
+    1,
+    8
+   ],
+   "gzip2_d06": [
+    1,
+    8
+   ],
+   "gzip1_d03": [
+    0,
+    8
+   ],
+   "silent": [
+    0,
+    16
+   ]
+  },
+  "window_prefix_0p2/temporal_260": {
+   "gzip3_d19": [
+    5,
+    8
+   ],
+   "gzip2_d12": [
+    7,
+    8
+   ],
+   "gzip1_d06": [
+    7,
+    8
+   ],
+   "gzip05_d03": [
+    8,
+    8
+   ],
+   "gzip2_d06": [
+    8,
+    8
+   ],
+   "gzip1_d03": [
+    6,
+    8
+   ],
+   "silent": [
+    15,
+    16
+   ]
+  },
+  "window_prefix_0p2/whole_260": {
+   "gzip3_d19": [
+    6,
+    8
+   ],
+   "gzip2_d12": [
+    6,
+    8
+   ],
+   "gzip1_d06": [
+    6,
+    8
+   ],
+   "gzip05_d03": [
+    7,
+    8
+   ],
+   "gzip2_d06": [
+    5,
+    8
+   ],
+   "gzip1_d03": [
+    4,
+    8
+   ],
+   "silent": [
+    12,
+    16
+   ]
+  }
+ }
+}

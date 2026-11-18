@@ -1,0 +1,26 @@
+{
+ "utc": "2026-11-10T15:58:40.7526520Z",
+ "note": "C31 (s1f): prospective confirmation of the LOSO-selected ensemble avg(whole,temporal)/sesscal/C0.1; fixed before any C31 run; collection awaits user approval",
+ "model_frozen_utc": "2026-11-10T15:57:40Z",
+ "exploration_run_utc": "2026-11-10T15:55:39Z",
+ "sha256": {
+  "experiments\\models\\C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments\\models\\C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "903ff73f58feb4545d95ffd4504c416977f3c9f2305d1e9cb8a5cd088720ed86",
+  "experiments\\collect_sp2027_wait.py": "a85ba2c34c9f21282c72ff842230d94217d15e802d239a5f49a03300e74c1739",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\run_sp2027_chain.ps1": "88fa9d387fecc3b880857388c6270c6277b2f5b9b51df4d6deb330361fccb17f",
+  "experiments\\start_sp2027_chain.ps1": "16097bbf42c9ca75084b2439452d0b290e0adba5dbf8d28cb29bbe0c1b20b318",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts\\c31_stats.py": "b0fb7117c3c193231a23b7a7e076ba53586e24121431261693482a5574266bf3",
+  "scripts\\c30_stats.py": "80f29fe5b1d3c97c8043ddce4fb9386ab3143f2068c5816a8b98befdcdecc5c8",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "scripts\\explore_c31_loso.py": "f39199f3335853f083e5dc92393e11e0b6d77c967951871d5aca4659463f61ba",
+  "stats\\explore_c31_loso.json": "f92fc3955849440a28a8e6b25571ac47df91408625dac6b482f2badb2c91755e",
+  "scratch\\smoke_c31.py": "b9efd0466e1339e5e0ce661f3f942e070c7c3c8cc9585317aec559dcee7e5f43",
+  "PROTOCOL_LEGACY.md": "421302bb7a12e0580e4cb404f128c60c6bacf17c5c8b95b3828c307fe0a94b66"
+ },
+ "c31_started": false
+}

@@ -1,0 +1,144 @@
+{
+ "utc": "2026-11-16T18:25:49Z",
+ "campaign": "s1n_20261116_175725_b7bebc",
+ "model_sha256": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+ "n": 24,
+ "n_test": 16,
+ "primary": "avg_whole_temporal",
+ "no_fit": true,
+ "calibration_ids": [
+  "n3eef155106b7",
+  "nf93763466028",
+  "n93f0bd68b91c",
+  "n3035963731f2",
+  "n63c9e791e9d7",
+  "nafd47c922096",
+  "n2fded14ef726",
+  "nd820c8b00753"
+ ],
+ "summary": {
+  "avg_whole_temporal": {
+   "by_condition": {
+    "gzip16": {
+     "alerts": 4,
+     "n": 4
+    },
+    "gzip3_d19": {
+     "alerts": 0,
+     "n": 4
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 8
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    }
+   },
+   "tp": 4,
+   "fn": 4,
+   "fp": 0,
+   "tn": 8,
+   "accuracy": 0.75,
+   "accuracy_95pct": [
+    0.4762291801038727,
+    0.9273379617471178
+   ],
+   "tpr": 0.5,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.15701277048705797,
+    0.842987229512942
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.36941664755281917
+   ],
+   "balanced_accuracy": 0.75,
+   "auc": 0.96875
+  },
+  "whole_C0.1": {
+   "by_condition": {
+    "gzip16": {
+     "alerts": 4,
+     "n": 4
+    },
+    "gzip3_d19": {
+     "alerts": 0,
+     "n": 4
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 8
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    }
+   },
+   "tp": 4,
+   "fn": 4,
+   "fp": 0,
+   "tn": 8,
+   "accuracy": 0.75,
+   "accuracy_95pct": [
+    0.4762291801038727,
+    0.9273379617471178
+   ],
+   "tpr": 0.5,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.15701277048705797,
+    0.842987229512942
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.36941664755281917
+   ],
+   "balanced_accuracy": 0.75,
+   "auc": 0.96875
+  },
+  "temporal_C0.1": {
+   "by_condition": {
+    "gzip16": {
+     "alerts": 4,
+     "n": 4
+    },
+    "gzip3_d19": {
+     "alerts": 2,
+     "n": 4
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 8
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    }
+   },
+   "tp": 6,
+   "fn": 2,
+   "fp": 0,
+   "tn": 8,
+   "accuracy": 0.875,
+   "accuracy_95pct": [
+    0.6165237631507365,
+    0.9844863961845861
+   ],
+   "tpr": 0.75,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.3491442055871758,
+    0.9681459737500557
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.36941664755281917
+   ],
+   "balanced_accuracy": 0.875,
+   "auc": 0.96875
+  }
+ }
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "path": "samples/v4137801df28c_930c_crop.iq.gz",
+    "kind": "gzip_iq",
+    "bytes": 31994746,
+    "sha256": "3447a2ba7b84386bc60ffef76abf5634eed6b3c010b0898b7942210154b66aec",
+    "parts": [
+      {
+        "path": "assets/chunks/samples/v4137801df28c_930c_crop.iq.gz.part000",
+        "bytes": 7000000,
+        "sha256": "05197b019b3686d8a6ab6dbf8969e4ec386cd841437720c82fdf4b0bbfa8e930"
+      },
+      {
+        "path": "assets/chunks/samples/v4137801df28c_930c_crop.iq.gz.part001",
+        "bytes": 7000000,
+        "sha256": "e76e4084a9687aefb0dbaf8603ef08e04fad4e1a5a8c8ba1eb91f112b5f98658"
+      },
+      {
+        "path": "assets/chunks/samples/v4137801df28c_930c_crop.iq.gz.part002",
+        "bytes": 7000000,
+        "sha256": "851c766b45e21fd6c82845a1ae353cd5b15dfbff62c27cbb86c33a3c9d236947"
+      },
+      {
+        "path": "assets/chunks/samples/v4137801df28c_930c_crop.iq.gz.part003",
+        "bytes": 7000000,
+        "sha256": "2a0587dde96df679a7858f18d050a8c05113c9be2681548e8d2b2d0b62c4ba57"
+      },
+      {
+        "path": "assets/chunks/samples/v4137801df28c_930c_crop.iq.gz.part004",
+        "bytes": 3994746,
+        "sha256": "5820e43ee185256a8c54c14c4363f3a27a89f75b05ac0e7af131ee686ce21847"
+      }
+    ]
+  },
+  {
+    "path": "samples/v6d922e460947_930c_crop.iq.gz",
+    "kind": "gzip_iq",
+    "bytes": 31114349,
+    "sha256": "5f3dc356f561a0d55bb8e0e2843f0612d8f81b346c80fddb5c5581f57bdbef1c",
+    "parts": [
+      {
+        "path": "assets/chunks/samples/v6d922e460947_930c_crop.iq.gz.part000",
+        "bytes": 7000000,
+        "sha256": "4de1e7592dc2f402975ede88689a1e2907fe3381bd6f93376762222ed4649a9c"
+      },
+      {
+        "path": "assets/chunks/samples/v6d922e460947_930c_crop.iq.gz.part001",
+        "bytes": 7000000,
+        "sha256": "bb68bd0b76fd71dc572cabcf5f718f327045c1c4a9b3444165ef03d2af9d8443"
+      },
+      {
+        "path": "assets/chunks/samples/v6d922e460947_930c_crop.iq.gz.part002",
+        "bytes": 7000000,
+        "sha256": "082177041bdd3d1b83db4fafe3824e72fd12d3fc4f12f99de37cc8a3b4ae331b"
+      },
+      {
+        "path": "assets/chunks/samples/v6d922e460947_930c_crop.iq.gz.part003",
+        "bytes": 7000000,
+        "sha256": "15c88b9902ced9708ceb5dc4f0a8373b5e398457dfe54f453b7bf5c2b363ed21"
+      },
+      {
+        "path": "assets/chunks/samples/v6d922e460947_930c_crop.iq.gz.part004",
+        "bytes": 3114349,
+        "sha256": "adde82779fae734c6c915340a3c983ca0587220b0a5f5c2d15cfd4e803437f78"
+      }
+    ]
+  },
+  {
+    "path": "data/power_c36/c2_2026-11-16_06-26-02.csv",
+    "kind": "numeric_csv_utf8",
+    "bytes": 118265887,
+    "sha256": "6e36a08bb2bf7cf7dd31f36869dd395fee786ff1db460bf05a591c927edb4b40",
+    "parts": [
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part000",
+        "bytes": 7000000,
+        "sha256": "45748d7983ce4b4f5726a8f1d31d6c217ab8251066d46f3ef7fd6c21eddc81fd"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part001",
+        "bytes": 7000000,
+        "sha256": "200837f8001878fe94593a337ecc70652725103df0df6077dd00fafe55d73c10"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part002",
+        "bytes": 7000000,
+        "sha256": "3f74077a06dc540e56001f3129e7aa2539223368deb776596c571da014576a78"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part003",
+        "bytes": 7000000,
+        "sha256": "17fd2914f1a7b9e4c4f464dbc7709e42b4c143e5b67203186078dca677816e4d"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part004",
+        "bytes": 7000000,
+        "sha256": "9fe8a65b1c3c375e40aca730dbb681c9c4fbab2683e2816ec8a6dec22e42a3f4"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part005",
+        "bytes": 7000000,
+        "sha256": "fcc9bf09d2c0a00c3c79252a33231242d92f6d73427f84e2cbc6dc31ee39d385"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part006",
+        "bytes": 7000000,
+        "sha256": "08735284d85458e634370dd9650638ac4015960619380fd7a0ee406fe8865e58"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part007",
+        "bytes": 7000000,
+        "sha256": "6801134d10d4fcb958d4320553c74412d455bb523fec106362786dfdceb2a9de"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part008",
+        "bytes": 7000000,
+        "sha256": "4c067c1cafba5ac93eea5e91df9676d65f07d82aafd03584c541408029bbaa76"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part009",
+        "bytes": 7000000,
+        "sha256": "365f8a2dee99c7ef30172b71a64b300abeb2ebcb121855d95cc71005e4f2b03e"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part010",
+        "bytes": 7000000,
+        "sha256": "99b23c106206b245a12f9302677c3e93c9598f2b09d25f9aeaf47f4d9d77705d"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part011",
+        "bytes": 7000000,
+        "sha256": "57cccfd80c6685782f1d96013dac8cdac007b704199a5960cd8fb4e2aaa85115"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part012",
+        "bytes": 7000000,
+        "sha256": "6e20a83c0d456294c73e08abe5e5b26662efb04283c11d97fbe8e5fbf85cfe10"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part013",
+        "bytes": 7000000,
+        "sha256": "52683e25c3bb44486beaf4b72c4d0ed8b500691e5ccac03bb29e4a44136017c5"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part014",
+        "bytes": 7000000,
+        "sha256": "f792ce91a5c3b72300f80028ae15c0376f8ba2894c7d4577e69a001c99587207"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part015",
+        "bytes": 7000000,
+        "sha256": "cd45ea1530e4cd59bf55806fc73af7cb634bca29e91c08bd6ef5e0f5eb822ad5"
+      },
+      {
+        "path": "assets/chunks/data/power_c36/c2_2026-11-16_06-26-02.csv.part016",
+        "bytes": 6265887,
+        "sha256": "f6bbd23839f859d0db9f80b6d1b87eeca0537107cb5f08afac45895260fcfaf0"
+      }
+    ],
+    "original_sha256": "c3b60cb5e6857f82b8aa9649d7dbfad5a6eab423687616ce4884b2b34e646a55",
+    "translation": "Only the column header was translated from Chinese to English. All numerical data rows are byte-identical."
+  }
+]

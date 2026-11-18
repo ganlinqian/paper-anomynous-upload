@@ -1,0 +1,36 @@
+{
+ "order": {
+  "n": 40,
+  "TP": 20,
+  "FN": 0,
+  "FP": 0,
+  "TN": 20,
+  "auc_phase": 1.0,
+  "auc_whole": 0.55,
+  "auc_timing": 0.438,
+  "p_phase_vs_whole": 0.0001220703125,
+  "p_phase_vs_timing": 6.103515625e-05,
+  "n_blocks": 20,
+  "dt_range": [
+   2.0002,
+   2.0015
+  ]
+ },
+ "wait": {
+  "n": 40,
+  "TP": 20,
+  "FN": 0,
+  "FP": 2,
+  "TN": 18,
+  "auc_phase": 1.0,
+  "auc_whole": 1.0,
+  "auc_timing": 0.411,
+  "p_phase_vs_whole": 1.0,
+  "p_phase_vs_timing": 0.00018310546875,
+  "n_blocks": 20,
+  "dt_range": [
+   3.0003,
+   3.0013
+  ]
+ }
+}

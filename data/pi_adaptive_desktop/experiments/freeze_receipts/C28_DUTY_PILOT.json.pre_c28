@@ -1,0 +1,383 @@
+{
+ "note": "Pilot (no RF) of the unchanged pi_api_sp2027_wait.py on the C28 throttled conditions under campaign CPU settings. The desktop process was terminated by the project bridge after 7 of 12 planned runs (06:45:09-06:46:10 UTC), so its finally-block did not run: the Pi lock was released by the closed SSH session; the CPU governor was restored and the pilot directory removed by pilot_c28_cleanup.py. Acceptance rule fixed before running: valid, inside the wait, archive matches input, margin to the gateway reply >= 1.0 s.",
+ "planned_runs": 12,
+ "completed_runs": 7,
+ "runs": [
+  {
+   "cond": "gzip3_d19",
+   "rep": 0,
+   "rc": 0,
+   "stderr": "",
+   "response_ok": true,
+   "elapsed_s": 4.029,
+   "inside_wait": true,
+   "archive_ok": true,
+   "process_s": 1.134,
+   "hidden_s": 1.304,
+   "margin_s": 2.713,
+   "cycles": 56,
+   "temp": {
+    "cpu_c": 42.86,
+    "ddr_c": 39.98
+   }
+  },
+  {
+   "cond": "gzip2_d12",
+   "rep": 0,
+   "rc": 0,
+   "stderr": "",
+   "response_ok": true,
+   "elapsed_s": 4.095,
+   "inside_wait": true,
+   "archive_ok": true,
+   "process_s": 1.132,
+   "hidden_s": 1.189,
+   "margin_s": 2.892,
+   "cycles": 56,
+   "temp": {
+    "cpu_c": 42.86,
+    "ddr_c": 39.98
+   }
+  },
+  {
+   "cond": "gzip1_d06",
+   "rep": 0,
+   "rc": 0,
+   "stderr": "",
+   "response_ok": true,
+   "elapsed_s": 4.069,
+   "inside_wait": true,
+   "archive_ok": true,
+   "process_s": 1.13,
+   "hidden_s": 1.162,
+   "margin_s": 2.893,
+   "cycles": 56,
+   "temp": {
+    "cpu_c": 43.48,
+    "ddr_c": 39.63
+   }
+  },
+  {
+   "cond": "gzip05_d03",
+   "rep": 0,
+   "rc": 0,
+   "stderr": "",
+   "response_ok": true,
+   "elapsed_s": 4.027,
+   "inside_wait": true,
+   "archive_ok": true,
+   "process_s": 1.11,
+   "hidden_s": 1.13,
+   "margin_s": 2.882,
+   "cycles": 55,
+   "temp": {
+    "cpu_c": 43.48,
+    "ddr_c": 39.63
+   }
+  },
+  {
+   "cond": "gzip2_d06",
+   "rep": 0,
+   "rc": 0,
+   "stderr": "",
+   "response_ok": true,
+   "elapsed_s": 4.088,
+   "inside_wait": true,
+   "archive_ok": true,
+   "process_s": 2.219,
+   "hidden_s": 2.276,
+   "margin_s": 1.795,
+   "cycles": 110,
+   "temp": {
+    "cpu_c": 43.48,
+    "ddr_c": 39.63
+   }
+  },
+  {
+   "cond": "gzip1_d03",
+   "rep": 0,
+   "rc": 0,
+   "stderr": "",
+   "response_ok": true,
+   "elapsed_s": 4.098,
+   "inside_wait": true,
+   "archive_ok": true,
+   "process_s": 2.156,
+   "hidden_s": 2.189,
+   "margin_s": 1.894,
+   "cycles": 107,
+   "temp": {
+    "cpu_c": 43.48,
+    "ddr_c": 39.63
+   }
+  },
+  {
+   "cond": "gzip3_d19",
+   "rep": 1,
+   "rc": 0,
+   "stderr": "",
+   "response_ok": true,
+   "elapsed_s": 4.059,
+   "inside_wait": true,
+   "archive_ok": true,
+   "process_s": 1.134,
+   "hidden_s": 1.254,
+   "margin_s": 2.789,
+   "cycles": 56,
+   "temp": {
+    "cpu_c": 43.48,
+    "ddr_c": 39.63
+   }
+  }
+ ],
+ "accepted_completed_runs": true,
+ "every_condition_once": [
+  "gzip05_d03",
+  "gzip1_d03",
+  "gzip1_d06",
+  "gzip2_d06",
+  "gzip2_d12",
+  "gzip3_d19"
+ ],
+ "worker_private": {
+  "q0e3b7fb3": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1263250153142025,
+    "fsync_end_ns": 1263251315061778,
+    "process_end_ns": 1263251282778640,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 56
+   },
+   "archive_inside_wait": true,
+   "begin_ns": 1263250144448821,
+   "compressor": "gzip",
+   "duty": 0.0625,
+   "dvfs": {},
+   "http_received_ns": 1263254207722250,
+   "http_sent_ns": 1263250153137562,
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand1.bin",
+   "output_bytes": 1048754,
+   "reply_ns": 1263254207886194
+  },
+  "qa0da014a": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1263273678472348,
+    "fsync_end_ns": 1263275867219833,
+    "process_end_ns": 1263275834957992,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 107
+   },
+   "archive_inside_wait": true,
+   "begin_ns": 1263273670950955,
+   "compressor": "gzip",
+   "duty": 0.03125,
+   "dvfs": {},
+   "http_received_ns": 1263277761463681,
+   "http_sent_ns": 1263273678468310,
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand1.bin",
+   "output_bytes": 1048754,
+   "reply_ns": 1263277761631940
+  },
+  "qb3194fd3": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1263258106659237,
+    "fsync_end_ns": 1263259236924833,
+    "process_end_ns": 1263259216717041,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 55
+   },
+   "archive_inside_wait": true,
+   "begin_ns": 1263258098449421,
+   "compressor": "gzip",
+   "duty": 0.03125,
+   "dvfs": {},
+   "http_received_ns": 1263262119320418,
+   "http_sent_ns": 1263258106647182,
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand05.bin",
+   "output_bytes": 524386,
+   "reply_ns": 1263262119490251
+  },
+  "qb35c6e08": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1263265902804234,
+    "fsync_end_ns": 1263268179101837,
+    "process_end_ns": 1263268121310400,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 110
+   },
+   "archive_inside_wait": true,
+   "begin_ns": 1263265891405591,
+   "compressor": "gzip",
+   "duty": 0.0625,
+   "dvfs": {},
+   "http_received_ns": 1263269973699111,
+   "http_sent_ns": 1263265902800272,
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand2.bin",
+   "output_bytes": 2097490,
+   "reply_ns": 1263269973872074
+  },
+  "qea9ca70f": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1263242243600964,
+    "fsync_end_ns": 1263243432884105,
+    "process_end_ns": 1263243375960518,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 56
+   },
+   "archive_inside_wait": true,
+   "begin_ns": 1263242235557091,
+   "compressor": "gzip",
+   "duty": 0.125,
+   "dvfs": {},
+   "http_received_ns": 1263246324940448,
+   "http_sent_ns": 1263242243597038,
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand2.bin",
+   "output_bytes": 2097490,
+   "reply_ns": 1263246325110670
+  },
+  "qf537ba72": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1263234274427135,
+    "fsync_end_ns": 1263235578278172,
+    "process_end_ns": 1263235408427483,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 56
+   },
+   "archive_inside_wait": true,
+   "begin_ns": 1263234267391928,
+   "compressor": "gzip",
+   "duty": 0.1875,
+   "dvfs": {},
+   "http_received_ns": 1263238291319548,
+   "http_sent_ns": 1263234274423117,
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand3.bin",
+   "output_bytes": 3146226,
+   "reply_ns": 1263238291491066
+  },
+  "qf57f3187": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1263281499079758,
+    "fsync_end_ns": 1263282753198433,
+    "process_end_ns": 1263282633075234,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 56
+   },
+   "archive_inside_wait": true,
+   "begin_ns": 1263281486954097,
+   "compressor": "gzip",
+   "duty": 0.1875,
+   "dvfs": {},
+   "http_received_ns": 1263285542312320,
+   "http_sent_ns": 1263281499074795,
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand3.bin",
+   "output_bytes": 3146226,
+   "reply_ns": 1263285542483116
+  }
+ },
+ "worker_configs": {
+  "q0e3b7fb3": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand1.bin",
+   "input_sha256": "7f027032facc15998e0069dc1c60b089a7d067a425a1fe2fe5d9ab6a03ac3b9d",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/q0e3b7fb3.gz",
+   "port": 62385,
+   "duty": 0.0625,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  },
+  "qa0da014a": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand1.bin",
+   "input_sha256": "7f027032facc15998e0069dc1c60b089a7d067a425a1fe2fe5d9ab6a03ac3b9d",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/qa0da014a.gz",
+   "port": 62385,
+   "duty": 0.03125,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  },
+  "qb3194fd3": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand05.bin",
+   "input_sha256": "6e911b44c518bca4c91b298009dbba9e001488308f34d584dfdad0102c41c10a",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/qb3194fd3.gz",
+   "port": 62385,
+   "duty": 0.03125,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  },
+  "qb35c6e08": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand2.bin",
+   "input_sha256": "613d05325e6a8e61cd46cd5c68ea243edde476a2fb4459a43d9065dace010494",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/qb35c6e08.gz",
+   "port": 62385,
+   "duty": 0.0625,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  },
+  "qea9ca70f": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand2.bin",
+   "input_sha256": "613d05325e6a8e61cd46cd5c68ea243edde476a2fb4459a43d9065dace010494",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/qea9ca70f.gz",
+   "port": 62385,
+   "duty": 0.125,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  },
+  "qf18b9d3f": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand2.bin",
+   "input_sha256": "613d05325e6a8e61cd46cd5c68ea243edde476a2fb4459a43d9065dace010494",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/qf18b9d3f.gz",
+   "port": 62385,
+   "duty": 0.125,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  },
+  "qf537ba72": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand3.bin",
+   "input_sha256": "b8c8cf04fd44cd1d3dbab1d4cf4819614bb020120593c6ea1d5d2334c9f5296d",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/qf537ba72.gz",
+   "port": 62385,
+   "duty": 0.1875,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  },
+  "qf57f3187": {
+   "activity_code": "A___",
+   "input_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/rand3.bin",
+   "input_sha256": "b8c8cf04fd44cd1d3dbab1d4cf4819614bb020120593c6ea1d5d2334c9f5296d",
+   "output_path": "/home/pi/telltale_sp2027/sp2027_c28pilot_20261106T064509Z/qf57f3187.gz",
+   "port": 62385,
+   "duty": 0.1875,
+   "period_s": 0.02,
+   "dvfs_cap_khz": null,
+   "compressor": "gzip"
+  }
+ },
+ "pilot_script_sha256": "25a544b854b7694f54ff881d8474843fdc6626513ddf84268620d892daa382cb",
+ "worker_sha256": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2"
+}

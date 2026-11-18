@@ -1,0 +1,332 @@
+{
+ "m": {
+  "n_candidates": 3,
+  "top_subbands": [
+   {
+    "band_lo_mhz": 1400.0,
+    "sub": 3,
+    "f_mhz": 1394.375,
+    "delta_db": [
+     1.17,
+     1.45
+    ],
+    "min_margin_db": 0.03
+   },
+   {
+    "band_lo_mhz": 1480.0,
+    "sub": 5,
+    "f_mhz": 1476.875,
+    "delta_db": [
+     1.16,
+     1.16
+    ],
+    "min_margin_db": 0.02
+   },
+   {
+    "band_lo_mhz": 1480.0,
+    "sub": 1,
+    "f_mhz": 1471.875,
+    "delta_db": [
+     1.05,
+     1.12
+    ],
+    "min_margin_db": 0.05
+   }
+  ],
+  "top_bands": [
+   {
+    "lo_mhz": 700.0,
+    "mean_delta_db": [
+     1.24,
+     1.74
+    ]
+   },
+   {
+    "lo_mhz": 1380.0,
+    "mean_delta_db": [
+     1.14,
+     1.23
+    ]
+   },
+   {
+    "lo_mhz": 260.0,
+    "mean_delta_db": [
+     1.07,
+     1.28
+    ]
+   },
+   {
+    "lo_mhz": 1480.0,
+    "mean_delta_db": [
+     1.03,
+     1.02
+    ]
+   },
+   {
+    "lo_mhz": 680.0,
+    "mean_delta_db": [
+     1.0,
+     1.01
+    ]
+   },
+   {
+    "lo_mhz": 280.0,
+    "mean_delta_db": [
+     0.96,
+     1.05
+    ]
+   },
+   {
+    "lo_mhz": 1400.0,
+    "mean_delta_db": [
+     0.96,
+     1.23
+    ]
+   },
+   {
+    "lo_mhz": 1060.0,
+    "mean_delta_db": [
+     0.91,
+     1.15
+    ]
+   },
+   {
+    "lo_mhz": 800.0,
+    "mean_delta_db": [
+     0.87,
+     1.22
+    ]
+   },
+   {
+    "lo_mhz": 1420.0,
+    "mean_delta_db": [
+     0.81,
+     0.8
+    ]
+   },
+   {
+    "lo_mhz": 740.0,
+    "mean_delta_db": [
+     1.22,
+     0.73
+    ]
+   },
+   {
+    "lo_mhz": 1040.0,
+    "mean_delta_db": [
+     0.73,
+     0.99
+    ]
+   },
+   {
+    "lo_mhz": 1000.0,
+    "mean_delta_db": [
+     0.7,
+     0.87
+    ]
+   },
+   {
+    "lo_mhz": 900.0,
+    "mean_delta_db": [
+     0.88,
+     0.67
+    ]
+   },
+   {
+    "lo_mhz": 1280.0,
+    "mean_delta_db": [
+     0.83,
+     0.64
+    ]
+   }
+  ]
+ },
+ "c": {
+  "n_candidates": 7,
+  "top_subbands": [
+   {
+    "band_lo_mhz": 2400.0,
+    "sub": 7,
+    "f_mhz": 2399.375,
+    "delta_db": [
+     11.5,
+     6.69
+    ],
+    "min_margin_db": 3.91
+   },
+   {
+    "band_lo_mhz": 2400.0,
+    "sub": 10,
+    "f_mhz": 2403.125,
+    "delta_db": [
+     9.01,
+     6.59
+    ],
+    "min_margin_db": 4.37
+   },
+   {
+    "band_lo_mhz": 2400.0,
+    "sub": 12,
+    "f_mhz": 2405.625,
+    "delta_db": [
+     7.01,
+     6.18
+    ],
+    "min_margin_db": 4.5
+   },
+   {
+    "band_lo_mhz": 2400.0,
+    "sub": 8,
+    "f_mhz": 2400.625,
+    "delta_db": [
+     10.75,
+     5.61
+    ],
+    "min_margin_db": 2.97
+   },
+   {
+    "band_lo_mhz": 2400.0,
+    "sub": 6,
+    "f_mhz": 2398.125,
+    "delta_db": [
+     4.89,
+     8.03
+    ],
+    "min_margin_db": 0.94
+   },
+   {
+    "band_lo_mhz": 2400.0,
+    "sub": 11,
+    "f_mhz": 2404.375,
+    "delta_db": [
+     5.74,
+     3.55
+    ],
+    "min_margin_db": 0.1
+   },
+   {
+    "band_lo_mhz": 2400.0,
+    "sub": 9,
+    "f_mhz": 2401.875,
+    "delta_db": [
+     6.17,
+     3.48
+    ],
+    "min_margin_db": 1.74
+   }
+  ],
+  "top_bands": [
+   {
+    "lo_mhz": 2400.0,
+    "mean_delta_db": [
+     3.4,
+     6.82
+    ]
+   },
+   {
+    "lo_mhz": 300.0,
+    "mean_delta_db": [
+     0.72,
+     0.56
+    ]
+   },
+   {
+    "lo_mhz": 260.0,
+    "mean_delta_db": [
+     0.49,
+     0.61
+    ]
+   },
+   {
+    "lo_mhz": 1640.0,
+    "mean_delta_db": [
+     0.43,
+     1.5
+    ]
+   },
+   {
+    "lo_mhz": 760.0,
+    "mean_delta_db": [
+     0.4,
+     0.61
+    ]
+   },
+   {
+    "lo_mhz": 1860.0,
+    "mean_delta_db": [
+     0.27,
+     0.25
+    ]
+   },
+   {
+    "lo_mhz": 1060.0,
+    "mean_delta_db": [
+     0.32,
+     0.22
+    ]
+   },
+   {
+    "lo_mhz": 1900.0,
+    "mean_delta_db": [
+     0.24,
+     0.21
+    ]
+   },
+   {
+    "lo_mhz": 280.0,
+    "mean_delta_db": [
+     1.02,
+     0.21
+    ]
+   },
+   {
+    "lo_mhz": 800.0,
+    "mean_delta_db": [
+     0.2,
+     0.59
+    ]
+   },
+   {
+    "lo_mhz": 320.0,
+    "mean_delta_db": [
+     0.96,
+     0.18
+    ]
+   },
+   {
+    "lo_mhz": 180.0,
+    "mean_delta_db": [
+     0.41,
+     0.18
+    ]
+   },
+   {
+    "lo_mhz": 340.0,
+    "mean_delta_db": [
+     0.36,
+     0.17
+    ]
+   },
+   {
+    "lo_mhz": 460.0,
+    "mean_delta_db": [
+     0.26,
+     0.15
+    ]
+   },
+   {
+    "lo_mhz": 540.0,
+    "mean_delta_db": [
+     0.17,
+     0.12
+    ]
+   }
+  ]
+ },
+ "idle_median_abs_drift_db": [
+  0.131,
+  0.082,
+  0.065,
+  0.055
+ ]
+}

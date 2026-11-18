@@ -1,0 +1,124 @@
+"""C28 (stage s1c): pre-specified analyses, fixed before any C28 run was collected (2026-11-06).
+
+Reads only frozen evaluations of the latest s1c campaign (predictions.csv from eval-wait, predictions_diverse.csv from
+eval-diverse) and, for the pooled rows, of C27 (s1b).  Nothing is refit and no threshold is changed.
+  primary    C27_diverse/call_temporal alerts per hidden condition (n=8 each) and false alerts on the 16 silent runs
+  secondary  (1) low-and-slow: stretched (2x work, same duty) vs fixed-span at 6.25% and 3.125%, paired within block,
+                 exact one-sided McNemar (stretched more often detected)
+             (2) exact block-level sign-flip test, primary vs the single-workload detector C10_transfer/temporal_260/plain
+             (3) evasion budget: largest per-call hidden work among conditions with primary alerts <= 1/8
+             (4) 18.75% pooled over C27 + C28, silent pooled over C27 + C28
+             (5) every other representation / frozen branch per condition
+"""
+import collections, csv, itertools, json, pathlib, statistics
+from scipy.stats import beta, binom
+E = pathlib.Path(r'<WORKSPACE>/ws_main\results\sp2027\experiments')
+OUT = pathlib.Path(r'<WORKSPACE>/ws_main\results\sp2027\stats')
+PRIMARY = 'C27_diverse/call_temporal'; CONTROL = 'C10_transfer/temporal_260/plain'
+SPEC = {'gzip3_d19': (0.1875, 3.0, 'fixed'), 'gzip2_d12': (0.125, 2.0, 'fixed'), 'gzip1_d06': (0.0625, 1.0, 'fixed'),
+        'gzip05_d03': (0.03125, 0.5, 'fixed'), 'gzip2_d06': (0.0625, 2.0, 'stretched'), 'gzip1_d03': (0.03125, 1.0, 'stretched')}
+PAIRS = [('gzip2_d06', 'gzip1_d06'), ('gzip1_d03', 'gzip05_d03')]
+
+def campaign(stage):
+    return pathlib.Path(json.loads((E / 'campaigns' / ('LATEST_' + stage + '.json')).read_text(encoding='utf-8-sig'))['directory'])
+
+def load(d):
+    rows = []
+    for name in ('predictions.csv', 'predictions_diverse.csv'):
+        with (d / name).open(encoding='utf-8') as f:
+            rows += list(csv.DictReader(f))
+    for r in rows:
+        r['alert'] = r['alert'] == 'True'; r['actual_active'] = r['actual_active'] == 'True'
+    return rows
+
+def cp(k, n):
+    lo = 0.0 if k == 0 else float(beta.ppf(.025, k, n - k + 1)); hi = 1.0 if k == n else float(beta.ppf(.975, k + 1, n - k))
+    return [round(lo, 3), round(hi, 3)]
+
+def cell(rows, det, cond):
+    v = [r for r in rows if r['detector'] == det and r['condition'] == cond]
+    k = sum(r['alert'] for r in v)
+    return {'alerts': k, 'n': len(v), 'cp95': cp(k, len(v)), 'by_block': {r['block']: r['alert'] for r in v}}
+
+def signflip(da, db):
+    ks = sorted(set(da) & set(db)); dd = [da[k] - db[k] for k in ks]; obs = abs(sum(dd)); c = t = 0
+    for s in itertools.product([1, -1], repeat=len(dd)):
+        t += 1; c += abs(sum(x * y for x, y in zip(dd, s))) >= obs - 1e-12
+    return {'blocks': len(ks), 'mean_diff': sum(dd) / len(dd), 'p_two_sided': c / t}
+
+def block_acc(rows, det, subset=None):
+    b = collections.defaultdict(list)
+    for r in rows:
+        if r['detector'] == det and (subset is None or r['condition'] in subset):
+            b[r['block']].append(r['alert'] == r['actual_active'])
+    return {k: sum(v) / len(v) for k, v in b.items()}, sum(sum(v) for v in b.values()), sum(len(v) for v in b.values())
+
+def timing(d):
+    rec = json.loads((d / 'RESULTS.json').read_text(encoding='utf-8-sig')); t = collections.defaultdict(list)
+    for x in rec:
+        a = x['private'].get('archive')
+        if x['actual_active'] and a:
+            t[x['condition']].append({'process_s': (a['process_end_ns'] - a['begin_ns']) / 1e9, 'cycles': a.get('throttle_cycles', 0),
+                                      'slack_s': (x['private']['http_received_ns'] - a['fsync_end_ns']) / 1e9, 'inside': bool(x['private']['archive_inside_wait'])})
+    return rec, {c: {'n': len(v), 'process_s_median': round(statistics.median(z['process_s'] for z in v), 3), 'process_s_max': round(max(z['process_s'] for z in v), 3),
+                     'cycles': [min(z['cycles'] for z in v), max(z['cycles'] for z in v)], 'min_slack_s': round(min(z['slack_s'] for z in v), 3),
+                     'all_inside_wait': all(z['inside'] for z in v)} for c, v in t.items()}
+
+def main(stage='s1c', out_name='c28_stats.json'):
+    d = campaign(stage); rows = load(d); rec, tim = timing(d)
+    assert all(x['valid'] for x in rec) and len(rec) == 64
+    # full-speed gzip CPU cost per MiB from the frozen-day C27 gzip16 runs (process time / 16 MiB)
+    d27 = campaign('s1b'); rows27 = load(d27); _, tim27 = timing(d27)
+    ms_per_mib = 1000 * tim27['gzip16']['process_s_median'] / 16
+    out = {'campaign': d.name, 'n': len(rec), 'valid': sum(x['valid'] for x in rec), 'primary': PRIMARY, 'control': CONTROL,
+           'gzip_ms_per_mib_full_speed': round(ms_per_mib, 1), 'timing': tim}
+    out['primary_by_condition'] = {c: dict(cell(rows, PRIMARY, c), duty=SPEC[c][0], mib=SPEC[c][1], span=SPEC[c][2],
+                                           cpu_ms_equiv=round(SPEC[c][1] * ms_per_mib, 1)) for c in SPEC}
+    out['primary_silent'] = cell(rows, PRIMARY, 'silent')
+    out['control_by_condition'] = {c: cell(rows, CONTROL, c) for c in list(SPEC) + ['silent']}
+    # (1) low-and-slow, paired within block
+    ls = {}
+    for st, fx in PAIRS:
+        a = out['primary_by_condition'][st]['by_block']; b = out['primary_by_condition'][fx]['by_block']
+        ks = sorted(set(a) & set(b)); bb = sum(a[k] and not b[k] for k in ks); cc = sum(b[k] and not a[k] for k in ks)
+        ls[st + ' vs ' + fx] = {'stretched_alerts': sum(a[k] for k in ks), 'fixed_alerts': sum(b[k] for k in ks), 'blocks': len(ks),
+                                'stretched_only': bb, 'fixed_only': cc, 'p_one_sided': float(binom.sf(bb - 1, bb + cc, .5)) if bb + cc else 1.0}
+    out['low_and_slow'] = ls
+    # (2) block sign-flip vs the single-workload detector
+    bt = {}
+    for name, sub in (('all', None), ('hidden_only', set(SPEC))):
+        a, ka, na = block_acc(rows, PRIMARY, sub); b, kb, nb = block_acc(rows, CONTROL, sub)
+        bt[name] = {'primary_correct': [ka, na], 'control_correct': [kb, nb], 'test': signflip(a, b)}
+    out['block_test_vs_control'] = bt
+    # (3) evasion budget
+    ev = [c for c, v in out['primary_by_condition'].items() if v['alerts'] <= 1]
+    if ev:
+        m = max(SPEC[c][1] for c in ev)
+        out['evasion_budget'] = {'rule': 'largest per-call hidden work among conditions with primary alerts <= 1/8', 'conditions': ev,
+                                 'max_mib_per_call': m, 'cpu_ms_equiv': round(m * ms_per_mib, 1)}
+    else:
+        out['evasion_budget'] = {'rule': 'largest per-call hidden work among conditions with primary alerts <= 1/8', 'conditions': [],
+                                 'statement': 'no tested throttled workload evaded reliably', 'min_tested_mib': 0.5, 'cpu_ms_equiv': round(.5 * ms_per_mib, 1)}
+    # (4) pooled rows with C27
+    p19 = [cell(rows27, PRIMARY, 'gzip3_d19'), cell(rows, PRIMARY, 'gzip3_d19')]; ps = [cell(rows27, PRIMARY, 'silent'), cell(rows, PRIMARY, 'silent')]
+    k = sum(x['alerts'] for x in p19); n = sum(x['n'] for x in p19); ks = sum(x['alerts'] for x in ps); ns = sum(x['n'] for x in ps)
+    out['pooled_c27_c28'] = {'gzip3_d19': {'alerts': k, 'n': n, 'cp95': cp(k, n), 'c27': p19[0]['alerts'], 'c28': p19[1]['alerts']},
+                             'silent_false_alerts': {'alerts': ks, 'n': ns, 'cp95': cp(ks, ns), 'c27': ps[0]['alerts'], 'c28': ps[1]['alerts']}}
+    # (5) every detector per condition (secondary)
+    dets = sorted({r['detector'] for r in rows})
+    out['all_detectors'] = {det: {c: [cell(rows, det, c)['alerts'], cell(rows, det, c)['n']] for c in list(SPEC) + ['silent']} for det in dets}
+    OUT.mkdir(parents=True, exist_ok=True); (OUT / out_name).write_text(json.dumps(out, indent=1), encoding='utf-8')
+    print('C28', d.name, 'valid', out['valid'], '/', out['n'], ' gzip ms/MiB', out['gzip_ms_per_mib_full_speed'])
+    for c, v in out['primary_by_condition'].items():
+        t = tim[c]
+        print('  %-11s duty %6.3f%% %4.1f MiB %-9s primary %d/%d CI %s | control %d/8 | span %.2fs cyc %s slack %.2f'
+              % (c, 100 * v['duty'], v['mib'], v['span'], v['alerts'], v['n'], v['cp95'], out['control_by_condition'][c]['alerts'],
+                 t['process_s_median'], t['cycles'], t['min_slack_s']))
+    print('  silent false alerts primary %d/%d control %d/%d' % (out['primary_silent']['alerts'], out['primary_silent']['n'],
+                                                                 out['control_by_condition']['silent']['alerts'], out['control_by_condition']['silent']['n']))
+    print('  low-and-slow', json.dumps(ls)); print('  block test', json.dumps(bt)); print('  budget', json.dumps(out['evasion_budget']))
+    print('  pooled', json.dumps(out['pooled_c27_c28']))
+    return out
+
+if __name__ == '__main__':
+    main()

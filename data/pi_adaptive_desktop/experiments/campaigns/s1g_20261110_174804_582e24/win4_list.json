@@ -1,0 +1,530 @@
+[
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nb554365c1e35_930c.iq",
+  "id": "nb554365c1e35",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ncb80ef4cdbee_930c.iq",
+  "id": "ncb80ef4cdbee",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n032b89283e4a_930c.iq",
+  "id": "n032b89283e4a",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nbf429042581e_930c.iq",
+  "id": "nbf429042581e",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nae6034c1f154_930c.iq",
+  "id": "nae6034c1f154",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n2ea43e06cae7_930c.iq",
+  "id": "n2ea43e06cae7",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n48dfc2682645_930c.iq",
+  "id": "n48dfc2682645",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ne2b05c5b1c95_930c.iq",
+  "id": "ne2b05c5b1c95",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n9bee798ff64a_930c.iq",
+  "id": "n9bee798ff64a",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n3694b29bcb50_930c.iq",
+  "id": "n3694b29bcb50",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n846ba76e1d6d_930c.iq",
+  "id": "n846ba76e1d6d",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n1828d17cc00d_930c.iq",
+  "id": "n1828d17cc00d",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n85694a6caaf4_930c.iq",
+  "id": "n85694a6caaf4",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n430a70421963_930c.iq",
+  "id": "n430a70421963",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nb9e7d4898639_930c.iq",
+  "id": "nb9e7d4898639",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n892f1f7a58d1_930c.iq",
+  "id": "n892f1f7a58d1",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n94d32717d739_930c.iq",
+  "id": "n94d32717d739",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ne312f5b7950b_930c.iq",
+  "id": "ne312f5b7950b",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nfdf360485465_930c.iq",
+  "id": "nfdf360485465",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nf21a1ad88a20_930c.iq",
+  "id": "nf21a1ad88a20",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n0f3f7eaead2f_930c.iq",
+  "id": "n0f3f7eaead2f",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n653706792a13_930c.iq",
+  "id": "n653706792a13",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nd8906372f8b0_930c.iq",
+  "id": "nd8906372f8b0",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/na52e97062272_930c.iq",
+  "id": "na52e97062272",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nbfec260b85b3_930c.iq",
+  "id": "nbfec260b85b3",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n734863545872_930c.iq",
+  "id": "n734863545872",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n10625db3b3f8_930c.iq",
+  "id": "n10625db3b3f8",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n03bc2dcbf903_930c.iq",
+  "id": "n03bc2dcbf903",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n7fd2795be533_930c.iq",
+  "id": "n7fd2795be533",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n5d975cb47123_930c.iq",
+  "id": "n5d975cb47123",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n153da0900d1e_930c.iq",
+  "id": "n153da0900d1e",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n987b96e6cfea_930c.iq",
+  "id": "n987b96e6cfea",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n6ea518cb6efe_930c.iq",
+  "id": "n6ea518cb6efe",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n6dcd882a0bfb_930c.iq",
+  "id": "n6dcd882a0bfb",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nac50ba4ad799_930c.iq",
+  "id": "nac50ba4ad799",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ndea64e394369_930c.iq",
+  "id": "ndea64e394369",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n5fb63c5bce67_930c.iq",
+  "id": "n5fb63c5bce67",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n3e8a03277e6c_930c.iq",
+  "id": "n3e8a03277e6c",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nba1f67207836_930c.iq",
+  "id": "nba1f67207836",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/na8b26555e1cc_930c.iq",
+  "id": "na8b26555e1cc",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n05730b5a7664_930c.iq",
+  "id": "n05730b5a7664",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n6d9d7039ce95_930c.iq",
+  "id": "n6d9d7039ce95",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n16338f3007e3_930c.iq",
+  "id": "n16338f3007e3",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nef43473f4785_930c.iq",
+  "id": "nef43473f4785",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nd6ccbf6072f0_930c.iq",
+  "id": "nd6ccbf6072f0",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nfe292456452c_930c.iq",
+  "id": "nfe292456452c",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n702f8ccbd7c8_930c.iq",
+  "id": "n702f8ccbd7c8",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nf1c4ae0b7ca9_930c.iq",
+  "id": "nf1c4ae0b7ca9",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n3c1a29e9164a_930c.iq",
+  "id": "n3c1a29e9164a",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ndaf6b119f5ce_930c.iq",
+  "id": "ndaf6b119f5ce",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n001d5e51ee15_930c.iq",
+  "id": "n001d5e51ee15",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n3e211eb2d755_930c.iq",
+  "id": "n3e211eb2d755",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n87866f108252_930c.iq",
+  "id": "n87866f108252",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ndbe669810efa_930c.iq",
+  "id": "ndbe669810efa",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n588dcb0f7c91_930c.iq",
+  "id": "n588dcb0f7c91",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n1c20e9cd34e6_930c.iq",
+  "id": "n1c20e9cd34e6",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n272762a1df4c_930c.iq",
+  "id": "n272762a1df4c",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n8cb688087759_930c.iq",
+  "id": "n8cb688087759",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ne07da32ec6cb_930c.iq",
+  "id": "ne07da32ec6cb",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n46b1a5a7e71a_930c.iq",
+  "id": "n46b1a5a7e71a",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n27b3ec4fe181_930c.iq",
+  "id": "n27b3ec4fe181",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n8a79d4d2ac81_930c.iq",
+  "id": "n8a79d4d2ac81",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n9015c7f8cdc1_930c.iq",
+  "id": "n9015c7f8cdc1",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n399d19337196_930c.iq",
+  "id": "n399d19337196",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nacc862d04594_930c.iq",
+  "id": "nacc862d04594",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n3fb492373eb1_930c.iq",
+  "id": "n3fb492373eb1",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n962ca2ddfdf1_930c.iq",
+  "id": "n962ca2ddfdf1",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n7d2ea4597191_930c.iq",
+  "id": "n7d2ea4597191",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n02fbe434bc52_930c.iq",
+  "id": "n02fbe434bc52",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n151a8ef7dc7b_930c.iq",
+  "id": "n151a8ef7dc7b",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n931d3ab5b43b_930c.iq",
+  "id": "n931d3ab5b43b",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/ne440eaae5c5b_930c.iq",
+  "id": "ne440eaae5c5b",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nbaf7c2049282_930c.iq",
+  "id": "nbaf7c2049282",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n7dab4cde3271_930c.iq",
+  "id": "n7dab4cde3271",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n9bd332eb3a62_930c.iq",
+  "id": "n9bd332eb3a62",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nc37cd94f7523_930c.iq",
+  "id": "nc37cd94f7523",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n7646f17d0613_930c.iq",
+  "id": "n7646f17d0613",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n008a3e048177_930c.iq",
+  "id": "n008a3e048177",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nd876b95641fb_930c.iq",
+  "id": "nd876b95641fb",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n2b2e715ae562_930c.iq",
+  "id": "n2b2e715ae562",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n3023853a949f_930c.iq",
+  "id": "n3023853a949f",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nf09ffb7cc060_930c.iq",
+  "id": "nf09ffb7cc060",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/na5caa7cbb3c7_930c.iq",
+  "id": "na5caa7cbb3c7",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n674e36be1f49_930c.iq",
+  "id": "n674e36be1f49",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/nf9e75caa2b3a_930c.iq",
+  "id": "nf9e75caa2b3a",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n126b9e2b6798_930c.iq",
+  "id": "n126b9e2b6798",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n2acf9927f1c4_930c.iq",
+  "id": "n2acf9927f1c4",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1g_20261110_174804_582e24/n4baa30f3ecd6_930c.iq",
+  "id": "n4baa30f3ecd6",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ }
+]

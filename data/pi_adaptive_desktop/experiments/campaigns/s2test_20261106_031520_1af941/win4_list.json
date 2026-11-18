@@ -1,0 +1,68 @@
+[
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/v3389363753b9_930c.iq",
+  "id": "v3389363753b9",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/v8232390715d1_930c.iq",
+  "id": "v8232390715d1",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/v9b83f4239dee_930c.iq",
+  "id": "v9b83f4239dee",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/vc8aef1273a56_930c.iq",
+  "id": "vc8aef1273a56",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/vc8b27993e368_930c.iq",
+  "id": "vc8b27993e368",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/v44efe0d96052_930c.iq",
+  "id": "v44efe0d96052",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/v1a7023e93ac2_930c.iq",
+  "id": "v1a7023e93ac2",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/v9497287f6ec6_930c.iq",
+  "id": "v9497287f6ec6",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/vae56bdbec327_930c.iq",
+  "id": "vae56bdbec327",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/v6fdfb21c8104_930c.iq",
+  "id": "v6fdfb21c8104",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s2test_20261106_031520_1af941/ved8855c06d0e_930c.iq",
+  "id": "ved8855c06d0e",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ }
+]

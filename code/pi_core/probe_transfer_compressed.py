@@ -1,0 +1,2 @@
+import hashlib,pathlib
+p=pathlib.Path(__file__).with_name('probe_transfer.py');data=p.read_bytes();assert hashlib.sha256(data).hexdigest()=='b5a68533339857a3d9ac3cc5cff8b14c0ecd7b7578cd8d3e261d8f368d589caf';code=data.decode().replace("'-o','Compression=no',","'-o','Compression=yes',").replace('speed_probe_large_window.iq','speed_probe_large_window_compressed.iq').replace('SPEED_PROBE.log','SPEED_PROBE_COMPRESSED.log').replace('SPEED_PROBE.json','SPEED_PROBE_COMPRESSED.json');exec(compile(code,str(p),'exec'))

@@ -1,0 +1,8 @@
+{
+ "utc": "2026-11-17T01:37:24Z",
+ "trials": 96,
+ "valid": 96,
+ "excluded_acquisition": 0,
+ "raw_bytes": 61440000000,
+ "same_canonical_trace_per_block": true
+}

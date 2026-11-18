@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/ws_main\results\sp2027\experiments\collect_sp2027_wait.py", line 335, in main
+    raise RuntimeError('invalid bounded acquisition')
+RuntimeError: invalid bounded acquisition

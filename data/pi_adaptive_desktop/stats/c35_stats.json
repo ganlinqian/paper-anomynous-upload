@@ -1,0 +1,2427 @@
+{
+ "campaign": "s1k_20261111_152850_04b832",
+ "primary": "C35/self_roll4_p70",
+ "label": "same-boot same-placement ~13-14 h after C34 (not reboot cross-day)",
+ "detectors": {
+  "C07_frozen/temporal_260": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     6,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     6,
+     8
+    ],
+    "silent": [
+     14,
+     32
+    ],
+    "bg_log": [
+     0,
+     8
+    ]
+   },
+   "negatives_fa": [
+    14,
+    40,
+    [
+     0.206,
+     0.517
+    ]
+   ],
+   "silent_fa": [
+    14,
+    32
+   ],
+   "bg_log_fa": [
+    0,
+    8
+   ],
+   "hidden": [
+    44,
+    48,
+    [
+     0.8,
+     0.977
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    7,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    7,
+    20
+   ]
+  },
+  "C07_frozen/whole_260": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C10_transfer/temporal_260/cover_False": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C10_transfer/temporal_260/plain": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C10_transfer/whole_260/cover_False": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C10_transfer/whole_260/plain": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C27_diverse/call_temporal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     31,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    39,
+    40,
+    [
+     0.868,
+     0.999
+    ]
+   ],
+   "silent_fa": [
+    31,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    19,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C27_diverse/call_whole": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C27_diverse/record_temporal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C29/call_temporal_sesscal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     10,
+     32
+    ],
+    "bg_log": [
+     1,
+     8
+    ]
+   },
+   "negatives_fa": [
+    11,
+    40,
+    [
+     0.146,
+     0.439
+    ]
+   ],
+   "silent_fa": [
+    10,
+    32
+   ],
+   "bg_log_fa": [
+    1,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    4,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    7,
+    20
+   ]
+  },
+  "C29/call_whole_raw": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C29/call_whole_sesscal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     14,
+     32
+    ],
+    "bg_log": [
+     2,
+     8
+    ]
+   },
+   "negatives_fa": [
+    16,
+    40,
+    [
+     0.249,
+     0.567
+    ]
+   ],
+   "silent_fa": [
+    14,
+    32
+   ],
+   "bg_log_fa": [
+    2,
+    8
+   ],
+   "hidden": [
+    47,
+    48,
+    [
+     0.889,
+     0.999
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    4,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    12,
+    20
+   ]
+  },
+  "C30/call_temporal_sesscal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     21,
+     32
+    ],
+    "bg_log": [
+     6,
+     8
+    ]
+   },
+   "negatives_fa": [
+    27,
+    40,
+    [
+     0.509,
+     0.814
+    ]
+   ],
+   "silent_fa": [
+    21,
+    32
+   ],
+   "bg_log_fa": [
+    6,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    8,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    19,
+    20
+   ]
+  },
+  "C30/call_whole_raw": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     30,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    38,
+    40,
+    [
+     0.831,
+     0.994
+    ]
+   ],
+   "silent_fa": [
+    30,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    18,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C30/call_whole_sesscal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     22,
+     32
+    ],
+    "bg_log": [
+     4,
+     8
+    ]
+   },
+   "negatives_fa": [
+    26,
+    40,
+    [
+     0.483,
+     0.794
+    ]
+   ],
+   "silent_fa": [
+    22,
+    32
+   ],
+   "bg_log_fa": [
+    4,
+    8
+   ],
+   "hidden": [
+    47,
+    48,
+    [
+     0.889,
+     0.999
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    9,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    17,
+    20
+   ]
+  },
+  "C31/avg_whole_temporal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     24,
+     32
+    ],
+    "bg_log": [
+     5,
+     8
+    ]
+   },
+   "negatives_fa": [
+    29,
+    40,
+    [
+     0.561,
+     0.854
+    ]
+   ],
+   "silent_fa": [
+    24,
+    32
+   ],
+   "bg_log_fa": [
+    5,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    9,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C31/temporal_C0.1": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     20,
+     32
+    ],
+    "bg_log": [
+     6,
+     8
+    ]
+   },
+   "negatives_fa": [
+    26,
+    40,
+    [
+     0.483,
+     0.794
+    ]
+   ],
+   "silent_fa": [
+    20,
+    32
+   ],
+   "bg_log_fa": [
+    6,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    7,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    19,
+    20
+   ]
+  },
+  "C31/whole_C0.1": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     27,
+     32
+    ],
+    "bg_log": [
+     6,
+     8
+    ]
+   },
+   "negatives_fa": [
+    33,
+    40,
+    [
+     0.672,
+     0.927
+    ]
+   ],
+   "silent_fa": [
+    27,
+    32
+   ],
+   "bg_log_fa": [
+    6,
+    8
+   ],
+   "hidden": [
+    47,
+    48,
+    [
+     0.889,
+     0.999
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    13,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C32/avg_whole_temporal": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     22,
+     32
+    ],
+    "bg_log": [
+     5,
+     8
+    ]
+   },
+   "negatives_fa": [
+    27,
+    40,
+    [
+     0.509,
+     0.814
+    ]
+   ],
+   "silent_fa": [
+    22,
+    32
+   ],
+   "bg_log_fa": [
+    5,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    7,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C32/temporal_C0.1": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     21,
+     32
+    ],
+    "bg_log": [
+     4,
+     8
+    ]
+   },
+   "negatives_fa": [
+    25,
+    40,
+    [
+     0.458,
+     0.773
+    ]
+   ],
+   "silent_fa": [
+    21,
+    32
+   ],
+   "bg_log_fa": [
+    4,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    5,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C32/whole_C0.1": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     22,
+     32
+    ],
+    "bg_log": [
+     5,
+     8
+    ]
+   },
+   "negatives_fa": [
+    27,
+    40,
+    [
+     0.509,
+     0.814
+    ]
+   ],
+   "silent_fa": [
+    22,
+    32
+   ],
+   "bg_log_fa": [
+    5,
+    8
+   ],
+   "hidden": [
+    47,
+    48,
+    [
+     0.889,
+     0.999
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    7,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "C35/self_roll4_p50": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     6,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     7,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     4,
+     32
+    ],
+    "bg_log": [
+     0,
+     8
+    ]
+   },
+   "negatives_fa": [
+    4,
+    40,
+    [
+     0.028,
+     0.237
+    ]
+   ],
+   "silent_fa": [
+    4,
+    32
+   ],
+   "bg_log_fa": [
+    0,
+    8
+   ],
+   "hidden": [
+    45,
+    48,
+    [
+     0.828,
+     0.987
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    3,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    1,
+    20
+   ]
+  },
+  "C35/self_roll4_p70": {
+   "by_condition": {
+    "gzip16": [
+     7,
+     8
+    ],
+    "gzip3_d19": [
+     5,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     6,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     0,
+     32
+    ],
+    "bg_log": [
+     0,
+     8
+    ]
+   },
+   "negatives_fa": [
+    0,
+    40,
+    [
+     0.0,
+     0.088
+    ]
+   ],
+   "silent_fa": [
+    0,
+    32
+   ],
+   "bg_log_fa": [
+    0,
+    8
+   ],
+   "hidden": [
+    42,
+    48,
+    [
+     0.748,
+     0.953
+    ]
+   ],
+   "P1_met": true,
+   "P2_met": false,
+   "negatives_fa_blocks_0_3": [
+    0,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    0,
+    20
+   ]
+  },
+  "C35/sess_p50": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     12,
+     32
+    ],
+    "bg_log": [
+     3,
+     8
+    ]
+   },
+   "negatives_fa": [
+    15,
+    40,
+    [
+     0.227,
+     0.542
+    ]
+   ],
+   "silent_fa": [
+    12,
+    32
+   ],
+   "bg_log_fa": [
+    3,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    3,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    12,
+    20
+   ]
+  },
+  "C35/sess_p70": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     7,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     3,
+     32
+    ],
+    "bg_log": [
+     3,
+     8
+    ]
+   },
+   "negatives_fa": [
+    6,
+    40,
+    [
+     0.057,
+     0.298
+    ]
+   ],
+   "silent_fa": [
+    3,
+    32
+   ],
+   "bg_log_fa": [
+    3,
+    8
+   ],
+   "hidden": [
+    47,
+    48,
+    [
+     0.889,
+     0.999
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    1,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    5,
+    20
+   ]
+  },
+  "burst/max_minus_p50": {
+   "by_condition": {
+    "gzip16": [
+     6,
+     8
+    ],
+    "gzip3_d19": [
+     6,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     7,
+     8
+    ],
+    "ossl16": [
+     7,
+     8
+    ],
+    "sha32": [
+     6,
+     8
+    ],
+    "silent": [
+     26,
+     32
+    ],
+    "bg_log": [
+     6,
+     8
+    ]
+   },
+   "negatives_fa": [
+    32,
+    40,
+    [
+     0.644,
+     0.909
+    ]
+   ],
+   "silent_fa": [
+    26,
+    32
+   ],
+   "bg_log_fa": [
+    6,
+    8
+   ],
+   "hidden": [
+    40,
+    48,
+    [
+     0.698,
+     0.925
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": false,
+   "negatives_fa_blocks_0_3": [
+    13,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    19,
+    20
+   ]
+  },
+  "burst/p99_minus_p50": {
+   "by_condition": {
+    "gzip16": [
+     5,
+     8
+    ],
+    "gzip3_d19": [
+     6,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     7,
+     8
+    ],
+    "sha32": [
+     6,
+     8
+    ],
+    "silent": [
+     28,
+     32
+    ],
+    "bg_log": [
+     6,
+     8
+    ]
+   },
+   "negatives_fa": [
+    34,
+    40,
+    [
+     0.702,
+     0.943
+    ]
+   ],
+   "silent_fa": [
+    28,
+    32
+   ],
+   "bg_log_fa": [
+    6,
+    8
+   ],
+   "hidden": [
+    40,
+    48,
+    [
+     0.698,
+     0.925
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": false,
+   "negatives_fa_blocks_0_3": [
+    14,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "burst/top3mean_minus_p50": {
+   "by_condition": {
+    "gzip16": [
+     6,
+     8
+    ],
+    "gzip3_d19": [
+     6,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     7,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     6,
+     8
+    ],
+    "silent": [
+     27,
+     32
+    ],
+    "bg_log": [
+     6,
+     8
+    ]
+   },
+   "negatives_fa": [
+    33,
+    40,
+    [
+     0.672,
+     0.927
+    ]
+   ],
+   "silent_fa": [
+    27,
+    32
+   ],
+   "bg_log_fa": [
+    6,
+    8
+   ],
+   "hidden": [
+    41,
+    48,
+    [
+     0.722,
+     0.939
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": false,
+   "negatives_fa_blocks_0_3": [
+    14,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    19,
+    20
+   ]
+  },
+  "relative_ref/temporal_260": {
+   "by_condition": {
+    "gzip16": [
+     7,
+     8
+    ],
+    "gzip3_d19": [
+     2,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     3,
+     8
+    ],
+    "silent": [
+     7,
+     32
+    ],
+    "bg_log": [
+     0,
+     8
+    ]
+   },
+   "negatives_fa": [
+    7,
+    40,
+    [
+     0.073,
+     0.328
+    ]
+   ],
+   "silent_fa": [
+    7,
+    32
+   ],
+   "bg_log_fa": [
+    0,
+    8
+   ],
+   "hidden": [
+    36,
+    48,
+    [
+     0.604,
+     0.864
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": false,
+   "negatives_fa_blocks_0_3": [
+    3,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    4,
+    20
+   ]
+  },
+  "relative_ref/whole_260": {
+   "by_condition": {
+    "gzip16": [
+     7,
+     8
+    ],
+    "gzip3_d19": [
+     4,
+     8
+    ],
+    "zstd16": [
+     7,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     5,
+     8
+    ],
+    "silent": [
+     19,
+     32
+    ],
+    "bg_log": [
+     3,
+     8
+    ]
+   },
+   "negatives_fa": [
+    22,
+    40,
+    [
+     0.385,
+     0.707
+    ]
+   ],
+   "silent_fa": [
+    19,
+    32
+   ],
+   "bg_log_fa": [
+    3,
+    8
+   ],
+   "hidden": [
+    39,
+    48,
+    [
+     0.674,
+     0.911
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": false,
+   "negatives_fa_blocks_0_3": [
+    6,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    16,
+    20
+   ]
+  },
+  "window_call_bracket/temporal_260": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "window_call_bracket/whole_260": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "window_prefix_0p2/temporal_260": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  },
+  "window_prefix_0p2/whole_260": {
+   "by_condition": {
+    "gzip16": [
+     8,
+     8
+    ],
+    "gzip3_d19": [
+     8,
+     8
+    ],
+    "zstd16": [
+     8,
+     8
+    ],
+    "xz2": [
+     8,
+     8
+    ],
+    "ossl16": [
+     8,
+     8
+    ],
+    "sha32": [
+     8,
+     8
+    ],
+    "silent": [
+     32,
+     32
+    ],
+    "bg_log": [
+     8,
+     8
+    ]
+   },
+   "negatives_fa": [
+    40,
+    40,
+    [
+     0.912,
+     1.0
+    ]
+   ],
+   "silent_fa": [
+    32,
+    32
+   ],
+   "bg_log_fa": [
+    8,
+    8
+   ],
+   "hidden": [
+    48,
+    48,
+    [
+     0.926,
+     1.0
+    ]
+   ],
+   "P1_met": false,
+   "P2_met": true,
+   "negatives_fa_blocks_0_3": [
+    20,
+    20
+   ],
+   "negatives_fa_blocks_4_7": [
+    20,
+    20
+   ]
+  }
+ },
+ "S2_mcnemar_vs_C31": {
+  "negatives": {
+   "pairs": 40,
+   "C35/self_roll4_p70_only": 0,
+   "C31/avg_whole_temporal_only": 29,
+   "p_two_sided": 3.725290298461914e-09,
+   "p_one_sided_a_fewer": 1.862645149230957e-09
+  },
+  "hidden": {
+   "pairs": 48,
+   "C35/self_roll4_p70_only": 0,
+   "C31/avg_whole_temporal_only": 6,
+   "p_two_sided": 0.03125,
+   "p_one_sided_a_fewer": 0.015625
+  }
+ },
+ "confirmed_improvement_over_C31": false,
+ "S2_mcnemar_vs_C32": {
+  "negatives": {
+   "pairs": 40,
+   "C35/self_roll4_p70_only": 0,
+   "C32/avg_whole_temporal_only": 27,
+   "p_two_sided": 1.4901161193847656e-08,
+   "p_one_sided_a_fewer": 7.450580596923828e-09
+  },
+  "hidden": {
+   "pairs": 48,
+   "C35/self_roll4_p70_only": 0,
+   "C32/avg_whole_temporal_only": 6,
+   "p_two_sided": 0.03125,
+   "p_one_sided_a_fewer": 0.015625
+  }
+ },
+ "S3_mcnemar_sess_p70_vs_primary_negatives": {
+  "pairs": 40,
+  "C35/sess_p70_only": 6,
+  "C35/self_roll4_p70_only": 0,
+  "p_two_sided": 0.03125,
+  "p_one_sided_a_fewer": 1.0
+ }
+}

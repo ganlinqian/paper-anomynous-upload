@@ -1,0 +1,13 @@
+{
+ "utc": "2026-11-16T16:55:51.5914073Z",
+ "note": "frozen before any C37 feature/prediction/power sample was read",
+ "sha256": {
+  "C37_PREREG.md": "d827eded689941d96f7cad146ab3fc7c869d669fd6401d919a668f50257817ca",
+  "collect_sp2027_c37.py": "2b5471d48e3c72fbbc4ae0c7349316789d5ef9d0170a0361fe474d31ad6ca18e",
+  "C37_PREREG_AMEND1.md": "888fad8cc5b1a3fdbb0ff063dc1f2f154a86a789fb5db45501d7cb7aab52e628",
+  "find_sync_c37.py": "3a08d93ed5a200d9d48d2ecb20b28e1a69b449c803e8443b03f4207e9775b601",
+  "run_c37_chain.ps1": "3fec2cb81075bf1bda2761da54f1a3d3ec1b1a2cc7bcf67b7dead06eb3ce0dfa",
+  "analyze_c37.py": "23a5afe402900858132b83dd42c014cde61aa57a6ae78420ad8d05a1d98f6895",
+  "pi_api_sp2027_c37.py": "8c063875b1f40942b103418e1c3581450e8dfd9ae96952caf15a02e53b185366"
+ }
+}

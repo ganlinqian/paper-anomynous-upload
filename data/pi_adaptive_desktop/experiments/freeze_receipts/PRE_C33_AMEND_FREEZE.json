@@ -1,0 +1,22 @@
+{
+ "utc": "2026-11-10T19:57:35.3883785Z",
+ "note": "C33 amendment: s1h stopped at run 10 (gzip32 fsync past the wait; not evaluated); stage s1i replaces zstd32->zstd16, gzip32->gziptxt32; detectors, endpoints, statistics unchanged",
+ "failed_campaign": "s1h_20261110_194501_ca1dad",
+ "sha256": {
+  "experiments\\models\\C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments\\models\\C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments\\models\\C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "98c683493454be405321426c1d91fe8b9431c0b89cf564372d6d1c68768dd983",
+  "experiments\\collect_sp2027_wait.py": "0ce4296f6806fd35496bb1d65fafcd30e8cfbcb86d829128065a3df18ff69987",
+  "experiments\\pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\run_sp2027_chain.ps1": "6e988ecce54d770ed0c87f2546d926bc73f91db2754dd7bd99fad7ac6851b4b7",
+  "scripts\\c33_stats.py": "fb1b15f60531f46b8f27cd0810fec7264c9c28a31c0717b6718e1a65b8ecc1be",
+  "scratch\\amend_c33_s1i.py": "489fe66fbd6caa8699b7ec076dd458cdc77a0b4fdd946e5737ffd4e941edd127",
+  "scratch\\c33_fsync_timing_sd.py": "d495ac277e7dd9dc837617c7cc468874b2672239a2d3486aed8617133408bd41",
+  "PROTOCOL_LEGACY.md": "4d0ba9fb153ff95b0a6ba1032ee8ee7887ebe4b135fb29f3ae949bec59df1330"
+ },
+ "s1i_started": false
+}

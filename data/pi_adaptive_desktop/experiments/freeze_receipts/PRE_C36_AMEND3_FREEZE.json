@@ -1,0 +1,51 @@
+{
+ "utc": "2026-11-15T22:44:15.514398+00:00",
+ "note": "C36 batch 4 (s1l, new campaign). Batch 3 s1l_20261115_203602_883fbb stopped at run 78 (21:21 UTC) after 77 valid runs: the 930c receiver delivered all 320,000,000 bytes but exited rc=1 (\"Couldn't transfer any bytes for one second\" after the last block; 1 of 2024 rf logs ever). No capture retries were needed in batch 3. Change (stage s1l only): a run that is invalid only on the acquisition side (radio rc, byte conservation, marks) while every Pi-side check passed is excluded (EXCLUDED.json; not in RESULTS.json, so not extracted or evaluated) and the batch continues; at most 3 per batch, the 4th stops the batch. Offline check on batch 3: exactly that one run is acquisition-only invalid, 0 Pi-side failures. Endpoints keep their absolute counts (P1 <= 3 false alarms, P2 >= 44 detections; an excluded hidden run counts against P2) and are reported with exact CIs over the actual denominators. Pre-specified now, before any batch-3 extraction: if batch 3 is evaluated, it is reported only as a secondary, interrupted batch (77 valid runs, blocks 0-5 complete, block 6 partial, block 7 missing) with the same detectors and statistics; batch 4 is the C36 primary. Detectors, rig, plan/seed, stats scripts, chain scripts unchanged. Power meter: C2 switched by the user to 200 SPS and a new AutoSave file (2026-11-16 06-26-02.csv); ATK-C back at Normal priority; time column checked at 59.68 s per 60.2 s real (0.9 %), drift corrected linearly with pre/post sync pulses; earlier 1000 SPS files lost samples without gaps in the time column (C36C_STATUS_NOTE.md), so power results of batches 1-3 are exploratory. The gpu-server migration of old J: data is paused (user: collect first on J:, migrate afterwards); no migration runs on capture_pc during this batch.",
+ "sha256": {
+  "experiments/models/C35_SELFROLL_MODELS.json": "d3fd4760cc5bc847a2a7f2232d8da67a37da4a08527c0e67ec3db65bef28fd3e",
+  "experiments/models/C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments/models/C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments/process_sp2027.py": "a426837e34532a62fe60e95641891652fc6ed44b246f174b5054ff70a95b88e5",
+  "experiments/collect_sp2027_wait.py": "d9c1aff419e4646c8057345afd92e59b56b2decb5b0b091845dafc3a78d77fdc",
+  "experiments/pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "experiments/run_sp2027_chain.ps1": "3737dc1ae53e6519ef33057a26ad48fe587fea900ebe1867752e5b93aa8433ba",
+  "experiments/start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments/rig_capture_stagger_sp2027.py": "30e70cc648db52b100a609c0950af83d7fb39207c84de11bdde5b1d276bfc384",
+  "scripts/c35_stats.py": "1548a679c804e477bf8fdfda81cdd005ab21600a34f6fd27f799ab73df8f0f3d",
+  "scripts/c36_stats.py": "1798db6e4216cb6e2ead8f67b70a24a421a9a7ca7e395a1da7db786884bdb3b2",
+  "experiments/freeze_receipts/PRE_C36_FREEZE.json": "f2f9525ec82965e7db1cb1e3e03271cd7080b6c2b6d7258a400c40ad8a35d80d",
+  "power_c36/POWER_PLAN.md": "105e3ba5eff4636b946348969617ce2c813ecbf1b8d50e5de8c96f2c88b24fed",
+  "power_c36/sync_pulses.py": "09e3288ed5d5ced24447c423071ed3c7e1ab3a5df3b5b21d21d3c2253ac834f3",
+  "power_c36/align_sync.py": "7b8e99e880dc4c29d7440ef4873faf225ba129794c98e752a2907ff544e0f4cc",
+  "power_c36/set_atk_idle.py": "31c9717df084eadf1bfc178ba052515244cc881832688393387ff11a3e022eb0",
+  "power_c36/spawn_gaps.py": "2afa22e9979c98a151f3e3949d21009aefe6edf59c40c8805f1f96d03570bf2d",
+  "experiments/freeze_receipts/PRE_C36_AMEND_FREEZE.json": "3c1c65850fa0a8775e81a6cad5b17aa26039846df622f4e6f2f95234b21a3613",
+  "power_c36/C36B_STOP_NOTE.md": "6db9a75f9cb07cf5a6b8446dd1501777ceb6f9fb191a1eadfc191f064b4c8ece",
+  "power_c36/rig_retry_test.py": "448bf919488038c5d8a2fd57f318cde58ec0be94c33476cfb1770c890cb36648",
+  "power_c36/rig_retry_test.txt": "5894799ef2eb118736784a92d2a5bf44baf7d214fc42c7dbdec97de3d3e4c08a",
+  "power_c36/ready_marks.py": "a421b0e7eafe6ae6ac33f997ea9a766c7376a290ea991d223c4310e98b63d667",
+  "power_c36/ready_marks.txt": "dc912fccf611577e1ac77f85369d759b4559b7e88b8ebf393a8ac2fbcdad1706",
+  "power_c36/diag_c36b.py": "24859af44552d3d9279398894595b9c2d8f81a9374ef6b450405917c5bd8e6f0",
+  "power_c36/rflog_c36b.py": "cb93dc6260d4331a43064fbaa5797501976db16afbe0cfb98964fa8fed32f425",
+  "power_c36/open_stall_test.py": "29846d88a1ed77e82751dea3b1254fdaaff7af1470a13ecdf429942971eef621",
+  "power_c36/backup_pre_c36c/collect_sp2027_wait.py": "414b13c9edd4b5c429b08a4e6e60028eadca314dd8c7631e61ac50798d54dd7c",
+  "power_c36/backup_pre_c36c/rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "experiments/freeze_receipts/PRE_C36_AMEND2_FREEZE.json": "d873556f562ec4050105b3d0c5d117ac26d2099054cca261e58b96a61e21bef7",
+  "power_c36/C36C_STATUS_NOTE.md": "c8bf41112efa873a40739933070da38669a9418e09db0883966012901fd1ca37",
+  "power_c36/check_exclude_rule.py": "866e01875a686cb78f92839b1cb994a1c07d4c3f7df9aab7e933f80ca74db69c",
+  "power_c36/csv_rate_check.py": "32b6cc13a6e8093c02272e74348d507eba6b56d305bc37dc5c62facf97353a63",
+  "power_c36/csv_rate_check.txt": "d0fb897829fc08a0025e9d61f49cc4bfb0474b0bb25873aa17354e3f2cd228bd",
+  "power_c36/backup_pre_c36c/collect_sp2027_wait.c36c.py": "7dd5c9fc8c701b2d776586f13fd5bb93a4fe65bf17b4e5a366048260e9be18e0"
+ },
+ "changed_files_previous_sha256": {
+  "experiments/collect_sp2027_wait.py": "7dd5c9fc8c701b2d776586f13fd5bb93a4fe65bf17b4e5a366048260e9be18e0"
+ },
+ "interrupted_campaigns": [
+  "s1l_20261115_162746_babc18",
+  "s1l_20261115_172344_ee1d0d",
+  "s1l_20261115_203602_883fbb"
+ ],
+ "batch4_started": false,
+ "user_approved": true,
+ "approval": "user 2026-11-16: J (collect batch 4 now on J:)"
+}

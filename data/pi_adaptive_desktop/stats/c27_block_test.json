@@ -1,0 +1,32 @@
+{
+ "all": {
+  "diverse_correct": [
+   60,
+   64
+  ],
+  "one_workload_correct": [
+   33,
+   64
+  ],
+  "test": {
+   "blocks": 8,
+   "mean_diff": 0.421875,
+   "p_two_sided": 0.0078125
+  }
+ },
+ "throttled_or_new_input": {
+  "diverse_correct": [
+   44,
+   48
+  ],
+  "one_workload_correct": [
+   17,
+   48
+  ],
+  "test": {
+   "blocks": 8,
+   "mean_diff": 0.5625,
+   "p_two_sided": 0.0078125
+  }
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "utc": "2026-11-11T16:33:47Z",
+ "campaign": "s1k_20261111_152850_04b832",
+ "model": "C35_SELFROLL_MODELS.json",
+ "model_sha256": "d3fd4760cc5bc847a2a7f2232d8da67a37da4a08527c0e67ec3db65bef28fd3e",
+ "n": 96,
+ "n_test": 88,
+ "excluded_conditions": [
+  "bg_download"
+ ],
+ "primary": "self_roll4_p70",
+ "no_fit": true,
+ "calibration_ids": [
+  "n9ce0bc8b9606",
+  "n1f354c3e61b5",
+  "n2ac22dad1c43",
+  "n5cc9287fd2a4",
+  "n81914ff0c117",
+  "nc85d7fbf269e",
+  "n1d1bbcc83b87",
+  "ned39e4d48fdb"
+ ],
+ "summary": {
+  "self_roll4_p70": {
+   "by_condition": {
+    "bg_log": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip16": {
+     "alerts": 7,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 5,
+     "n": 8
+    },
+    "ossl16": {
+     "alerts": 6,
+     "n": 8
+    },
+    "sha32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 32
+    },
+    "silent_cal": {
+     "alerts": 1,
+     "n": 8
+    },
+    "xz2": {
+     "alerts": 8,
+     "n": 8
+    },
+    "zstd16": {
+     "alerts": 8,
+     "n": 8
+    }
+   },
+   "tp": 42,
+   "fn": 6,
+   "fp": 0,
+   "tn": 40,
+   "accuracy": 0.9318181818181818,
+   "accuracy_95pct": [
+    0.8574838302839488,
+    0.974569049475754
+   ],
+   "tpr": 0.875,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.7475394913580471,
+    0.9527162395788205
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.08809730287880237
+   ],
+   "balanced_accuracy": 0.9375,
+   "auc": 0.9828125
+  },
+  "self_roll4_p50": {
+   "by_condition": {
+    "bg_log": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 6,
+     "n": 8
+    },
+    "ossl16": {
+     "alerts": 7,
+     "n": 8
+    },
+    "sha32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 4,
+     "n": 32
+    },
+    "silent_cal": {
+     "alerts": 1,
+     "n": 8
+    },
+    "xz2": {
+     "alerts": 8,
+     "n": 8
+    },
+    "zstd16": {
+     "alerts": 8,
+     "n": 8
+    }
+   },
+   "tp": 45,
+   "fn": 3,
+   "fp": 4,
+   "tn": 36,
+   "accuracy": 0.9204545454545454,
+   "accuracy_95pct": [
+    0.8429512919124609,
+    0.9674199926250003
+   ],
+   "tpr": 0.9375,
+   "fpr": 0.1,
+   "tpr_95pct": [
+    0.8280400692094296,
+    0.9869207555904473
+   ],
+   "fpr_95pct": [
+    0.027925415294219307,
+    0.2366373998760999
+   ],
+   "balanced_accuracy": 0.91875,
+   "auc": 0.9828125
+  },
+  "sess_p70": {
+   "by_condition": {
+    "bg_log": {
+     "alerts": 3,
+     "n": 8
+    },
+    "gzip16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 7,
+     "n": 8
+    },
+    "ossl16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "sha32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 3,
+     "n": 32
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    },
+    "xz2": {
+     "alerts": 8,
+     "n": 8
+    },
+    "zstd16": {
+     "alerts": 8,
+     "n": 8
+    }
+   },
+   "tp": 47,
+   "fn": 1,
+   "fp": 6,
+   "tn": 34,
+   "accuracy": 0.9204545454545454,
+   "accuracy_95pct": [
+    0.8429512919124609,
+    0.9674199926250003
+   ],
+   "tpr": 0.9791666666666666,
+   "fpr": 0.15,
+   "tpr_95pct": [
+    0.8893038394068478,
+    0.9994726847465769
+   ],
+   "fpr_95pct": [
+    0.05710225815452589,
+    0.29835266683957645
+   ],
+   "balanced_accuracy": 0.9145833333333333,
+   "auc": 0.9932291666666667
+  },
+  "sess_p50": {
+   "by_condition": {
+    "bg_log": {
+     "alerts": 3,
+     "n": 8
+    },
+    "gzip16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 8,
+     "n": 8
+    },
+    "ossl16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "sha32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 12,
+     "n": 32
+    },
+    "silent_cal": {
+     "alerts": 1,
+     "n": 8
+    },
+    "xz2": {
+     "alerts": 8,
+     "n": 8
+    },
+    "zstd16": {
+     "alerts": 8,
+     "n": 8
+    }
+   },
+   "tp": 48,
+   "fn": 0,
+   "fp": 15,
+   "tn": 25,
+   "accuracy": 0.8295454545454546,
+   "accuracy_95pct": [
+    0.7344910014081756,
+    0.9013402197826048
+   ],
+   "tpr": 1.0,
+   "fpr": 0.375,
+   "tpr_95pct": [
+    0.9260272146527198,
+    1.0
+   ],
+   "fpr_95pct": [
+    0.22726272248182589,
+    0.5419852477673891
+   ],
+   "balanced_accuracy": 0.8125,
+   "auc": 0.9932291666666667
+  }
+ }
+}

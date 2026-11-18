@@ -1,0 +1,20 @@
+{
+ "utc": "2026-11-06T08:36:21.6713659Z",
+ "note": "C29 (s1d) low-duty model with per-session silent calibration, controller/chain/analysis fixed before any C29 run; model selection via explore_c29_loso.py",
+ "model_frozen_utc": "2026-11-06T08:28:54Z",
+ "sha256": {
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "6a64c99669f85aeaf98e33ee476eaf8d32dd10821cbef8d70123a8869916e498",
+  "experiments\\collect_sp2027_wait.py": "631d797355576ecb38605922c4f40e0449b2380fae6a73f0b3b7c9e935b192c4",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\run_sp2027_chain.ps1": "80532dfc32e7b1631f00bd78a243e690492658c42cfc51a03d3f1bc91e294eeb",
+  "experiments\\start_sp2027_chain.ps1": "16097bbf42c9ca75084b2439452d0b290e0adba5dbf8d28cb29bbe0c1b20b318",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts\\c29_stats.py": "7e824ed36a44fd57ed3307cd1e8cf4d3b3795a6128ce45c86666ff15980b400b",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "scripts\\explore_c29_loso.py": "052bdd81bb550f02e546f0f3c297d51e8b82af5dd5e34923e36ae638e0ebed73",
+  "03_.md": "87a051e31784cb351769866360ba27df69da4848a19eea8419d7a90f687a8c25"
+ },
+ "c29_started": false
+}

@@ -1,0 +1,675 @@
+{
+ "version": "r1-rules-v2",
+ "seed": 2026111501,
+ "datasets": {
+  "swe-agent sample": {
+   "trajectories": 200,
+   "tool_calls": 5613,
+   "model_wait_windows": 5762,
+   "model_wait_windows_per_traj_median": 18.0,
+   "classes": {
+    "ORDER": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "NET": {
+     "n": 20,
+     "share": 0.0035631569570639585,
+     "ci95_cluster_boot": [
+      0.0011814139056401819,
+      0.006528492436762827
+     ]
+    },
+    "PRESENCE": {
+     "n": 1073,
+     "share": 0.19116337074648138,
+     "ci95_cluster_boot": [
+      0.13128366873980182,
+      0.25630603807120517
+     ]
+    },
+    "PRES_UNLISTED": {
+     "n": 167,
+     "share": 0.029752360591484055,
+     "ci95_cluster_boot": [
+      0.007139207685507147,
+      0.0716940518985964
+     ]
+    },
+    "OTHER": {
+     "n": 1,
+     "share": 0.00017815784785319794,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0006074196362560022
+     ]
+    },
+    "WAIT": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "LIGHT": {
+     "n": 4352,
+     "share": 0.7753429538571174,
+     "ci95_cluster_boot": [
+      0.705903026197819,
+      0.8391809252758724
+     ]
+    },
+    "INVALID": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "groups": {
+    "E0_type (WAIT+LIGHT)": {
+     "share": 0.7753429538571174,
+     "ci95": [
+      0.705903026197819,
+      0.8391809252758724
+     ]
+    },
+    "phase_type (ORDER+PRESENCE)": {
+     "share": 0.22091573133796544,
+     "ci95": [
+      0.15781089745356366,
+      0.2902899250226063
+     ]
+    },
+    "not_covered (NET+OTHER)": {
+     "share": 0.0037413148049171567,
+     "ci95": [
+      0.0013435323235668794,
+      0.006696147257326639
+     ]
+    }
+   },
+   "traj_with_at_least_one": {
+    "ORDER": 0.0,
+    "NET": 0.05,
+    "PRESENCE": 0.72,
+    "PRES_UNLISTED": 0.115,
+    "OTHER": 0.005,
+    "WAIT": 0.0,
+    "LIGHT": 0.99,
+    "INVALID": 0.0
+   },
+   "noact_turns": 0,
+   "invalid_actions_excluded": 24,
+   "top_unrecognised": [
+    [
+     "/opt/conda/envs/sqlglot/lib/py",
+     30
+    ],
+    [
+     "sqlfluff",
+     19
+    ],
+    [
+     "dvc",
+     12
+    ],
+    [
+     "/sqlglot/sqlglot",
+     10
+    ],
+    [
+     "/sqlglot",
+     10
+    ],
+    [
+     "/sqlglot/docs/sqlglot",
+     10
+    ],
+    [
+     "/sqlglot/docs",
+     10
+    ],
+    [
+     "/opt/conda/envs/sqlglot",
+     10
+    ],
+    [
+     "/opt/conda",
+     9
+    ],
+    [
+     "/",
+     9
+    ],
+    [
+     "sqllineage",
+     4
+    ],
+    [
+     "sqlite3",
+     4
+    ],
+    [
+     "rmdir.dvc",
+     4
+    ],
+    [
+     "<<<",
+     3
+    ],
+    [
+     "pyflakes",
+     3
+    ],
+    [
+     "pyupgrade",
+     3
+    ],
+    [
+     "sqlglot",
+     3
+    ],
+    [
+     "simulate",
+     2
+    ],
+    [
+     "/bin/mount",
+     2
+    ],
+    [
+     "pyls",
+     2
+    ],
+    [
+     "senza",
+     2
+    ],
+    [
+     "lexicon",
+     1
+    ],
+    [
+     "sas",
+     1
+    ],
+    [
+     "lsmod",
+     1
+    ],
+    [
+     "adb",
+     1
+    ]
+   ]
+  },
+  "openhands sample": {
+   "trajectories": 200,
+   "tool_calls": 3459,
+   "model_wait_windows": 3976,
+   "model_wait_windows_per_traj_median": 16.0,
+   "classes": {
+    "ORDER": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "NET": {
+     "n": 14,
+     "share": 0.004047412546978896,
+     "ci95_cluster_boot": [
+      0.0021704251093714023,
+      0.006011647898617245
+     ]
+    },
+    "PRESENCE": {
+     "n": 708,
+     "share": 0.204683434518647,
+     "ci95_cluster_boot": [
+      0.18920416154791156,
+      0.2218840154287004
+     ]
+    },
+    "PRES_UNLISTED": {
+     "n": 5,
+     "share": 0.0014455044810638912,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0031921995303652293
+     ]
+    },
+    "OTHER": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "WAIT": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "LIGHT": {
+     "n": 2732,
+     "share": 0.7898236484533102,
+     "ci95_cluster_boot": [
+      0.7721038809454334,
+      0.8054993190586803
+     ]
+    },
+    "INVALID": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "groups": {
+    "E0_type (WAIT+LIGHT)": {
+     "share": 0.7898236484533102,
+     "ci95": [
+      0.7721038809454334,
+      0.8054993190586803
+     ]
+    },
+    "phase_type (ORDER+PRESENCE)": {
+     "share": 0.2061289389997109,
+     "ci95": [
+      0.1907369569987949,
+      0.22349627154925092
+     ]
+    },
+    "not_covered (NET+OTHER)": {
+     "share": 0.004047412546978896,
+     "ci95": [
+      0.0021704251093714023,
+      0.006011647898617245
+     ]
+    }
+   },
+   "traj_with_at_least_one": {
+    "ORDER": 0.0,
+    "NET": 0.07,
+    "PRESENCE": 0.99,
+    "PRES_UNLISTED": 0.015,
+    "OTHER": 0.0,
+    "WAIT": 0.0,
+    "LIGHT": 1.0,
+    "INVALID": 0.0
+   },
+   "noact_turns": 331,
+   "invalid_actions_excluded": 0,
+   "top_unrecognised": [
+    [
+     "aws",
+     2
+    ],
+    [
+     "/opt/miniconda3/envs/testbed/b",
+     2
+    ],
+    [
+     "conan",
+     1
+    ]
+   ]
+  },
+  "swe-agent full shard": {
+   "trajectories": 6670,
+   "tool_calls": 164226,
+   "model_wait_windows": 174815,
+   "model_wait_windows_per_traj_median": 16.0,
+   "classes": {
+    "ORDER": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "NET": {
+     "n": 1418,
+     "share": 0.008634442780071364,
+     "ci95_cluster_boot": [
+      0.005751581228139882,
+      0.01169249579525113
+     ]
+    },
+    "PRESENCE": {
+     "n": 25951,
+     "share": 0.15802004554699012,
+     "ci95_cluster_boot": [
+      0.15093796570728493,
+      0.165165809876463
+     ]
+    },
+    "PRES_UNLISTED": {
+     "n": 4024,
+     "share": 0.0245028192856186,
+     "ci95_cluster_boot": [
+      0.01970140142631797,
+      0.030041570600572217
+     ]
+    },
+    "OTHER": {
+     "n": 473,
+     "share": 0.0028801773166246512,
+     "ci95_cluster_boot": [
+      0.0009481060381371148,
+      0.00565259599330415
+     ]
+    },
+    "WAIT": {
+     "n": 31,
+     "share": 0.00018876426388026257,
+     "ci95_cluster_boot": [
+      6.125641814479632e-06,
+      0.0005352072165672578
+     ]
+    },
+    "LIGHT": {
+     "n": 132329,
+     "share": 0.805773750806815,
+     "ci95_cluster_boot": [
+      0.796739225917696,
+      0.8147475360122484
+     ]
+    },
+    "INVALID": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "groups": {
+    "E0_type (WAIT+LIGHT)": {
+     "share": 0.8059625150706953,
+     "ci95": [
+      0.7969570120964593,
+      0.8148394960982531
+     ]
+    },
+    "phase_type (ORDER+PRESENCE)": {
+     "share": 0.1825228648326087,
+     "ci95": [
+      0.17480870599081644,
+      0.190918388985413
+     ]
+    },
+    "not_covered (NET+OTHER)": {
+     "share": 0.011514620096696017,
+     "ci95": [
+      0.007933119436071761,
+      0.015422316952042383
+     ]
+    }
+   },
+   "traj_with_at_least_one": {
+    "ORDER": 0.0,
+    "NET": 0.04152923538230885,
+    "PRESENCE": 0.7430284857571214,
+    "PRES_UNLISTED": 0.09580209895052474,
+    "OTHER": 0.005547226386806597,
+    "WAIT": 0.0007496251874062968,
+    "LIGHT": 0.9976011994002999,
+    "INVALID": 0.0
+   },
+   "noact_turns": 0,
+   "invalid_actions_excluded": 5990,
+   "top_unrecognised": [
+    [
+     "dvc",
+     645
+    ],
+    [
+     "asv",
+     469
+    ],
+    [
+     "cekit",
+     179
+    ],
+    [
+     "ping",
+     120
+    ],
+    [
+     "pyupgrade",
+     111
+    ],
+    [
+     "search",
+     107
+    ],
+    [
+     "sqlite3",
+     97
+    ],
+    [
+     "search_github",
+     96
+    ],
+    [
+     "/bin/mount",
+     93
+    ],
+    [
+     "_fetch_from_eutils(Q",
+     88
+    ],
+    [
+     "pypistats",
+     77
+    ],
+    [
+     "nose2",
+     74
+    ],
+    [
+     "host",
+     73
+    ],
+    [
+     "sanic",
+     69
+    ],
+    [
+     "search_engine",
+     65
+    ],
+    [
+     "lsQ",
+     59
+    ],
+    [
+     "command(s",
+     57
+    ],
+    [
+     "pydantic",
+     54
+    ],
+    [
+     "service",
+     53
+    ],
+    [
+     "search_web",
+     52
+    ],
+    [
+     "webcomix",
+     47
+    ],
+    [
+     "streamlink",
+     47
+    ],
+    [
+     "sqlfluff",
+     46
+    ],
+    [
+     "md2cf",
+     46
+    ],
+    [
+     "pretty-format-yaml",
+     46
+    ]
+   ]
+  },
+  "openhands full": {
+   "trajectories": 491,
+   "tool_calls": 8325,
+   "model_wait_windows": 9630,
+   "model_wait_windows_per_traj_median": 16.0,
+   "classes": {
+    "ORDER": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "NET": {
+     "n": 22,
+     "share": 0.002642642642642643,
+     "ci95_cluster_boot": [
+      0.001628082095053363,
+      0.0038415512904428277
+     ]
+    },
+    "PRESENCE": {
+     "n": 1642,
+     "share": 0.19723723723723724,
+     "ci95_cluster_boot": [
+      0.18647711435972109,
+      0.20767808303961444
+     ]
+    },
+    "PRES_UNLISTED": {
+     "n": 15,
+     "share": 0.0018018018018018018,
+     "ci95_cluster_boot": [
+      0.0003591921779236055,
+      0.0040076845591825415
+     ]
+    },
+    "OTHER": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "WAIT": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    },
+    "LIGHT": {
+     "n": 6646,
+     "share": 0.7983183183183183,
+     "ci95_cluster_boot": [
+      0.7873837668906779,
+      0.8090081827759692
+     ]
+    },
+    "INVALID": {
+     "n": 0,
+     "share": 0.0,
+     "ci95_cluster_boot": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "groups": {
+    "E0_type (WAIT+LIGHT)": {
+     "share": 0.7983183183183183,
+     "ci95": [
+      0.7873837668906779,
+      0.8090081827759692
+     ]
+    },
+    "phase_type (ORDER+PRESENCE)": {
+     "share": 0.19903903903903905,
+     "ci95": [
+      0.18859120484870828,
+      0.20985439946991086
+     ]
+    },
+    "not_covered (NET+OTHER)": {
+     "share": 0.002642642642642643,
+     "ci95": [
+      0.001628082095053363,
+      0.0038415512904428277
+     ]
+    }
+   },
+   "traj_with_at_least_one": {
+    "ORDER": 0.0,
+    "NET": 0.04276985743380855,
+    "PRESENCE": 0.9918533604887984,
+    "PRES_UNLISTED": 0.012219959266802444,
+    "OTHER": 0.0,
+    "WAIT": 0.0,
+    "LIGHT": 1.0,
+    "INVALID": 0.0
+   },
+   "noact_turns": 851,
+   "invalid_actions_excluded": 0,
+   "top_unrecognised": [
+    [
+     "dvc",
+     8
+    ],
+    [
+     "/opt/miniconda3/envs/testbed/b",
+     4
+    ],
+    [
+     "conan",
+     2
+    ],
+    [
+     "aws",
+     2
+    ]
+   ]
+  }
+ },
+ "models_in_swe_agent_sample": {
+  "swe-agent-llama-70b": 188,
+  "swe-agent-llama-8b": 12
+ },
+ "resolved_in_swe_agent_sample": 22
+}

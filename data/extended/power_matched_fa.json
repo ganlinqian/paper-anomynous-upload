@@ -1,0 +1,51 @@
+{
+ "label": "POST HOC separability comparison on C36 batch 4; oracle matched-FA thresholds",
+ "n_hidden": 48,
+ "n_neg": 39,
+ "n_cal": 8,
+ "features": {
+  "abs_win": {
+   "AUC": 0.896,
+   "det_at_FA0": 26,
+   "det_at_FA1": 31
+  },
+  "peak500": {
+   "AUC": 0.988,
+   "det_at_FA0": 40,
+   "det_at_FA1": 40
+  },
+  "win_minus_idle": {
+   "AUC": 0.737,
+   "det_at_FA0": 19,
+   "det_at_FA1": 24
+  },
+  "abs_win_roll4": {
+   "AUC": 0.956,
+   "det_at_FA0": 28,
+   "det_at_FA1": 33,
+   "calmax_rule": {
+    "hidden": 23,
+    "negFA": 0
+   }
+  },
+  "peak500_roll4": {
+   "AUC": 0.995,
+   "det_at_FA0": 40,
+   "det_at_FA1": 47,
+   "calmax_rule": {
+    "hidden": 48,
+    "negFA": 8
+   }
+  },
+  "EM C31 ensemble": {
+   "AUC": 0.997,
+   "det_at_FA0": 43,
+   "det_at_FA1": 48
+  },
+  "EM C35 self_roll4": {
+   "AUC": 0.982,
+   "det_at_FA0": 40,
+   "det_at_FA1": 42
+  }
+ }
+}

@@ -1,0 +1,277 @@
+"""Processing for the S1/S2/S3 supplements (desktop side; no model services).
+
+Subcommands
+  extract     --campaign DIR   run one bounded chunk of capture-pc-local extraction (resumable)
+  fetch       --campaign DIR   copy main-channel feature files to DIR/features
+  eval-wait   --campaign DIR   S1/S3: apply frozen C07, C10-calibration, reference, window and burst detectors
+  train-order --campaign DIR   S2 train stage: fit and freeze the order models (writes models/S2_ORDER_MODELS.json)
+  eval-order  --campaign DIR   S2 test stage: apply the frozen order models
+  train-diverse --campaign S1DIR  fit and freeze the diverse-workload activity models on all C24 runs (models/C27_DIVERSE_MODELS.json)
+  eval-diverse  --campaign DIR    C27 (stage s1b): apply the frozen diverse-workload models
+  clock-check --campaign S3DIR [--apply DIR]   S3: pre-specified clock-environment check (thresholds from S3 condition
+              'silent' only); --apply evaluates the same thresholds on another campaign (e.g. S1) without refitting
+Feature functions and frozen models are imported/read from session ws_pi without modification.
+"""
+import argparse, csv, hashlib, json, pathlib, subprocess, sys, time
+import numpy as np
+from scipy.special import expit
+B = pathlib.Path(__file__).resolve().parent
+SRC = pathlib.Path(r'<WORKSPACE>/ws_pi\results\scenario_rf_20261104')
+AX = SRC / 'analysis_extensions'
+sys.path.insert(0, str(SRC))
+from remote_extensions import load_features, model, stats          # noqa: E402
+from relative_reference_features import feature as referenced      # noqa: E402
+from execution_window_features import feature as windowed          # noqa: E402
+
+FROZEN = {
+    'WAIT_CONFIRMATION_MODELS.json': (AX / 'WAIT_CONFIRMATION_MODELS.json', '2c802e7b01ee7b48cf17fee742f033f1267f557b272408db3a29fb1b352460d3'),
+    'RELATIVE_REFERENCE_MODELS.json': (AX / 'RELATIVE_REFERENCE_MODELS.json', '70d72ecf5321b6ee0a68cce74077fd7e5adc121087efda5ea7868a41a94b071b'),
+    'EXECUTION_WINDOW_MODELS.json': (AX / 'EXECUTION_WINDOW_MODELS.json', 'f238ff8e1a3f73a9d2fa29f0495a4d30cc36c5e255b02cb714a48432614e4224'),
+    'C10_CALIBRATION_MODELS_RECONSTRUCTED.json': (AX / 'early_burst_wait_20261105' / 'C10_CALIBRATION_MODELS_RECONSTRUCTED.json', 'ec83b153b44292f7b506f110ef6a6850bd8575e5128f23629b17aa75d9914f1a'),
+}
+sha = lambda p: hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+
+def ssh(cmd, timeout=170):
+    return subprocess.run(['ssh', '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=10', 'win@192.0.2.4', cmd], capture_output=True, text=True, timeout=timeout)
+
+def rows_of(d):
+    return json.loads((d / 'RESULTS.json').read_text(encoding='utf-8-sig'))
+
+def cmd_extract(d, budget=150):
+    rows = rows_of(d); camp = json.loads((d / 'FREEZE.json').read_text(encoding='utf-8-sig'))['campaign']
+    lst = [{'path': r2['raw'].replace('\\', '/'), 'id': r['id'], 'radio': '930c', 'expected_bytes': r2['expected_bytes']}
+           for r in rows for r2 in r['rf']['radios'] if r2['radio'] == '930c']
+    (d / 'win4_list.json').write_text(json.dumps(lst), encoding='utf-8')
+    remote = '<DATA>/telltale_sp2027/' + camp
+    subprocess.run(['scp', '-o', 'BatchMode=yes', str(d / 'win4_list.json'), str(B / 'win4_extract.py'), 'win@192.0.2.4:' + remote + '/'], check=True, timeout=60)
+    # bounded chunk: the extractor skips finished files, so repeated calls resume
+    r = ssh('cd /d ' + remote.replace('/', '\\') + ' && python win4_extract.py --list win4_list.json --out ' + remote.replace('/', '\\') + '\\features --workers 2', timeout=budget)
+    return {'files': len(lst), 'stdout_tail': r.stdout[-600:], 'stderr_tail': r.stderr[-600:], 'rc': r.returncode}
+
+def cmd_fetch(d):
+    camp = json.loads((d / 'FREEZE.json').read_text(encoding='utf-8-sig'))['campaign']
+    (d / 'features').mkdir(exist_ok=True)
+    r = subprocess.run(['scp', '-o', 'BatchMode=yes', 'win@192.0.2.4:<DATA>/telltale_sp2027/' + camp + '/features/*_930c.*', str(d / 'features')], capture_output=True, text=True, timeout=170)
+    n = len(list((d / 'features').glob('*_930c.npz')))
+    rows = rows_of(d); ok = 0
+    for x in rows:
+        meta = json.loads((d / 'features' / (x['id'] + '_930c.json')).read_text(encoding='utf-8-sig'))
+        assert meta['full_contiguous'] and meta['raw_bytes'] == 320000000; ok += 1
+    return {'npz': n, 'rows': len(rows), 'meta_checked': ok, 'rc': r.returncode}
+
+def check_frozen():
+    out = {}
+    for k, (p, h) in FROZEN.items():
+        assert sha(p) == h, k; out[k] = h
+    return out
+
+def predict(X, m):
+    q = expit(((X - np.array(m['mean'])) / np.array(m['scale'])) @ np.array(m['coefficient']) + m['intercept'])
+    return q > .5, q
+
+def cmd_eval_wait(d):
+    frozen = check_frozen(); rows = rows_of(d); assert all(x['valid'] for x in rows)
+    orig = json.loads(FROZEN['WAIT_CONFIRMATION_MODELS.json'][0].read_text()); rel = json.loads(FROZEN['RELATIVE_REFERENCE_MODELS.json'][0].read_text())
+    win = json.loads(FROZEN['EXECUTION_WINDOW_MODELS.json'][0].read_text()); c10 = json.loads(FROZEN['C10_CALIBRATION_MODELS_RECONSTRUCTED.json'][0].read_text())
+    burst = json.loads((AX / 'BURST_EXPLORATORY_FREEZE.json').read_text())['models']
+    actual = np.array([x['actual_active'] for x in rows]); preds = []; summary = {}
+    def add(name, alert, score):
+        for x, a, s in zip(rows, alert, score):
+            preds.append({'detector': name, 'id': x['id'], 'block': x['block'], 'condition': x['condition'], 'actual_active': bool(x['actual_active']),
+                          'alert': bool(a), 'score': float(s)})
+        by = {}
+        for cond in sorted({x['condition'] for x in rows}):
+            m = np.array([x['condition'] == cond for x in rows]); by[cond] = {'alerts': int(np.sum(np.array(alert)[m])), 'n': int(m.sum())}
+        summary[name] = {'by_condition': by, **stats(actual, np.array(alert), np.array(score))}
+    for k in ('whole_260', 'temporal_260'):
+        X = np.array([load_features(d, x, k == 'temporal_260') for x in rows]); a, q = predict(X, orig['models'][k]['physical']); add('C07_frozen/' + k, a, q)
+        a, q = predict(X, c10['models'][k + '/plain']); add('C10_transfer/' + k + '/plain', a, q)
+        a, q = predict(X, c10['models'][k + '/cover_False']); add('C10_transfer/' + k + '/cover_False', a, q)
+        X = np.array([referenced(d, x, k == 'temporal_260')[0] for x in rows]); a, q = predict(X, rel['families']['wait']['models'][k]['physical']); add('relative_ref/' + k, a, q)
+        for wname, kk in win['families']['wait']['windows'].items():
+            X = np.array([windowed(d, x, wname, k == 'temporal_260')[0] for x in rows]); a, q = predict(X, kk[k]['physical']); add('window_' + wname + '/' + k, a, q)
+    for key, m in burst.items():
+        s = []
+        for x in rows:
+            with np.load(d / 'features' / (x['id'] + '_930c.npz')) as f:
+                pw = f['power_db']; med = float(np.median(pw))
+                s.append({'p99_minus_p50': float(np.quantile(pw, .99) - med), 'max_minus_p50': float(np.max(pw) - med), 'top3mean_minus_p50': float(np.mean(np.sort(pw)[-3:]) - med)}[key])
+        s = np.array(s); add('burst/' + key, s > m['threshold'], s)
+    out = {'utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'campaign': d.name, 'n': len(rows), 'frozen_sha256': frozen, 'no_fit': True, 'summary': summary}
+    (d / 'EVALUATION.json').write_text(json.dumps(out, indent=1), encoding='utf-8')
+    with (d / 'predictions.csv').open('w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=list(preds[0])); w.writeheader(); w.writerows(preds)
+    return {k: v['by_condition'] for k, v in summary.items()}
+
+def order_X(d, rows, kind):
+    if kind == 'call_temporal':
+        return np.array([windowed(d, x, 'call_bracket', True)[0] for x in rows])
+    if kind == 'record_temporal':
+        return np.array([load_features(d, x, True) for x in rows])
+    if kind == 'record_whole':
+        return np.array([load_features(d, x, False) for x in rows])
+    if kind == 'elapsed':
+        return np.array([[x['elapsed_s']] for x in rows])
+    raise ValueError(kind)
+
+KINDS = ['call_temporal', 'record_temporal', 'record_whole', 'elapsed']
+
+def cmd_train_order(d):
+    rows = rows_of(d); assert all(x['valid'] for x in rows) and len(rows) == 16
+    y = np.array([x['actual_verify_first'] for x in rows]); out = {'utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'training_campaign': d.name,
+                                                                    'training_ids': [x['id'] for x in rows], 'primary': 'call_temporal', 'models': {},
+                                                                    'feature_code_sha256': {'remote_extensions.py': sha(SRC / 'remote_extensions.py'),
+                                                                                            'execution_window_features.py': sha(SRC / 'execution_window_features.py')}}
+    for kind in KINDS:
+        X = order_X(d, rows, kind); m = model().fit(X, y); s, c = m[0], m[1]
+        out['models'][kind] = {'mean': s.mean_.tolist(), 'scale': s.scale_.tolist(), 'coefficient': c.coef_[0].tolist(), 'intercept': float(c.intercept_[0]),
+                               'classes': [bool(v) for v in c.classes_], 'target': 'actual_verify_first', 'train_accuracy': float(m.score(X, y))}
+    (B / 'models').mkdir(exist_ok=True); p = B / 'models' / 'S2_ORDER_MODELS.json'
+    if p.exists():
+        raise FileExistsError('frozen model exists; never overwrite')
+    p.write_text(json.dumps(out, indent=1), encoding='utf-8'); h = sha(p)
+    (B / 'models' / 'S2_ORDER_MODELS.sha256').write_text(h + '  S2_ORDER_MODELS.json\n' + out['utc'] + '\n', encoding='utf-8')
+    return {'sha256': h, 'train_accuracy': {k: v['train_accuracy'] for k, v in out['models'].items()}}
+
+def cmd_eval_order(d):
+    p = B / 'models' / 'S2_ORDER_MODELS.json'; mj = json.loads(p.read_text(encoding='utf-8')); h = sha(p)
+    freeze = json.loads((d / 'FREEZE.json').read_text(encoding='utf-8-sig'))
+    assert any(pathlib.Path(k).name == 'S2_ORDER_MODELS.json' and v == h for k, v in freeze['source_sha256'].items()), 'model not frozen before test collection'
+    rows = rows_of(d); assert all(x['valid'] for x in rows) and not ({x['id'] for x in rows} & set(mj['training_ids']))
+    actual = np.array([x['actual_verify_first'] for x in rows]); y = ~actual          # violation = extract first (contract: verify first)
+    summary = {}; preds = []
+    for kind, m in mj['models'].items():
+        X = order_X(d, rows, kind); a, q = predict(X, m); alert = ~a; vscore = 1 - q
+        summary[kind] = stats(y, alert, vscore)
+        blocks = {}
+        for x, al, v in zip(rows, alert, y):
+            blocks.setdefault(x['block'], []).append(bool(al) == bool(v))
+        summary[kind]['perfect_blocks'] = sum(all(v) for v in blocks.values()); summary[kind]['blocks'] = len(blocks)
+        for x, al, s in zip(rows, alert, vscore):
+            preds.append({'model': kind, 'id': x['id'], 'block': x['block'], 'order': x['order'], 'violation': bool(not x['actual_verify_first']), 'alert': bool(al), 'score': float(s)})
+    out = {'utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'campaign': d.name, 'model_sha256': h, 'n': len(rows), 'primary': mj['primary'],
+           'transcript_bound_correct': len(rows) // 2, 'summary': summary}
+    (d / 'EVALUATION.json').write_text(json.dumps(out, indent=1), encoding='utf-8')
+    with (d / 'predictions.csv').open('w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=list(preds[0])); w.writeheader(); w.writerows(preds)
+    return {k: {t: v[t] for t in v if t in ('tp', 'fn', 'fp', 'tn', 'perfect_blocks', 'auc')} for k, v in summary.items()}
+
+# ---- diverse-workload activity models (C27; fixed 2026-11-06 after the frozen C24 evaluation, before C27 collection)
+DIVERSE_KINDS = ['call_temporal', 'call_whole', 'record_temporal']        # primary: call_temporal
+
+def diverse_X(d, rows, kind):
+    if kind == 'call_temporal':
+        return np.array([windowed(d, x, 'call_bracket', True)[0] for x in rows])
+    if kind == 'call_whole':
+        return np.array([windowed(d, x, 'call_bracket', False)[0] for x in rows])
+    if kind == 'record_temporal':
+        return np.array([load_features(d, x, True) for x in rows])
+    raise ValueError(kind)
+
+def cmd_train_diverse(d):
+    rows = rows_of(d); assert all(x['valid'] for x in rows) and len(rows) == 56 and d.name.startswith('s1_')
+    y = np.array([bool(x['actual_active']) for x in rows])
+    out = {'utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'training_campaign': d.name, 'training_ids': [x['id'] for x in rows],
+           'training_conditions': sorted({x['condition'] for x in rows}), 'target': 'actual_active (any hidden work)', 'primary': 'call_temporal',
+           'pipeline': 'StandardScaler + LogisticRegression(C=1, class_weight=balanced), alert if P(active) > 0.5', 'models': {},
+           'feature_code_sha256': {'remote_extensions.py': sha(SRC / 'remote_extensions.py'), 'execution_window_features.py': sha(SRC / 'execution_window_features.py')}}
+    for kind in DIVERSE_KINDS:
+        X = diverse_X(d, rows, kind); m = model(balanced=True).fit(X, y); s, c = m[0], m[1]
+        out['models'][kind] = {'mean': s.mean_.tolist(), 'scale': s.scale_.tolist(), 'coefficient': c.coef_[0].tolist(), 'intercept': float(c.intercept_[0]),
+                               'classes': [bool(v) for v in c.classes_], 'train_accuracy': float(m.score(X, y))}
+        assert out['models'][kind]['classes'] == [False, True]
+    (B / 'models').mkdir(exist_ok=True); p = B / 'models' / 'C27_DIVERSE_MODELS.json'
+    if p.exists():
+        raise FileExistsError('frozen model exists; never overwrite')
+    p.write_text(json.dumps(out, indent=1), encoding='utf-8'); h = sha(p)
+    (B / 'models' / 'C27_DIVERSE_MODELS.sha256').write_text(h + '  C27_DIVERSE_MODELS.json\n' + out['utc'] + '\n', encoding='utf-8')
+    return {'sha256': h, 'train_accuracy': {k: v['train_accuracy'] for k, v in out['models'].items()}}
+
+def cmd_eval_diverse(d):
+    p = B / 'models' / 'C27_DIVERSE_MODELS.json'; mj = json.loads(p.read_text(encoding='utf-8')); h = sha(p)
+    freeze = json.loads((d / 'FREEZE.json').read_text(encoding='utf-8-sig'))
+    assert any(pathlib.Path(k).name == 'C27_DIVERSE_MODELS.json' and v == h for k, v in freeze['source_sha256'].items()), 'model not frozen before collection'
+    rows = rows_of(d); assert all(x['valid'] for x in rows) and not ({x['id'] for x in rows} & set(mj['training_ids']))
+    actual = np.array([bool(x['actual_active']) for x in rows]); summary = {}; preds = []
+    for kind, m in mj['models'].items():
+        a, q = predict(diverse_X(d, rows, kind), m)
+        by = {}
+        for cond in sorted({x['condition'] for x in rows}):
+            mk = np.array([x['condition'] == cond for x in rows]); by[cond] = {'alerts': int(np.sum(a[mk])), 'n': int(mk.sum())}
+        summary[kind] = {'by_condition': by, **stats(actual, a, q)}
+        for x, al, s in zip(rows, a, q):
+            preds.append({'detector': 'C27_diverse/' + kind, 'id': x['id'], 'block': x['block'], 'condition': x['condition'],
+                          'actual_active': bool(x['actual_active']), 'alert': bool(al), 'score': float(s)})
+    out = {'utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'campaign': d.name, 'model_sha256': h, 'n': len(rows), 'primary': mj['primary'],
+           'no_fit': True, 'summary': summary}
+    (d / 'EVALUATION_DIVERSE.json').write_text(json.dumps(out, indent=1), encoding='utf-8')
+    with (d / 'predictions_diverse.csv').open('w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=list(preds[0])); w.writeheader(); w.writerows(preds)
+    return {k: v['by_condition'] for k, v in summary.items()}
+
+# ---- clock-environment check (S3; fixed 2026-11-06 before any S3 run was collected)
+from execution_window_features import EMPTY                         # noqa: E402
+CLOCK_K = 4.0          # flag when |z| of the level change, or z of the shape deviation, exceeds 4 (z from S3 'silent')
+PRIMARY_ACTIVITY = 'C10_transfer/temporal_260/plain'
+
+def clock_stats(d, x):
+    """Level change dP (dB) and band-shape deviation S (dB RMS) of the call window against the 0.2 s pre-dispatch reference."""
+    with np.load(d / 'features' / (x['id'] + '_930c.npz')) as f:
+        w = f['sample_counts'].astype(float); bands = f['band_db']; power = f['power_db']
+    end = np.cumsum(w); start = end - w
+    before = next(m['bytes'] for m in x['before']['marks'] if m['radio'] == '930c')
+    after = next(m['bytes'] for m in x['after']['marks'] if m['radio'] == '930c')
+    ref = end <= .2 * 20e6; call = (start * 2 >= before) & (end * 2 <= after)
+    assert ref.sum() >= 2 and end[ref][-1] * 2 < before and call.sum() >= 8
+    lin = lambda a, m: 10 * np.log10(np.average(10 ** (a[m] / 10), axis=0, weights=w[m]))
+    keep = [j for j in range(64) if j not in EMPTY]
+    db = (lin(bands, call) - lin(bands, ref))[keep]
+    return float(lin(power, call) - lin(power, ref)), float(np.sqrt(np.mean((db - db.mean()) ** 2)))
+
+def clock_apply(d, thr):
+    rows = rows_of(d); assert all(x['valid'] for x in rows)
+    act = {}
+    pc = d / 'predictions.csv'
+    if pc.exists():
+        with pc.open(encoding='utf-8') as f:
+            act = {r['id']: r['alert'] == 'True' for r in csv.DictReader(f) if r['detector'] == PRIMARY_ACTIVITY}
+    per = []
+    for x in rows:
+        dp, s = clock_stats(d, x); zp = (dp - thr['dp_mean']) / thr['dp_sd']; zs = (s - thr['shape_mean']) / thr['shape_sd']
+        flag = bool(abs(zp) > CLOCK_K or zs > CLOCK_K)
+        per.append({'id': x['id'], 'block': x['block'], 'condition': x['condition'], 'actual_active': bool(x['actual_active']), 'dvfs_cap_khz': x.get('dvfs_cap_khz'),
+                    'dP_db': dp, 'shape_db': s, 'z_level': zp, 'z_shape': zs, 'clock_flag': flag, 'activity_alert': act.get(x['id']),
+                    'combined_alert': (bool(act[x['id']]) or flag) if x['id'] in act else None})
+    by = {}
+    for cond in sorted({p['condition'] for p in per}):
+        q = [p for p in per if p['condition'] == cond]
+        by[cond] = {'n': len(q), 'clock_flags': sum(p['clock_flag'] for p in q),
+                    'activity_alerts': sum(bool(p['activity_alert']) for p in q) if act else None,
+                    'combined_alerts': sum(bool(p['combined_alert']) for p in q) if act else None,
+                    'dP_db': [round(p['dP_db'], 4) for p in q], 'shape_db': [round(p['shape_db'], 4) for p in q]}
+    return per, by
+
+def cmd_clock_check(d, apply_to=None):
+    rows = rows_of(d); assert all(x['valid'] for x in rows) and d.name.startswith('s3_')
+    ref = [clock_stats(d, x) for x in rows if x['condition'] == 'silent']; assert len(ref) == 6
+    P = np.array([v[0] for v in ref]); S = np.array([v[1] for v in ref])
+    thr = {'dp_mean': float(P.mean()), 'dp_sd': float(P.std(ddof=1)), 'shape_mean': float(S.mean()), 'shape_sd': float(S.std(ddof=1)), 'k': CLOCK_K,
+           'source': d.name + " condition 'silent' (1.8 GHz, no hidden work)", 'primary_activity_detector': PRIMARY_ACTIVITY}
+    per, by = clock_apply(d, thr)
+    out = {'utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'campaign': d.name, 'thresholds': thr, 'by_condition': by, 'runs': per}
+    if apply_to:
+        per2, by2 = clock_apply(pathlib.Path(apply_to), thr); out['applied'] = {'campaign': pathlib.Path(apply_to).name, 'by_condition': by2, 'runs': per2}
+    (d / 'CLOCK_CHECK.json').write_text(json.dumps(out, indent=1), encoding='utf-8')
+    res = {'thresholds': thr, 'by_condition': {k: {t: v[t] for t in ('n', 'clock_flags', 'activity_alerts', 'combined_alerts')} for k, v in by.items()}}
+    if apply_to:
+        res['applied'] = {k: {t: v[t] for t in ('n', 'clock_flags', 'activity_alerts', 'combined_alerts')} for k, v in out['applied']['by_condition'].items()}
+    return res
+
+if __name__ == '__main__':
+    ap = argparse.ArgumentParser(); ap.add_argument('cmd'); ap.add_argument('--campaign', required=True); ap.add_argument('--apply')
+    ap.add_argument('--budget', type=int, default=150, help='extract only: seconds for one bounded chunk'); a = ap.parse_args()
+    d = pathlib.Path(a.campaign)
+    fn = {'extract': cmd_extract, 'fetch': cmd_fetch, 'eval-wait': cmd_eval_wait, 'train-order': cmd_train_order, 'eval-order': cmd_eval_order,
+          'clock-check': cmd_clock_check, 'train-diverse': cmd_train_diverse, 'eval-diverse': cmd_eval_diverse}[a.cmd]
+    args = (d, a.budget) if a.cmd == 'extract' else ((d, a.apply) if a.cmd == 'clock-check' else (d,))
+    print(json.dumps(fn(*args), indent=1, default=str))

@@ -1,0 +1,216 @@
+{
+ "utc": "2026-11-10T20:57:45Z",
+ "campaign": "s1i_20261110_195752_fcf10d",
+ "model_sha256": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+ "n": 88,
+ "n_test": 80,
+ "primary": "avg_whole_temporal",
+ "no_fit": true,
+ "calibration_ids": [
+  "n17b1637ff1ba",
+  "nbd791f111610",
+  "n0ac260c17fa2",
+  "n659d81402cbc",
+  "n102ca6b9b390",
+  "na59df89f3b60",
+  "nbc613566ed14",
+  "n45922823666d"
+ ],
+ "summary": {
+  "avg_whole_temporal": {
+   "by_condition": {
+    "bg_download": {
+     "alerts": 8,
+     "n": 8
+    },
+    "bg_log": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip1_full": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gziptxt32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "ossl16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "sha32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 16
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    },
+    "xz2": {
+     "alerts": 8,
+     "n": 8
+    },
+    "zstd16": {
+     "alerts": 8,
+     "n": 8
+    }
+   },
+   "tp": 40,
+   "fn": 8,
+   "fp": 8,
+   "tn": 24,
+   "accuracy": 0.8,
+   "accuracy_95pct": [
+    0.6956311329945355,
+    0.8811409135950147
+   ],
+   "tpr": 0.8333333333333334,
+   "fpr": 0.25,
+   "tpr_95pct": [
+    0.6977775864701198,
+    0.9251891396004068
+   ],
+   "fpr_95pct": [
+    0.11461600510258818,
+    0.4340493749222426
+   ],
+   "balanced_accuracy": 0.7916666666666667,
+   "auc": 0.7981770833333333
+  },
+  "whole_C0.1": {
+   "by_condition": {
+    "bg_download": {
+     "alerts": 8,
+     "n": 8
+    },
+    "bg_log": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip1_full": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gziptxt32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "ossl16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "sha32": {
+     "alerts": 7,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 16
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    },
+    "xz2": {
+     "alerts": 8,
+     "n": 8
+    },
+    "zstd16": {
+     "alerts": 8,
+     "n": 8
+    }
+   },
+   "tp": 39,
+   "fn": 9,
+   "fp": 8,
+   "tn": 24,
+   "accuracy": 0.7875,
+   "accuracy_95pct": [
+    0.6817141914403442,
+    0.8710635049024182
+   ],
+   "tpr": 0.8125,
+   "fpr": 0.25,
+   "tpr_95pct": [
+    0.6737069760432866,
+    0.9105016181506272
+   ],
+   "fpr_95pct": [
+    0.11461600510258818,
+    0.4340493749222426
+   ],
+   "balanced_accuracy": 0.78125,
+   "auc": 0.7916666666666667
+  },
+  "temporal_C0.1": {
+   "by_condition": {
+    "bg_download": {
+     "alerts": 8,
+     "n": 8
+    },
+    "bg_log": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip1_full": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gziptxt32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "ossl16": {
+     "alerts": 8,
+     "n": 8
+    },
+    "sha32": {
+     "alerts": 8,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 16
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    },
+    "xz2": {
+     "alerts": 8,
+     "n": 8
+    },
+    "zstd16": {
+     "alerts": 8,
+     "n": 8
+    }
+   },
+   "tp": 40,
+   "fn": 8,
+   "fp": 8,
+   "tn": 24,
+   "accuracy": 0.8,
+   "accuracy_95pct": [
+    0.6956311329945355,
+    0.8811409135950147
+   ],
+   "tpr": 0.8333333333333334,
+   "fpr": 0.25,
+   "tpr_95pct": [
+    0.6977775864701198,
+    0.9251891396004068
+   ],
+   "fpr_95pct": [
+    0.11461600510258818,
+    0.4340493749222426
+   ],
+   "balanced_accuracy": 0.7916666666666667,
+   "auc": 0.7962239583333334
+  }
+ }
+}

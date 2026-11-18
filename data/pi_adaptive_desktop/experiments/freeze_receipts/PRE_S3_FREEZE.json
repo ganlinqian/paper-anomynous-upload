@@ -1,0 +1,11 @@
+{
+ "utc": "2026-11-06T02:16:39.7899552Z",
+ "note": "clock-check (S3) and S2 analysis code fixed before any S3/S2 run was collected; S1 collection in progress",
+ "sha256": {
+  "experiments\\process_sp2027.py": "5757e3fd6acfb41facfeed3b3a7ddd8a9ad800cbfc102c9495ef1f25ae08bdd7",
+  "03_.md": "dd161b5e0d89706cca816ecd200f9f400f18d41ecb88657c9547ff35f616b0d5",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "experiments\\run_sp2027_chain.ps1": "6cba1595f782fced9ec28f875c6465a9d3ad2ec9be8e3771a4eb56158605f63b"
+ },
+ "s3_started": false
+}

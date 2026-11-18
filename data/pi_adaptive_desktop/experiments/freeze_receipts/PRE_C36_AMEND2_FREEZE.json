@@ -1,0 +1,45 @@
+{
+ "utc": "2026-11-15T20:35:22.692306+00:00",
+ "note": "C36 batch 3 (s1l, new campaign). Batch 2 s1l_20261115_172344_ee1d0d stopped fail-closed at run 23 (17:37:21 UTC) after 22 valid runs: both radios ran but wrote no samples for ~8 s after spawn (capture did not become ready within 5 s); ATK-C was already at Idle priority, so CPU pre-emption is unlikely. With C2 attached to capture_pc: 3 open/spawn stalls in 66 runs (1.06 s, 3.83 s, ~8 s) vs 0/192 in C34/C35; not reproduced by 60 hackrf_info opens. Cause unknown; C2 stays on capture_pc (user choice: plan 1). Change: stage s1l only, a capture that is not ready within 5 s, or that becomes ready with > 48,000,000 bytes (1.2 s) already recorded on a radio (s1j/s1k/s1l normal max 0.82 s), is discarded before the call is dispatched (IQ deleted, logs kept as <id>_<radio>.abortK.log, record field capture_aborts) and retried with the same id, at most 2 retries; the third failure stops the batch as before. The retry decision uses only capture_pc byte counts and cannot see the condition; validity checks, detectors, endpoints, plan/seed and power-meter plan are unchanged. Batches 1 and 2 are kept and reported separately as interrupted; batch 3 replaces them for all pre-specified C36 endpoints. Rig test on capture_pc (receipt power_c36/rig_retry_test.txt): forced-abort copy aborted twice then raised; real file captured 2 x 320,000,000 bytes. Post-sync of batch 2: sync_pulses_c36b_post_20261115T200421Z.json.",
+ "sha256": {
+  "experiments/models/C35_SELFROLL_MODELS.json": "d3fd4760cc5bc847a2a7f2232d8da67a37da4a08527c0e67ec3db65bef28fd3e",
+  "experiments/models/C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments/models/C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments/process_sp2027.py": "a426837e34532a62fe60e95641891652fc6ed44b246f174b5054ff70a95b88e5",
+  "experiments/collect_sp2027_wait.py": "7dd5c9fc8c701b2d776586f13fd5bb93a4fe65bf17b4e5a366048260e9be18e0",
+  "experiments/pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "experiments/run_sp2027_chain.ps1": "3737dc1ae53e6519ef33057a26ad48fe587fea900ebe1867752e5b93aa8433ba",
+  "experiments/start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments/rig_capture_stagger_sp2027.py": "30e70cc648db52b100a609c0950af83d7fb39207c84de11bdde5b1d276bfc384",
+  "scripts/c35_stats.py": "1548a679c804e477bf8fdfda81cdd005ab21600a34f6fd27f799ab73df8f0f3d",
+  "scripts/c36_stats.py": "1798db6e4216cb6e2ead8f67b70a24a421a9a7ca7e395a1da7db786884bdb3b2",
+  "experiments/freeze_receipts/PRE_C36_FREEZE.json": "f2f9525ec82965e7db1cb1e3e03271cd7080b6c2b6d7258a400c40ad8a35d80d",
+  "power_c36/POWER_PLAN.md": "105e3ba5eff4636b946348969617ce2c813ecbf1b8d50e5de8c96f2c88b24fed",
+  "power_c36/sync_pulses.py": "09e3288ed5d5ced24447c423071ed3c7e1ab3a5df3b5b21d21d3c2253ac834f3",
+  "power_c36/align_sync.py": "7b8e99e880dc4c29d7440ef4873faf225ba129794c98e752a2907ff544e0f4cc",
+  "power_c36/set_atk_idle.py": "31c9717df084eadf1bfc178ba052515244cc881832688393387ff11a3e022eb0",
+  "power_c36/spawn_gaps.py": "2afa22e9979c98a151f3e3949d21009aefe6edf59c40c8805f1f96d03570bf2d",
+  "experiments/freeze_receipts/PRE_C36_AMEND_FREEZE.json": "3c1c65850fa0a8775e81a6cad5b17aa26039846df622f4e6f2f95234b21a3613",
+  "power_c36/C36B_STOP_NOTE.md": "6db9a75f9cb07cf5a6b8446dd1501777ceb6f9fb191a1eadfc191f064b4c8ece",
+  "power_c36/rig_retry_test.py": "448bf919488038c5d8a2fd57f318cde58ec0be94c33476cfb1770c890cb36648",
+  "power_c36/rig_retry_test.txt": "5894799ef2eb118736784a92d2a5bf44baf7d214fc42c7dbdec97de3d3e4c08a",
+  "power_c36/ready_marks.py": "a421b0e7eafe6ae6ac33f997ea9a766c7376a290ea991d223c4310e98b63d667",
+  "power_c36/ready_marks.txt": "dc912fccf611577e1ac77f85369d759b4559b7e88b8ebf393a8ac2fbcdad1706",
+  "power_c36/diag_c36b.py": "24859af44552d3d9279398894595b9c2d8f81a9374ef6b450405917c5bd8e6f0",
+  "power_c36/rflog_c36b.py": "cb93dc6260d4331a43064fbaa5797501976db16afbe0cfb98964fa8fed32f425",
+  "power_c36/open_stall_test.py": "29846d88a1ed77e82751dea3b1254fdaaff7af1470a13ecdf429942971eef621",
+  "power_c36/backup_pre_c36c/collect_sp2027_wait.py": "414b13c9edd4b5c429b08a4e6e60028eadca314dd8c7631e61ac50798d54dd7c",
+  "power_c36/backup_pre_c36c/rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5"
+ },
+ "changed_files_previous_sha256": {
+  "experiments/collect_sp2027_wait.py": "414b13c9edd4b5c429b08a4e6e60028eadca314dd8c7631e61ac50798d54dd7c",
+  "experiments/rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5"
+ },
+ "interrupted_campaigns": [
+  "s1l_20261115_162746_babc18",
+  "s1l_20261115_172344_ee1d0d"
+ ],
+ "batch3_started": false,
+ "user_approved": true,
+ "approval": "user 2026-11-15: 1 (keep C2 on capture_pc; discard-and-retry captures that do not become ready, before dispatch)"
+}

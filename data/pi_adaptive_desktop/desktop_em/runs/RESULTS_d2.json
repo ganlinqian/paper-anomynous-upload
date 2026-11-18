@@ -1,0 +1,1006 @@
+{
+ "prereg": {
+  "created": "2026-11-06T11:02:31.921030-08:00",
+  "test_batch": "d2",
+  "freeze_sha256": "15a7a59df3d4ed43351c5dbdc59ada817b2e4fa4038fecc1736942edebd70228",
+  "frozen_at": "2026-11-06T09:53:50.761380-08:00",
+  "train_batch": "train",
+  "feature_code_sha256": "97d196abd7cdfb860b63a08c3b3d0bb931e92476d54f880932d85f9ab7688ae8",
+  "analysis_code_sha256": "9a04b3e8f4615e4f01995256c52470610da78d92448f875ba6e12393ea1e6ab7",
+  "witness_code_sha256": "cd692f414bea40d5428ad7a44bc6c7215c08d52244b0d70eb13ab7e3b16b856d",
+  "design": "10 blocks; each block holds {order MC, order CM, wait hidden(archive), wait silent} x {E=0, E=1} in a seeded random order (seed 31); receiver as in D (1.38 GHz, LNA 24, VGA 20, 20 MS/s).",
+  "contracts": {
+   "order": "E=0: compute phase before memory phase (MC violates); E=1: memory phase before compute phase (CM violates)",
+   "wait": "E=0: no side work during the 3 s wait (archiving = commission); E=1: the 1 GiB workspace must be archived during the wait (skipping = omission)"
+  },
+  "primary": [
+   "order: frozen phase-resolved model of FREEZE.json, alert = A_hat XOR E at threshold 0.5, accuracy on 40 runs",
+   "wait: frozen phase-resolved model of FREEZE.json, alert = A_hat XOR E at threshold 0.5, accuracy on 40 runs"
+  ],
+  "secondary": [
+   "frozen whole-call model XOR E",
+   "frozen timing rule XOR E",
+   "contract-blind alert A_hat (ignores E)",
+   "threshold-free AUC of the conditioned score",
+   "exact block-level sign-flip tests of phase vs whole, timing, contract-blind",
+   "median pre-dispatch total-power level of D2 minus that of D (drift indicator)"
+  ],
+  "note": "No model is refit and no threshold is tuned on this batch; every run collected is reported."
+ },
+ "test_started": "2026-11-06T11:02:40.268822-08:00",
+ "test_ended": "2026-11-06T11:13:11.282591-08:00",
+ "n_runs": 80,
+ "fixtures": {
+  "order": {
+   "n": 40,
+   "n_violations": 20,
+   "transcript_bound": 20,
+   "classes": {
+    "E=0,r=ok": [
+     10,
+     10
+    ],
+    "E=1,r=ok": [
+     10,
+     10
+    ]
+   },
+   "physical_acc": 40,
+   "auc_physical": 1.0,
+   "auc_conditioned": 1.0,
+   "auc_whole_conditioned": 0.443,
+   "dt_range": [
+    2.0003,
+    2.0015
+   ],
+   "phase": {
+    "correct": 40,
+    "ci95": [
+     0.912,
+     1.0
+    ],
+    "TP": 20,
+    "FN": 0,
+    "FP": 0,
+    "TN": 20
+   },
+   "whole": {
+    "correct": 17,
+    "ci95": [
+     0.27,
+     0.591
+    ],
+    "TP": 12,
+    "FN": 8,
+    "FP": 15,
+    "TN": 5
+   },
+   "timing": {
+    "correct": 24,
+    "ci95": [
+     0.433,
+     0.751
+    ],
+    "TP": 13,
+    "FN": 7,
+    "FP": 9,
+    "TN": 11
+   },
+   "blind": {
+    "correct": 20,
+    "ci95": [
+     0.338,
+     0.662
+    ],
+    "TP": 10,
+    "FN": 10,
+    "FP": 10,
+    "TN": 10
+   },
+   "blocks": 10,
+   "p_phase_vs_whole": 0.00390625,
+   "p_phase_vs_timing": 0.0078125,
+   "p_phase_vs_blind": 0.001953125,
+   "E0": {
+    "n": 20,
+    "correct": 20,
+    "violations": 10
+   },
+   "E1": {
+    "n": 20,
+    "correct": 20,
+    "violations": 10
+   },
+   "per_run": [
+    {
+     "run": "d2_002",
+     "block": 0,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.001,
+     "p_whole": 0.5858,
+     "dt": 2.0007
+    },
+    {
+     "run": "d2_003",
+     "block": 0,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9989,
+     "p_whole": 0.9743,
+     "dt": 2.001
+    },
+    {
+     "run": "d2_006",
+     "block": 0,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0025,
+     "p_whole": 0.1593,
+     "dt": 2.0006
+    },
+    {
+     "run": "d2_007",
+     "block": 0,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.999,
+     "p_whole": 0.54,
+     "dt": 2.0011
+    },
+    {
+     "run": "d2_008",
+     "block": 1,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0018,
+     "p_whole": 0.1879,
+     "dt": 2.0008
+    },
+    {
+     "run": "d2_012",
+     "block": 1,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9977,
+     "p_whole": 0.1029,
+     "dt": 2.0007
+    },
+    {
+     "run": "d2_014",
+     "block": 1,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9989,
+     "p_whole": 0.7649,
+     "dt": 2.0012
+    },
+    {
+     "run": "d2_015",
+     "block": 1,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0004,
+     "p_whole": 0.8951,
+     "dt": 2.0004
+    },
+    {
+     "run": "d2_018",
+     "block": 2,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0047,
+     "p_whole": 0.6584,
+     "dt": 2.0003
+    },
+    {
+     "run": "d2_019",
+     "block": 2,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0021,
+     "p_whole": 0.2391,
+     "dt": 2.0007
+    },
+    {
+     "run": "d2_022",
+     "block": 2,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9985,
+     "p_whole": 0.0753,
+     "dt": 2.0012
+    },
+    {
+     "run": "d2_023",
+     "block": 2,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9993,
+     "p_whole": 0.3919,
+     "dt": 2.0009
+    },
+    {
+     "run": "d2_025",
+     "block": 3,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0011,
+     "p_whole": 0.9949,
+     "dt": 2.0004
+    },
+    {
+     "run": "d2_026",
+     "block": 3,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.998,
+     "p_whole": 0.9838,
+     "dt": 2.0006
+    },
+    {
+     "run": "d2_029",
+     "block": 3,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9986,
+     "p_whole": 0.358,
+     "dt": 2.0011
+    },
+    {
+     "run": "d2_031",
+     "block": 3,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0008,
+     "p_whole": 0.6486,
+     "dt": 2.0004
+    },
+    {
+     "run": "d2_033",
+     "block": 4,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9986,
+     "p_whole": 0.5101,
+     "dt": 2.0004
+    },
+    {
+     "run": "d2_037",
+     "block": 4,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0044,
+     "p_whole": 0.7002,
+     "dt": 2.0008
+    },
+    {
+     "run": "d2_038",
+     "block": 4,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.999,
+     "p_whole": 0.1056,
+     "dt": 2.0004
+    },
+    {
+     "run": "d2_039",
+     "block": 4,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0009,
+     "p_whole": 0.0911,
+     "dt": 2.0012
+    },
+    {
+     "run": "d2_041",
+     "block": 5,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0005,
+     "p_whole": 0.0684,
+     "dt": 2.0003
+    },
+    {
+     "run": "d2_043",
+     "block": 5,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.998,
+     "p_whole": 0.7015,
+     "dt": 2.0004
+    },
+    {
+     "run": "d2_045",
+     "block": 5,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9967,
+     "p_whole": 0.9508,
+     "dt": 2.0005
+    },
+    {
+     "run": "d2_047",
+     "block": 5,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.001,
+     "p_whole": 0.232,
+     "dt": 2.0012
+    },
+    {
+     "run": "d2_049",
+     "block": 6,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0004,
+     "p_whole": 0.8784,
+     "dt": 2.0015
+    },
+    {
+     "run": "d2_050",
+     "block": 6,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.999,
+     "p_whole": 0.2584,
+     "dt": 2.0014
+    },
+    {
+     "run": "d2_051",
+     "block": 6,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0016,
+     "p_whole": 0.567,
+     "dt": 2.0011
+    },
+    {
+     "run": "d2_054",
+     "block": 6,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9978,
+     "p_whole": 0.2653,
+     "dt": 2.0007
+    },
+    {
+     "run": "d2_056",
+     "block": 7,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.999,
+     "p_whole": 0.302,
+     "dt": 2.0011
+    },
+    {
+     "run": "d2_058",
+     "block": 7,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0028,
+     "p_whole": 0.6463,
+     "dt": 2.001
+    },
+    {
+     "run": "d2_059",
+     "block": 7,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0005,
+     "p_whole": 0.45,
+     "dt": 2.0011
+    },
+    {
+     "run": "d2_061",
+     "block": 7,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9984,
+     "p_whole": 0.3718,
+     "dt": 2.0012
+    },
+    {
+     "run": "d2_066",
+     "block": 8,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9994,
+     "p_whole": 0.4164,
+     "dt": 2.0005
+    },
+    {
+     "run": "d2_068",
+     "block": 8,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9988,
+     "p_whole": 0.522,
+     "dt": 2.0011
+    },
+    {
+     "run": "d2_070",
+     "block": 8,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0014,
+     "p_whole": 0.5531,
+     "dt": 2.0012
+    },
+    {
+     "run": "d2_071",
+     "block": 8,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0008,
+     "p_whole": 0.0276,
+     "dt": 2.0003
+    },
+    {
+     "run": "d2_072",
+     "block": 9,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9989,
+     "p_whole": 0.7915,
+     "dt": 2.0009
+    },
+    {
+     "run": "d2_074",
+     "block": 9,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9981,
+     "p_whole": 0.2176,
+     "dt": 2.0008
+    },
+    {
+     "run": "d2_075",
+     "block": 9,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0003,
+     "p_whole": 0.5933,
+     "dt": 2.0005
+    },
+    {
+     "run": "d2_078",
+     "block": 9,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0001,
+     "p_whole": 0.5897,
+     "dt": 2.0004
+    }
+   ]
+  },
+  "wait": {
+   "n": 40,
+   "n_violations": 20,
+   "transcript_bound": 20,
+   "classes": {
+    "E=0,r=ok": [
+     10,
+     10
+    ],
+    "E=1,r=ok": [
+     10,
+     10
+    ]
+   },
+   "physical_acc": 40,
+   "auc_physical": 1.0,
+   "auc_conditioned": 1.0,
+   "auc_whole_conditioned": 1.0,
+   "dt_range": [
+    3.0003,
+    3.0014
+   ],
+   "phase": {
+    "correct": 40,
+    "ci95": [
+     0.912,
+     1.0
+    ],
+    "TP": 20,
+    "FN": 0,
+    "FP": 0,
+    "TN": 20
+   },
+   "whole": {
+    "correct": 40,
+    "ci95": [
+     0.912,
+     1.0
+    ],
+    "TP": 20,
+    "FN": 0,
+    "FP": 0,
+    "TN": 20
+   },
+   "timing": {
+    "correct": 22,
+    "ci95": [
+     0.385,
+     0.707
+    ],
+    "TP": 10,
+    "FN": 10,
+    "FP": 8,
+    "TN": 12
+   },
+   "blind": {
+    "correct": 20,
+    "ci95": [
+     0.338,
+     0.662
+    ],
+    "TP": 10,
+    "FN": 10,
+    "FP": 10,
+    "TN": 10
+   },
+   "blocks": 10,
+   "p_phase_vs_whole": 1.0,
+   "p_phase_vs_timing": 0.00390625,
+   "p_phase_vs_blind": 0.001953125,
+   "E0": {
+    "n": 20,
+    "correct": 20,
+    "violations": 10
+   },
+   "E1": {
+    "n": 20,
+    "correct": 20,
+    "violations": 10
+   },
+   "per_run": [
+    {
+     "run": "d2_000",
+     "block": 0,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.8865,
+     "p_whole": 0.9988,
+     "dt": 3.001
+    },
+    {
+     "run": "d2_001",
+     "block": 0,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9959,
+     "p_whole": 0.9895,
+     "dt": 3.0014
+    },
+    {
+     "run": "d2_004",
+     "block": 0,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.003,
+     "p_whole": 0.0885,
+     "dt": 3.0008
+    },
+    {
+     "run": "d2_005",
+     "block": 0,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0012,
+     "p_whole": 0.1541,
+     "dt": 3.0011
+    },
+    {
+     "run": "d2_009",
+     "block": 1,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0037,
+     "p_whole": 0.0072,
+     "dt": 3.0008
+    },
+    {
+     "run": "d2_010",
+     "block": 1,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0038,
+     "p_whole": 0.0027,
+     "dt": 3.0009
+    },
+    {
+     "run": "d2_011",
+     "block": 1,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9963,
+     "p_whole": 0.9954,
+     "dt": 3.0006
+    },
+    {
+     "run": "d2_013",
+     "block": 1,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.995,
+     "p_whole": 0.9733,
+     "dt": 3.001
+    },
+    {
+     "run": "d2_016",
+     "block": 2,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0066,
+     "p_whole": 0.0013,
+     "dt": 3.0006
+    },
+    {
+     "run": "d2_017",
+     "block": 2,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9988,
+     "p_whole": 0.9994,
+     "dt": 3.0012
+    },
+    {
+     "run": "d2_020",
+     "block": 2,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9974,
+     "p_whole": 0.959,
+     "dt": 3.0004
+    },
+    {
+     "run": "d2_021",
+     "block": 2,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.004,
+     "p_whole": 0.0006,
+     "dt": 3.0006
+    },
+    {
+     "run": "d2_024",
+     "block": 3,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0128,
+     "p_whole": 0.0038,
+     "dt": 3.0007
+    },
+    {
+     "run": "d2_027",
+     "block": 3,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0068,
+     "p_whole": 0.0008,
+     "dt": 3.001
+    },
+    {
+     "run": "d2_028",
+     "block": 3,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 1.0,
+     "p_whole": 0.9997,
+     "dt": 3.0014
+    },
+    {
+     "run": "d2_030",
+     "block": 3,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9943,
+     "p_whole": 0.9636,
+     "dt": 3.0014
+    },
+    {
+     "run": "d2_032",
+     "block": 4,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.002,
+     "p_whole": 0.0019,
+     "dt": 3.0011
+    },
+    {
+     "run": "d2_034",
+     "block": 4,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9701,
+     "p_whole": 0.7449,
+     "dt": 3.0013
+    },
+    {
+     "run": "d2_035",
+     "block": 4,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9894,
+     "p_whole": 0.9999,
+     "dt": 3.0008
+    },
+    {
+     "run": "d2_036",
+     "block": 4,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0055,
+     "p_whole": 0.0008,
+     "dt": 3.0011
+    },
+    {
+     "run": "d2_040",
+     "block": 5,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0679,
+     "p_whole": 0.0042,
+     "dt": 3.0006
+    },
+    {
+     "run": "d2_042",
+     "block": 5,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9978,
+     "p_whole": 0.9448,
+     "dt": 3.0004
+    },
+    {
+     "run": "d2_044",
+     "block": 5,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0014,
+     "p_whole": 0.0007,
+     "dt": 3.0014
+    },
+    {
+     "run": "d2_046",
+     "block": 5,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9868,
+     "p_whole": 0.9665,
+     "dt": 3.0004
+    },
+    {
+     "run": "d2_048",
+     "block": 6,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9956,
+     "p_whole": 0.9954,
+     "dt": 3.0007
+    },
+    {
+     "run": "d2_052",
+     "block": 6,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0019,
+     "p_whole": 0.0048,
+     "dt": 3.0011
+    },
+    {
+     "run": "d2_053",
+     "block": 6,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0104,
+     "p_whole": 0.0027,
+     "dt": 3.0004
+    },
+    {
+     "run": "d2_055",
+     "block": 6,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9975,
+     "p_whole": 0.9897,
+     "dt": 3.001
+    },
+    {
+     "run": "d2_057",
+     "block": 7,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9841,
+     "p_whole": 0.9841,
+     "dt": 3.0003
+    },
+    {
+     "run": "d2_060",
+     "block": 7,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0086,
+     "p_whole": 0.0035,
+     "dt": 3.0012
+    },
+    {
+     "run": "d2_062",
+     "block": 7,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9742,
+     "p_whole": 0.8512,
+     "dt": 3.0006
+    },
+    {
+     "run": "d2_063",
+     "block": 7,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0061,
+     "p_whole": 0.0068,
+     "dt": 3.0005
+    },
+    {
+     "run": "d2_064",
+     "block": 8,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0052,
+     "p_whole": 0.0086,
+     "dt": 3.0006
+    },
+    {
+     "run": "d2_065",
+     "block": 8,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9998,
+     "p_whole": 0.9999,
+     "dt": 3.0007
+    },
+    {
+     "run": "d2_067",
+     "block": 8,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0021,
+     "p_whole": 0.0008,
+     "dt": 3.0004
+    },
+    {
+     "run": "d2_069",
+     "block": 8,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.9989,
+     "p_whole": 0.9339,
+     "dt": 3.0004
+    },
+    {
+     "run": "d2_073",
+     "block": 9,
+     "A": 0,
+     "E": 1,
+     "V": 1,
+     "p_phase": 0.0061,
+     "p_whole": 0.0167,
+     "dt": 3.001
+    },
+    {
+     "run": "d2_076",
+     "block": 9,
+     "A": 1,
+     "E": 0,
+     "V": 1,
+     "p_phase": 0.9993,
+     "p_whole": 0.9847,
+     "dt": 3.0011
+    },
+    {
+     "run": "d2_077",
+     "block": 9,
+     "A": 0,
+     "E": 0,
+     "V": 0,
+     "p_phase": 0.0023,
+     "p_whole": 0.0027,
+     "dt": 3.0012
+    },
+    {
+     "run": "d2_079",
+     "block": 9,
+     "A": 1,
+     "E": 1,
+     "V": 0,
+     "p_phase": 0.999,
+     "p_whole": 0.9936,
+     "dt": 3.0011
+    }
+   ]
+  }
+ },
+ "drift_ref_total_db": {
+  "median_D": -30.391,
+  "median_D2": -30.377,
+  "diff": 0.014
+ }
+}

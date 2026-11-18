@@ -1,0 +1,410 @@
+[
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n331934801471_930c.iq",
+  "id": "n331934801471",
+  "before": 36962304,
+  "after": 197656576
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8d7e4529406a_930c.iq",
+  "id": "n8d7e4529406a",
+  "before": 44564480,
+  "after": 205258752
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8cfe43155ea9_930c.iq",
+  "id": "n8cfe43155ea9",
+  "before": 45613056,
+  "after": 210763776
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nec4089807692_930c.iq",
+  "id": "nec4089807692",
+  "before": 40370176,
+  "after": 203685888
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n68926270084d_930c.iq",
+  "id": "n68926270084d",
+  "before": 41680896,
+  "after": 206569472
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n1c82252d4847_930c.iq",
+  "id": "n1c82252d4847",
+  "before": 37224448,
+  "after": 202113024
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n0a755b106080_930c.iq",
+  "id": "n0a755b106080",
+  "before": 39583744,
+  "after": 202375168
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n2d5e24520fc3_930c.iq",
+  "id": "n2d5e24520fc3",
+  "before": 41418752,
+  "after": 204210176
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/ndb22fe887880_930c.iq",
+  "id": "ndb22fe887880",
+  "before": 43778048,
+  "after": 206307328
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nf2a220e04e8c_930c.iq",
+  "id": "nf2a220e04e8c",
+  "before": 37224448,
+  "after": 200802304
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n4fa11da07c61_930c.iq",
+  "id": "n4fa11da07c61",
+  "before": 44564480,
+  "after": 206307328
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n3218497aa371_930c.iq",
+  "id": "n3218497aa371",
+  "before": 44040192,
+  "after": 207618048
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n30eefce017ed_930c.iq",
+  "id": "n30eefce017ed",
+  "before": 41680896,
+  "after": 207355904
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nc357fadbcf53_930c.iq",
+  "id": "nc357fadbcf53",
+  "before": 43778048,
+  "after": 205258752
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n4799c6238c0a_930c.iq",
+  "id": "n4799c6238c0a",
+  "before": 41680896,
+  "after": 205258752
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n2437f685f00c_930c.iq",
+  "id": "n2437f685f00c",
+  "before": 40108032,
+  "after": 204210176
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nd2d36910b8ce_930c.iq",
+  "id": "nd2d36910b8ce",
+  "before": 44302336,
+  "after": 208404480
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n3639da3df244_930c.iq",
+  "id": "n3639da3df244",
+  "before": 44826624,
+  "after": 206307328
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n6f7552a3f224_930c.iq",
+  "id": "n6f7552a3f224",
+  "before": 43253760,
+  "after": 207093760
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8272fb204854_930c.iq",
+  "id": "n8272fb204854",
+  "before": 36962304,
+  "after": 198180864
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n4dfb1331e54c_930c.iq",
+  "id": "n4dfb1331e54c",
+  "before": 41418752,
+  "after": 202899456
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nc086ee0f2db4_930c.iq",
+  "id": "nc086ee0f2db4",
+  "before": 38010880,
+  "after": 202113024
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n82d1e97df8e3_930c.iq",
+  "id": "n82d1e97df8e3",
+  "before": 39583744,
+  "after": 200278016
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n358ca9317626_930c.iq",
+  "id": "n358ca9317626",
+  "before": 38273024,
+  "after": 200540160
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n55db6cb57b59_930c.iq",
+  "id": "n55db6cb57b59",
+  "before": 38535168,
+  "after": 202113024
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nd89c75805453_930c.iq",
+  "id": "nd89c75805453",
+  "before": 43253760,
+  "after": 204472320
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n79f5481312bd_930c.iq",
+  "id": "n79f5481312bd",
+  "before": 42729472,
+  "after": 204210176
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n4f21e88911bd_930c.iq",
+  "id": "n4f21e88911bd",
+  "before": 41156608,
+  "after": 204472320
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n62b370174b4b_930c.iq",
+  "id": "n62b370174b4b",
+  "before": 40894464,
+  "after": 203948032
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8ed7c14a3549_930c.iq",
+  "id": "n8ed7c14a3549",
+  "before": 38273024,
+  "after": 201850880
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n22b7e35710e7_930c.iq",
+  "id": "n22b7e35710e7",
+  "before": 37486592,
+  "after": 197918720
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nc1bd19b78c52_930c.iq",
+  "id": "nc1bd19b78c52",
+  "before": 42991616,
+  "after": 208142336
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n0d0349b2de7b_930c.iq",
+  "id": "n0d0349b2de7b",
+  "before": 34603008,
+  "after": 200015872
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nf56736089d19_930c.iq",
+  "id": "nf56736089d19",
+  "before": 35651584,
+  "after": 198180864
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n128ed799ffc0_930c.iq",
+  "id": "n128ed799ffc0",
+  "before": 38010880,
+  "after": 200540160
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/na4e717b11607_930c.iq",
+  "id": "na4e717b11607",
+  "before": 40108032,
+  "after": 200802304
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n0b461fbd6f27_930c.iq",
+  "id": "n0b461fbd6f27",
+  "before": 39321600,
+  "after": 201326592
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n7f45e44fbd34_930c.iq",
+  "id": "n7f45e44fbd34",
+  "before": 36175872,
+  "after": 202899456
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n71a0ece9792d_930c.iq",
+  "id": "n71a0ece9792d",
+  "before": 38797312,
+  "after": 200802304
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8e61258f9c97_930c.iq",
+  "id": "n8e61258f9c97",
+  "before": 41680896,
+  "after": 206045184
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n0593e12ec521_930c.iq",
+  "id": "n0593e12ec521",
+  "before": 40894464,
+  "after": 203948032
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n805283f883d6_930c.iq",
+  "id": "n805283f883d6",
+  "before": 40894464,
+  "after": 201850880
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n82f0eb59ecb4_930c.iq",
+  "id": "n82f0eb59ecb4",
+  "before": 37224448,
+  "after": 202637312
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n57d5f017fad7_930c.iq",
+  "id": "n57d5f017fad7",
+  "before": 39583744,
+  "after": 204210176
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/na674207f636f_930c.iq",
+  "id": "na674207f636f",
+  "before": 35651584,
+  "after": 199229440
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n2026b2cb0152_930c.iq",
+  "id": "n2026b2cb0152",
+  "before": 39321600,
+  "after": 201064448
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n06c74d853728_930c.iq",
+  "id": "n06c74d853728",
+  "before": 36700160,
+  "after": 198180864
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n42f43627cce7_930c.iq",
+  "id": "n42f43627cce7",
+  "before": 37224448,
+  "after": 198443008
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/naf30c6fbc330_930c.iq",
+  "id": "naf30c6fbc330",
+  "before": 40108032,
+  "after": 204734464
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n85bbbb83e1a2_930c.iq",
+  "id": "n85bbbb83e1a2",
+  "before": 38010880,
+  "after": 198705152
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nfb47cbe59191_930c.iq",
+  "id": "nfb47cbe59191",
+  "before": 40108032,
+  "after": 203948032
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8d82c74c0807_930c.iq",
+  "id": "n8d82c74c0807",
+  "before": 38535168,
+  "after": 204210176
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n0ce5b02b3c46_930c.iq",
+  "id": "n0ce5b02b3c46",
+  "before": 39583744,
+  "after": 204210176
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/na992498170ba_930c.iq",
+  "id": "na992498170ba",
+  "before": 36962304,
+  "after": 197918720
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n600b02a53bd8_930c.iq",
+  "id": "n600b02a53bd8",
+  "before": 38273024,
+  "after": 203423744
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nc0f95f16ba26_930c.iq",
+  "id": "nc0f95f16ba26",
+  "before": 42205184,
+  "after": 205258752
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nf9828c40b0a8_930c.iq",
+  "id": "nf9828c40b0a8",
+  "before": 40370176,
+  "after": 205520896
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nd5e05146a5e7_930c.iq",
+  "id": "nd5e05146a5e7",
+  "before": 39321600,
+  "after": 201326592
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8bbef01eccaa_930c.iq",
+  "id": "n8bbef01eccaa",
+  "before": 37486592,
+  "after": 201588736
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n6bdbff2c4f80_930c.iq",
+  "id": "n6bdbff2c4f80",
+  "before": 39845888,
+  "after": 201850880
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n85884ada8136_930c.iq",
+  "id": "n85884ada8136",
+  "before": 39059456,
+  "after": 204472320
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nee5d6b9ba0da_930c.iq",
+  "id": "nee5d6b9ba0da",
+  "before": 39845888,
+  "after": 204734464
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n8995cc5ca709_930c.iq",
+  "id": "n8995cc5ca709",
+  "before": 41418752,
+  "after": 203685888
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n0fae5e54f199_930c.iq",
+  "id": "n0fae5e54f199",
+  "before": 42467328,
+  "after": 204996608
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nd3c3bf522eb2_930c.iq",
+  "id": "nd3c3bf522eb2",
+  "before": 37748736,
+  "after": 199753728
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n245e681f1d02_930c.iq",
+  "id": "n245e681f1d02",
+  "before": 40108032,
+  "after": 201064448
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/n1c97ec5329d0_930c.iq",
+  "id": "n1c97ec5329d0",
+  "before": 41418752,
+  "after": 202375168
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s1o_20261116_235119_469cca/nf19bc4763bb9_930c.iq",
+  "id": "nf19bc4763bb9",
+  "before": 40108032,
+  "after": 205783040
+ }
+]

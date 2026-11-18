@@ -1,0 +1,28 @@
+{
+ "created": "2026-11-06T11:02:31.921030-08:00",
+ "test_batch": "d2",
+ "freeze_sha256": "15a7a59df3d4ed43351c5dbdc59ada817b2e4fa4038fecc1736942edebd70228",
+ "frozen_at": "2026-11-06T09:53:50.761380-08:00",
+ "train_batch": "train",
+ "feature_code_sha256": "97d196abd7cdfb860b63a08c3b3d0bb931e92476d54f880932d85f9ab7688ae8",
+ "analysis_code_sha256": "9a04b3e8f4615e4f01995256c52470610da78d92448f875ba6e12393ea1e6ab7",
+ "witness_code_sha256": "cd692f414bea40d5428ad7a44bc6c7215c08d52244b0d70eb13ab7e3b16b856d",
+ "design": "10 blocks; each block holds {order MC, order CM, wait hidden(archive), wait silent} x {E=0, E=1} in a seeded random order (seed 31); receiver as in D (1.38 GHz, LNA 24, VGA 20, 20 MS/s).",
+ "contracts": {
+  "order": "E=0: compute phase before memory phase (MC violates); E=1: memory phase before compute phase (CM violates)",
+  "wait": "E=0: no side work during the 3 s wait (archiving = commission); E=1: the 1 GiB workspace must be archived during the wait (skipping = omission)"
+ },
+ "primary": [
+  "order: frozen phase-resolved model of FREEZE.json, alert = A_hat XOR E at threshold 0.5, accuracy on 40 runs",
+  "wait: frozen phase-resolved model of FREEZE.json, alert = A_hat XOR E at threshold 0.5, accuracy on 40 runs"
+ ],
+ "secondary": [
+  "frozen whole-call model XOR E",
+  "frozen timing rule XOR E",
+  "contract-blind alert A_hat (ignores E)",
+  "threshold-free AUC of the conditioned score",
+  "exact block-level sign-flip tests of phase vs whole, timing, contract-blind",
+  "median pre-dispatch total-power level of D2 minus that of D (drift indicator)"
+ ],
+ "note": "No model is refit and no threshold is tuned on this batch; every run collected is reported."
+}

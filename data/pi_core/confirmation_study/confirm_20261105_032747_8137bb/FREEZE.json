@@ -1,0 +1,1836 @@
+{
+ "campaign": "confirm_20261105_032747_8137bb",
+ "stage": "confirmation",
+ "plan": [
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "ka6869388bd09",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "kcea728722577",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k7507f65453e1",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k51fd637abf38",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k65cd3076d5aa",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k243a4c71993c",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k08e47ac06eb0",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k862456997c03",
+   "block": 0,
+   "stage": "confirmation",
+   "request": {
+    "id": "d301c35cb1082d2435977b1c3971ecfb",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k40a1763bcc16",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k746d406097e6",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k50a1aba78e2a",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k8e761bef32c4",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k7227834f37f5",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k9b7a41402829",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "kf08603eece7b",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "kbfde175ae5c7",
+   "block": 1,
+   "stage": "confirmation",
+   "request": {
+    "id": "fb2bbb493c61ed68f589aebdd56dfcde",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k287683d52a4e",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k3f76ce105b82",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "kbd66bd605a6d",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k1033f0f4dc69",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k3fb36d7542df",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k4ea9aae0b623",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "kb47b1f2b6638",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k9d47a88ed4e9",
+   "block": 2,
+   "stage": "confirmation",
+   "request": {
+    "id": "b1aa37b72ce6835694a725d4f5c05765",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "kd927d5858901",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k6043ba80efcd",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k64006231c343",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k1e0947cfd2c8",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k89b22458ce7a",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "kf2a3fd5077c6",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k9166e83f55d2",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k9962ea216b96",
+   "block": 3,
+   "stage": "confirmation",
+   "request": {
+    "id": "7a39d19b4dcb01163c372f55071db7f9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k91e010f32b91",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k912f7865d875",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k7a0f0f8619b4",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "kc8b188d4e047",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k330d1b689b9f",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k3d3d371f0ab2",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "ke9a85b29a30c",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k088e9bee0671",
+   "block": 4,
+   "stage": "confirmation",
+   "request": {
+    "id": "b8c614bd1688589b25e7c0e1b4fb414e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k18d35504a31d",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k3d2d7d8bcdd1",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "kbe11e96757c6",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k51634a3c3142",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "kc89f43b6c641",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k5af74ba59c7a",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "ka5f33446452f",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "kcfd5d280aa7f",
+   "block": 5,
+   "stage": "confirmation",
+   "request": {
+    "id": "ef790bae52f70326c9d3b7c6dac6e918",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k4614267e9edb",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k75775788ce5d",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k39bb71f3b70f",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k8cfe9b46d678",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k17c6c398ac1d",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "kcb2357988366",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "kd835706f90f1",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k14bca963fe8d",
+   "block": 6,
+   "stage": "confirmation",
+   "request": {
+    "id": "dea84d52068d3dc0a6ad8fab57abdd00",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k39361d14c0ad",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "ke8c8fbc5717b",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k1eae8a12f5af",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k91ae4eba9d3d",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k52a0ddf33fba",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k9b23d79f0119",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "kdf58f4ed8e14",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k49481408514f",
+   "block": 7,
+   "stage": "confirmation",
+   "request": {
+    "id": "a52b5f5fb4a8a94f092d8cfcd45d228e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "ka9d0cebe4b3c",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "kf16eaff2d522",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k9b8cc55a14d8",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k1b6751b2b5a2",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "k2625ebc59da1",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k259a9289dd22",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "ke26f17073411",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k7e25d138c84a",
+   "block": 8,
+   "stage": "confirmation",
+   "request": {
+    "id": "001a9f63c6f8acdf5dd87dca45a87053",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "kbd76a717a057",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k5410a6e8cd45",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k412904d31661",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "order",
+   "expected_condition": false,
+   "actual_condition": true,
+   "id": "k3ce62ae00cbd",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": false,
+   "id": "kc41f802de142",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "family": "order",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k5ec66ece3c2a",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": true,
+   "actual_condition": true,
+   "id": "k14a7e28394f1",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "family": "trace",
+   "expected_condition": false,
+   "actual_condition": false,
+   "id": "k27997d439dbf",
+   "block": 9,
+   "stage": "confirmation",
+   "request": {
+    "id": "7f9e3a8cc61662362c1ca09b694834e8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  }
+ ],
+ "seconds": 4,
+ "cooldown_s": 25,
+ "winroot": "F:/Data/telltale_confirmation_20261104/confirm_20261105_032747_8137bb",
+ "piroot": "/home/pi/telltale_scenarios_rf_20261104/confirm_20261105_032747_8137bb",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=42.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 39.7,
+   "ddr_c": 36.53
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 0,
+   "model": "WDC WD10EZEX-08WN4A0",
+   "free": 84957863936,
+   "console_user": null,
+   "other_workloads": 0,
+   "target_drive": "F",
+   "concurrent_source_transfer": true,
+   "query_user": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "No User exists for *\n"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 19488,
+  "root": "F:\\Data\\telltale_confirmation_20261104\\confirm_20261105_032747_8137bb"
+ },
+ "source_sha256": {
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\confirmation_study\\PROTOCOL.md": "34c58ee5dc5daeb84c4465d17b860ff150ef9f437a4eba26f1fae702a4f76c87",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\confirmation_study\\collect_confirmation.py": "38162eb7e0f489ee845e1981a4938f12c63e1047a848722b6a60af395b1a593d",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\confirmation_study\\pi_api.py": "efc23cf5afa971eaa162f09c269ba632bf1228dc158758cdf64c8187e63ae461",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\burst.c": "0c9e028481fe41345d4a75a77ff5f1aa1b382bdbb66eb5ef296a7d79cef864c0",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\order_study\\ordered.c": "3532cc11373fc31e7c944f8c93215c327945012527311983e39d476cfbfa5a6a",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\rig_capture.py": "8b77170234937a1c45aaf17b997c58082078a894e99a6a18bac7a8b5b60f5911",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\CONFIRMATION_MODELS.json": "8ec87a546f008b7778fbf4afdb9cc7d7342c465b8489c80090fbb506b8797f49",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\CONFIRMATION_MODELS_RECEIPT.json": "73ca2a6a5482bab08ffe21508f7d234c1d9daaa5d38d84e4a5189d6aa9d148ce"
+ },
+ "utc": "2026-11-05T03:27:52Z",
+ "trusted_policy_in_worker": false,
+ "models_sha256": "8ec87a546f008b7778fbf4afdb9cc7d7342c465b8489c80090fbb506b8797f49",
+ "all_trials_test_only": true,
+ "concurrent_transfer": {
+  "F": {
+   "completed": 102,
+   "planned": 176,
+   "bytes": 16320000000,
+   "elapsed_s": 1743.0149999999994,
+   "utc": "2026-11-04T18:41:36Z"
+  },
+  "J": {
+   "completed": 19,
+   "planned": 64,
+   "bytes": 6080000000,
+   "elapsed_s": 885.5149999999994,
+   "utc": "2026-11-04T18:41:18Z"
+  },
+  "resume": {
+   "completed": 208,
+   "planned": 240,
+   "resumed_uploaded": 87,
+   "elapsed_s": 1274.1100000000006,
+   "utc": "2026-11-05T03:27:32Z"
+  }
+ }
+}

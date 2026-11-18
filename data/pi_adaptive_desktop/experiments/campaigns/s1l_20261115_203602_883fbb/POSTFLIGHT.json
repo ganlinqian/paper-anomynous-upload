@@ -1,0 +1,14 @@
+{
+ "rig": {
+  "rc": 0,
+  "stdout": "",
+  "stderr": ""
+ },
+ "restore": {
+  "rc": 0,
+  "stdout": "",
+  "stderr": ""
+ },
+ "pi_state": "ondemand\n600000\n1800000\nthrottled=0x0\ntemp=50.6'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+ "pi_lock_release": 0
+}

@@ -1,0 +1,1467 @@
+{
+ "campaign": "waitconfirm_20261105_051433_3df228",
+ "stage": "wait_confirmation",
+ "plan": [
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "ge81c3a84533a",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "g4a776aad8605",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "g8939ee9d49a5",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "g36c555dab88c",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "gcccd6bfeafbd",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "ga60458d9ff8e",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "g445bd81fa10b",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "gf339ebc3dd5d",
+   "block": 0,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "16bd654d2dba7cee41db6edb63fb9a7d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "g41e4e8589afd",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "g878b1090cac1",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "gda0e8b823afb",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "g1420b237df42",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "g6a24dc225190",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "g3b7591ac4aeb",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "g9a16b6dcfa8e",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "g6f481a5c5476",
+   "block": 1,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "8d2cd17126c7c0953bab32803e183a9c",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "gf47c1af47fc3",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "gdaa86c5cc15b",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "gee50108495dc",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "gc158f1e2724c",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "gb7a1f3a976e4",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "gd4b17da7d70a",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "g483dcb4bf932",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "ge22069ade9a8",
+   "block": 2,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "32d56d1159f2cb5fa16b7e5434e983ce",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "g264025d85282",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "gd9a12dba2f86",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "g50102e637fb6",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "gcc50ced3cf4c",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "gfa123f974265",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "g42661aa0fa38",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "gc6ca32cf1b01",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "g53eedde0e361",
+   "block": 3,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "a505c4f4475ae6de3ab9c1da7b105404",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "geb8f03df97a9",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "g5cd6fc60c95c",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "g2da594c1340a",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "gd9b0f336e056",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "gfd363642f684",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "gdf5182878242",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "g98803af9c031",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "g0b2467f5e7a7",
+   "block": 4,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "f6ea32e28ddb92d2a0e319dc2af7fbd3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "g39e7d861c84e",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "g2b488a5ce69b",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "gbafde2488c7e",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "gce67c24fd0ba",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "gc8efedc7e462",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "gdcaaa094d575",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "g54fcfc8b46c1",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "g48cb24ece325",
+   "block": 5,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "d8e601a68c32a78221c71913ee982e04",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "g159ef6d7a795",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "g4a79f296d14d",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "g293defbfdf46",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "g4ce10e8f408e",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "gb8b6d246b992",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "g08aed37d9c16",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "gafa639a30678",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "ga3b80c0294f1",
+   "block": 6,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "488ad9c4a3c518e4e5554a92f1e8f5b0",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": true,
+   "id": "g1a7057341295",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "g4a38c61a1852",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "g273d608938fc",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": true,
+   "id": "g7b6d9933a7b2",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": true,
+   "id": "g371e5d8ba988",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "g1d16528245a0",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "gea14df5df36f",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": true,
+   "id": "gf42ea3310db8",
+   "block": 7,
+   "stage": "wait_confirmation",
+   "request": {
+    "id": "4dec74313372b8a0ff814372710ca3b1",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  }
+ ],
+ "seconds": 8,
+ "cooldown_s": 25,
+ "winroot": "<DATA>/telltale_wait_confirmation_20261105/waitconfirm_20261105_051433_3df228",
+ "piroot": "/home/pi/telltale_scenarios_rf_20261104/waitconfirm_20261105_051433_3df228",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=48.2'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 44.24,
+   "ddr_c": 39.84
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 2,
+   "model": "ST1000DM003-1ER162",
+   "free": 840102404096,
+   "console_user": null,
+   "other_workloads": 0,
+   "target_drive": "J",
+   "concurrent_source_transfer": true,
+   "query_user": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "No User exists for *\n"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 25640,
+  "root": "<DATA>\\telltale_wait_confirmation_20261105\\waitconfirm_20261105_051433_3df228"
+ },
+ "source_sha256": {
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\wait_confirmation_study\\PROTOCOL.md": "29fc79bf00ecec77f672ed20724b36c22506bc748b4989d4bd034310e8b01803",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\wait_confirmation_study\\collect_wait_confirm.py": "b91ebeb6b24b96d07eb34e6b2f0a9e26428d55447185db8c3dd2544cc70a8503",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\wait_confirmation_study\\pi_api.py": "4b1205548742d2922cb5b6fa9651ca74f597ff8e695c65fe8845dfeba0ce989f",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\rig_capture_stagger.py": "1f4e22112ef002ed8f239e268a8ae648de8607f8420d02b4543bd1a57c3ffe43",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\ENGINEERING_RESTART_20261105.md": "d40d428dd5bfd4e63f6745013c384c13ba5c4fe0c0e11bac72739ca9c2218588",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\WAIT_CONFIRMATION_MODELS.json": "2c802e7b01ee7b48cf17fee742f033f1267f557b272408db3a29fb1b352460d3",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\WAIT_MODELS_RECEIPT.json": "6240c9f5e432e5463bd8eefc0e310110577635ef376584f73e6a4b76339d359e"
+ },
+ "utc": "2026-11-05T05:14:57Z",
+ "trusted_policy_in_worker": false,
+ "pilot_sha256": "5c6d5a4435c3293ec606263f8a9d05242a336e73e4a5a17ac3f3f36d4784c880",
+ "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+ "concurrent_resume_transfer": {
+  "completed": 240,
+  "planned": 240,
+  "resumed_uploaded": 119,
+  "elapsed_s": 2066.094000000001,
+  "utc": "2026-11-05T03:40:42Z"
+ }
+}

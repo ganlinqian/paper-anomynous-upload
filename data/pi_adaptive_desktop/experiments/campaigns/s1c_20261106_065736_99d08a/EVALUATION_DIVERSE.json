@@ -1,0 +1,169 @@
+{
+ "utc": "2026-11-06T07:59:23Z",
+ "campaign": "s1c_20261106_065736_99d08a",
+ "model_sha256": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+ "n": 64,
+ "primary": "call_temporal",
+ "no_fit": true,
+ "summary": {
+  "call_temporal": {
+   "by_condition": {
+    "gzip05_d03": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip1_d03": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip1_d06": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip2_d06": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip2_d12": {
+     "alerts": 4,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 2,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 16
+    }
+   },
+   "tp": 6,
+   "fn": 42,
+   "fp": 0,
+   "tn": 16,
+   "accuracy": 0.34375,
+   "accuracy_95pct": [
+    0.22946324249933894,
+    0.47302303877831625
+   ],
+   "tpr": 0.125,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.04728376042117953,
+    0.25246050864195285
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.20590721420782268
+   ],
+   "balanced_accuracy": 0.5625,
+   "auc": 0.7473958333333334
+  },
+  "call_whole": {
+   "by_condition": {
+    "gzip05_d03": {
+     "alerts": 2,
+     "n": 8
+    },
+    "gzip1_d03": {
+     "alerts": 2,
+     "n": 8
+    },
+    "gzip1_d06": {
+     "alerts": 3,
+     "n": 8
+    },
+    "gzip2_d06": {
+     "alerts": 4,
+     "n": 8
+    },
+    "gzip2_d12": {
+     "alerts": 4,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 6,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 0,
+     "n": 16
+    }
+   },
+   "tp": 21,
+   "fn": 27,
+   "fp": 0,
+   "tn": 16,
+   "accuracy": 0.578125,
+   "accuracy_95pct": [
+    0.44815862493697933,
+    0.7006191938565354
+   ],
+   "tpr": 0.4375,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.294801241333832,
+    0.5881916411593546
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.20590721420782268
+   ],
+   "balanced_accuracy": 0.71875,
+   "auc": 0.828125
+  },
+  "record_temporal": {
+   "by_condition": {
+    "gzip05_d03": {
+     "alerts": 1,
+     "n": 8
+    },
+    "gzip1_d03": {
+     "alerts": 2,
+     "n": 8
+    },
+    "gzip1_d06": {
+     "alerts": 1,
+     "n": 8
+    },
+    "gzip2_d06": {
+     "alerts": 1,
+     "n": 8
+    },
+    "gzip2_d12": {
+     "alerts": 3,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 5,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 1,
+     "n": 16
+    }
+   },
+   "tp": 13,
+   "fn": 35,
+   "fp": 1,
+   "tn": 15,
+   "accuracy": 0.4375,
+   "accuracy_95pct": [
+    0.31373475354849606,
+    0.5672410999335404
+   ],
+   "tpr": 0.2708333333333333,
+   "fpr": 0.0625,
+   "tpr_95pct": [
+    0.15278186860821652,
+    0.4184563653261886
+   ],
+   "fpr_95pct": [
+    0.0015811117227658871,
+    0.30232073843453194
+   ],
+   "balanced_accuracy": 0.6041666666666666,
+   "auc": 0.7721354166666666
+  }
+ }
+}

@@ -1,0 +1,14 @@
+[
+ {
+  "expected_bytes": 320000000,
+  "path": "F:/Data/telltale_untraced_wait_20261105/untracedwait_20261105_061041_b80fac/ua2e51a9d6dea_930c.iq",
+  "radio": "930c",
+  "id": "ua2e51a9d6dea"
+ },
+ {
+  "expected_bytes": 320000000,
+  "path": "F:/Data/telltale_untraced_wait_20261105/untracedwait_20261105_061041_b80fac/ubb5898a383a1_930c.iq",
+  "radio": "930c",
+  "id": "ubb5898a383a1"
+ }
+]

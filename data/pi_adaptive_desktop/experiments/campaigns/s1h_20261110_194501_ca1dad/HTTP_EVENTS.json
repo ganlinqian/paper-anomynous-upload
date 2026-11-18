@@ -1,0 +1,122 @@
+[
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   33614
+  ],
+  "begin_desktop_ns": 334747697685700,
+  "end_desktop_ns": 334751699212400,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   36534
+  ],
+  "begin_desktop_ns": 334783276824000,
+  "end_desktop_ns": 334787277055000,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   56630
+  ],
+  "begin_desktop_ns": 334818337939000,
+  "end_desktop_ns": 334822338596000,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   52732
+  ],
+  "begin_desktop_ns": 334853724046500,
+  "end_desktop_ns": 334857725181400,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   34642
+  ],
+  "begin_desktop_ns": 334888626795600,
+  "end_desktop_ns": 334892627101000,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   58656
+  ],
+  "begin_desktop_ns": 334923460217200,
+  "end_desktop_ns": 334927461364000,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   41712
+  ],
+  "begin_desktop_ns": 334958862389800,
+  "end_desktop_ns": 334962863234000,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "fbb21a4b8b9c1113b838d358a11a4e9b",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   51604
+  ],
+  "begin_desktop_ns": 334993822282400,
+  "end_desktop_ns": 334997823205100,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "05775db7f6b7e2592048757f76a8bdf8",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   53390
+  ],
+  "begin_desktop_ns": 335028684268200,
+  "end_desktop_ns": 335032684786000,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ },
+ {
+  "token": "05775db7f6b7e2592048757f76a8bdf8",
+  "path": "/approved/package",
+  "client": [
+   "192.0.2.60",
+   35440
+  ],
+  "begin_desktop_ns": 335063639789400,
+  "end_desktop_ns": 335067640723500,
+  "status": 200,
+  "response_sha256": "32e61f6f41583be24159b7134ff80d12aca3d16b2d31219d1d93863898d825c7"
+ }
+]

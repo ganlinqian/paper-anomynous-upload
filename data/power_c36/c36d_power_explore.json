@@ -1,0 +1,111 @@
+{
+ "label": "EXPLORATORY, post hoc",
+ "abs_win": {
+  "threshold": 2.323069837905237,
+  "hidden": [
+   39,
+   48
+  ],
+  "negFA": [
+   7,
+   39
+  ],
+  "negFA_CI95": [
+   0.07535047731665301,
+   0.3353495611269308
+  ],
+  "AUC": 0.8958333333333334,
+  "by_condition_det": {
+   "gzip16": 8,
+   "gzip3_d19": 7,
+   "ossl16": 8,
+   "sha32": 3,
+   "xz2": 8,
+   "zstd16": 5
+  },
+  "by_condition_AUC": {
+   "gzip16": 1.0,
+   "gzip3_d19": 0.8910256410256411,
+   "ossl16": 0.9551282051282052,
+   "sha32": 0.7532051282051282,
+   "xz2": 1.0,
+   "zstd16": 0.7756410256410257
+  },
+  "vs_EM_primary_hidden_power_only/EM_only": [
+   9,
+   6
+  ]
+ },
+ "peak500": {
+  "threshold": 2.3714134999999996,
+  "hidden": [
+   48,
+   48
+  ],
+  "negFA": [
+   22,
+   39
+  ],
+  "negFA_CI95": [
+   0.3962080170142713,
+   0.7218923703235907
+  ],
+  "AUC": 0.9882478632478633,
+  "by_condition_det": {
+   "gzip16": 8,
+   "gzip3_d19": 8,
+   "ossl16": 8,
+   "sha32": 8,
+   "xz2": 8,
+   "zstd16": 8
+  },
+  "by_condition_AUC": {
+   "gzip16": 1.0,
+   "gzip3_d19": 0.9294871794871795,
+   "ossl16": 1.0,
+   "sha32": 1.0,
+   "xz2": 1.0,
+   "zstd16": 1.0
+  },
+  "vs_EM_primary_hidden_power_only/EM_only": [
+   12,
+   0
+  ]
+ },
+ "win_minus_idle": {
+  "threshold": 0.2815227051186018,
+  "hidden": [
+   36,
+   48
+  ],
+  "negFA": [
+   16,
+   39
+  ],
+  "negFA_CI95": [
+   0.2556677968862327,
+   0.5790013305951471
+  ],
+  "AUC": 0.7371794871794872,
+  "by_condition_det": {
+   "gzip16": 7,
+   "gzip3_d19": 6,
+   "ossl16": 8,
+   "sha32": 2,
+   "xz2": 7,
+   "zstd16": 6
+  },
+  "by_condition_AUC": {
+   "gzip16": 0.9198717948717948,
+   "gzip3_d19": 0.6923076923076923,
+   "ossl16": 0.8782051282051282,
+   "sha32": 0.40064102564102566,
+   "xz2": 0.9038461538461539,
+   "zstd16": 0.6282051282051282
+  },
+  "vs_EM_primary_hidden_power_only/EM_only": [
+   7,
+   7
+  ]
+ }
+}

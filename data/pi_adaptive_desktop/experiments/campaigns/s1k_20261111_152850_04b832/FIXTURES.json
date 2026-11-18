@@ -1,0 +1,46 @@
+{
+ "rand16": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand16.bin",
+  "sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a"
+ },
+ "rand8": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand8.bin",
+  "sha256": "f0b6b253968108630fe99487690e5f839933abce237fb3bf458aa29d1c11a6eb"
+ },
+ "rand6": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand6.bin",
+  "sha256": "2b959d18221ce11d7c81d8b7ba39bb68938e11223c777bf6cc32c3b95695a6b7"
+ },
+ "rand4": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand4.bin",
+  "sha256": "94a2aa4e8089df0a3eb6a4c0ddb728b2ba8109ecf93ea8b07ab2f66328ecac1d"
+ },
+ "rand3": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand3.bin",
+  "sha256": "b8c8cf04fd44cd1d3dbab1d4cf4819614bb020120593c6ea1d5d2334c9f5296d"
+ },
+ "rand2": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand2.bin",
+  "sha256": "613d05325e6a8e61cd46cd5c68ea243edde476a2fb4459a43d9065dace010494"
+ },
+ "rand1": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand1.bin",
+  "sha256": "7f027032facc15998e0069dc1c60b089a7d067a425a1fe2fe5d9ab6a03ac3b9d"
+ },
+ "rand05": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand05.bin",
+  "sha256": "6e911b44c518bca4c91b298009dbba9e001488308f34d584dfdad0102c41c10a"
+ },
+ "rand32": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/rand32.bin",
+  "sha256": "5d47ae9e888806a2b2fd4d3fc849694111422d32ecb6148f872e8ebb464ab38a"
+ },
+ "text8": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/text8.bin",
+  "sha256": "19274966d26afb3e377d2122124d94450d63d649bd851849559670b831774bdf"
+ },
+ "json8": {
+  "path": "/home/pi/telltale_sp2027/s1k_20261111_152850_04b832/json8.bin",
+  "sha256": "f452bb9bc287f037daa6ddba8d84f6568d6775c0fe4870059ab7ace13488eb2e"
+ }
+}

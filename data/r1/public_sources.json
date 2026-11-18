@@ -1,0 +1,32 @@
+[
+  {
+    "dataset": "nebius/SWE-agent-trajectories",
+    "local_filename": "sweagent_0000.parquet",
+    "sha256": "5a395e8c7bb8ddc4b8f4d268506b3a0e2cf9b5ec3922600117322fe788067a13",
+    "bytes": 89182938,
+    "revision": "68195a1450865274106246d0d0296a1d6807b88e",
+    "path": "data/train-00000-of-00012.parquet",
+    "remote_lfs": {
+      "oid": "5a395e8c7bb8ddc4b8f4d268506b3a0e2cf9b5ec3922600117322fe788067a13",
+      "size": 89182938,
+      "pointerSize": 133
+    },
+    "source_hash_verified": true,
+    "url": "https://huggingface.co/datasets/nebius/SWE-agent-trajectories/resolve/68195a1450865274106246d0d0296a1d6807b88e/data/train-00000-of-00012.parquet"
+  },
+  {
+    "dataset": "SWE-Gym/OpenHands-SFT-Trajectories",
+    "local_filename": "openhands_swegym.parquet",
+    "sha256": "ea4bf37de020e165c5210bedddeef523d8834a89a35a8c65fec24f76f0eae4f1",
+    "bytes": 10379409,
+    "revision": "4aaa5a4a4b5861f4799d2336908760c190ac3b17",
+    "path": "data/train.success.oss-00000-of-00001.parquet",
+    "remote_lfs": {
+      "oid": "ea4bf37de020e165c5210bedddeef523d8834a89a35a8c65fec24f76f0eae4f1",
+      "size": 10379409,
+      "pointerSize": 133
+    },
+    "source_hash_verified": true,
+    "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet"
+  }
+]

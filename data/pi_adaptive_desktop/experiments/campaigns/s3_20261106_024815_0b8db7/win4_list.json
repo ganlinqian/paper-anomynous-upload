@@ -1,0 +1,146 @@
+[
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/nbf30b39fcda1_930c.iq",
+  "id": "nbf30b39fcda1",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/nde7ef349c4eb_930c.iq",
+  "id": "nde7ef349c4eb",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n076cd93db160_930c.iq",
+  "id": "n076cd93db160",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/nd7fd38be7b82_930c.iq",
+  "id": "nd7fd38be7b82",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n564f3f4df566_930c.iq",
+  "id": "n564f3f4df566",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/ncd584f97aec4_930c.iq",
+  "id": "ncd584f97aec4",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n53b794d474eb_930c.iq",
+  "id": "n53b794d474eb",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n394388c4079d_930c.iq",
+  "id": "n394388c4079d",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/ne35d6f8c4452_930c.iq",
+  "id": "ne35d6f8c4452",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n8025f1fd2624_930c.iq",
+  "id": "n8025f1fd2624",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n12eb6435fb5d_930c.iq",
+  "id": "n12eb6435fb5d",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n9bafdc5169c8_930c.iq",
+  "id": "n9bafdc5169c8",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n9b579981819d_930c.iq",
+  "id": "n9b579981819d",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n94c70cf8750b_930c.iq",
+  "id": "n94c70cf8750b",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n14b2b5e96be5_930c.iq",
+  "id": "n14b2b5e96be5",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/nc78902bae853_930c.iq",
+  "id": "nc78902bae853",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n7cd8bd68d053_930c.iq",
+  "id": "n7cd8bd68d053",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n3e1b8fe13c4d_930c.iq",
+  "id": "n3e1b8fe13c4d",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n92b56b2a8884_930c.iq",
+  "id": "n92b56b2a8884",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n6edc1d7618d9_930c.iq",
+  "id": "n6edc1d7618d9",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/nfd2fbec65b62_930c.iq",
+  "id": "nfd2fbec65b62",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/nf2bac6ef4380_930c.iq",
+  "id": "nf2bac6ef4380",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/nb35ba92a842c_930c.iq",
+  "id": "nb35ba92a842c",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ },
+ {
+  "path": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7/n483dadbc86fc_930c.iq",
+  "id": "n483dadbc86fc",
+  "radio": "930c",
+  "expected_bytes": 320000000
+ }
+]

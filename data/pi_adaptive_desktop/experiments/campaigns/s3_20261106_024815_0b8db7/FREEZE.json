@@ -1,0 +1,614 @@
+{
+ "campaign": "s3_20261106_024815_0b8db7",
+ "stage": "s3",
+ "plan": [
+  {
+   "id": "nbf30b39fcda1",
+   "block": 0,
+   "stage": "sp2027_s3",
+   "condition": "gzip16_cap",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "feac6696c00a868ad78d63ae2ab5e3bf",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "nde7ef349c4eb",
+   "block": 0,
+   "stage": "sp2027_s3",
+   "condition": "gzip16",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "feac6696c00a868ad78d63ae2ab5e3bf",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n076cd93db160",
+   "block": 0,
+   "stage": "sp2027_s3",
+   "condition": "silent",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "feac6696c00a868ad78d63ae2ab5e3bf",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "nd7fd38be7b82",
+   "block": 0,
+   "stage": "sp2027_s3",
+   "condition": "silent_cap",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "feac6696c00a868ad78d63ae2ab5e3bf",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n564f3f4df566",
+   "block": 1,
+   "stage": "sp2027_s3",
+   "condition": "gzip16",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "9a0f6a016d96b37dea892b7112921b67",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "ncd584f97aec4",
+   "block": 1,
+   "stage": "sp2027_s3",
+   "condition": "silent",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "9a0f6a016d96b37dea892b7112921b67",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n53b794d474eb",
+   "block": 1,
+   "stage": "sp2027_s3",
+   "condition": "gzip16_cap",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "9a0f6a016d96b37dea892b7112921b67",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n394388c4079d",
+   "block": 1,
+   "stage": "sp2027_s3",
+   "condition": "silent_cap",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "9a0f6a016d96b37dea892b7112921b67",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "ne35d6f8c4452",
+   "block": 2,
+   "stage": "sp2027_s3",
+   "condition": "gzip16",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "61fb96b39dab4e48db9852eef6972310",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n8025f1fd2624",
+   "block": 2,
+   "stage": "sp2027_s3",
+   "condition": "gzip16_cap",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "61fb96b39dab4e48db9852eef6972310",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n12eb6435fb5d",
+   "block": 2,
+   "stage": "sp2027_s3",
+   "condition": "silent",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "61fb96b39dab4e48db9852eef6972310",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n9bafdc5169c8",
+   "block": 2,
+   "stage": "sp2027_s3",
+   "condition": "silent_cap",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "61fb96b39dab4e48db9852eef6972310",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n9b579981819d",
+   "block": 3,
+   "stage": "sp2027_s3",
+   "condition": "silent",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "c3bf25b8f2e9cd8a17db5331d04c0590",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n94c70cf8750b",
+   "block": 3,
+   "stage": "sp2027_s3",
+   "condition": "gzip16_cap",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "c3bf25b8f2e9cd8a17db5331d04c0590",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n14b2b5e96be5",
+   "block": 3,
+   "stage": "sp2027_s3",
+   "condition": "silent_cap",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "c3bf25b8f2e9cd8a17db5331d04c0590",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "nc78902bae853",
+   "block": 3,
+   "stage": "sp2027_s3",
+   "condition": "gzip16",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "c3bf25b8f2e9cd8a17db5331d04c0590",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n7cd8bd68d053",
+   "block": 4,
+   "stage": "sp2027_s3",
+   "condition": "gzip16",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "ca3d9c2b92c0d8d833a9411d115c8a39",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n3e1b8fe13c4d",
+   "block": 4,
+   "stage": "sp2027_s3",
+   "condition": "silent",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "ca3d9c2b92c0d8d833a9411d115c8a39",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n92b56b2a8884",
+   "block": 4,
+   "stage": "sp2027_s3",
+   "condition": "gzip16_cap",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "ca3d9c2b92c0d8d833a9411d115c8a39",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n6edc1d7618d9",
+   "block": 4,
+   "stage": "sp2027_s3",
+   "condition": "silent_cap",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "ca3d9c2b92c0d8d833a9411d115c8a39",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "nfd2fbec65b62",
+   "block": 5,
+   "stage": "sp2027_s3",
+   "condition": "silent",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "d965a3e6bbc2c0b18ce76f2f03d34c71",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "nf2bac6ef4380",
+   "block": 5,
+   "stage": "sp2027_s3",
+   "condition": "silent_cap",
+   "actual_active": false,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "d965a3e6bbc2c0b18ce76f2f03d34c71",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "nb35ba92a842c",
+   "block": 5,
+   "stage": "sp2027_s3",
+   "condition": "gzip16",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": null,
+   "request": {
+    "id": "d965a3e6bbc2c0b18ce76f2f03d34c71",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "n483dadbc86fc",
+   "block": 5,
+   "stage": "sp2027_s3",
+   "condition": "gzip16_cap",
+   "actual_active": true,
+   "expected_active": false,
+   "dvfs_cap_khz": 1200000,
+   "request": {
+    "id": "d965a3e6bbc2c0b18ce76f2f03d34c71",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  }
+ ],
+ "seconds": 8,
+ "cooldown_s": 25,
+ "winroot": "<DATA>/telltale_sp2027/s3_20261106_024815_0b8db7",
+ "piroot": "/home/pi/telltale_sp2027/s3_20261106_024815_0b8db7",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=45.7'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 42.19,
+   "ddr_c": 38.81
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 2,
+   "model": "ST1000DM003-1ER162",
+   "free": 763281731584,
+   "console_user": "desktop\\win",
+   "other_workloads": 0,
+   "cpu_load": 0,
+   "remote_tools": [
+    "AweSun:4376",
+    "AweSun:6804",
+    "AweSun:40472",
+    "awesun_guard:7008",
+    "GameViewer:47528",
+    "GameViewerHealthd:6356",
+    "GameViewerServer:6252",
+    "GameViewerService:4312"
+   ],
+   "target_drive": "J",
+   "concurrent_source_transfer": true,
+   "query_user": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-06T02:48:27Z"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 49568,
+  "root": "<DATA>\\telltale_sp2027\\s3_20261106_024815_0b8db7"
+ },
+ "source_sha256": {
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\collect_sp2027_wait.py": "d9760e829a3cbb86672f22e7c2b4962319c518783190f49adab1d1411b79a616",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\pi_api_sp2027_wait.py": "b505e8655420407931d8db84323e77f0759a2bec4d8cb07e6c51a436b8b1868a",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\textgen.py": "5daca0e9b167cd8242ce0d5d07afeecd7d28b4df6ca1cb4da1254a5be1f09a97",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\03_.md": "dd161b5e0d89706cca816ecd200f9f400f18d41ecb88657c9547ff35f616b0d5",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\rig_capture_stagger.py": "1f4e22112ef002ed8f239e268a8ae648de8607f8420d02b4543bd1a57c3ffe43",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\collect.py": "75f956acd8d52d40621788650c583828a651e44744e765526ef3f752e443b446"
+ },
+ "utc": "2026-11-06T02:48:30Z",
+ "syscall_tracing": false,
+ "all_trials_test_only": true,
+ "fixtures": {
+  "rand16": {
+   "path": "/home/pi/telltale_sp2027/s3_20261106_024815_0b8db7/rand16.bin",
+   "sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a"
+  },
+  "rand8": {
+   "path": "/home/pi/telltale_sp2027/s3_20261106_024815_0b8db7/rand8.bin",
+   "sha256": "f0b6b253968108630fe99487690e5f839933abce237fb3bf458aa29d1c11a6eb"
+  },
+  "rand4": {
+   "path": "/home/pi/telltale_sp2027/s3_20261106_024815_0b8db7/rand4.bin",
+   "sha256": "94a2aa4e8089df0a3eb6a4c0ddb728b2ba8109ecf93ea8b07ab2f66328ecac1d"
+  },
+  "rand2": {
+   "path": "/home/pi/telltale_sp2027/s3_20261106_024815_0b8db7/rand2.bin",
+   "sha256": "613d05325e6a8e61cd46cd5c68ea243edde476a2fb4459a43d9065dace010494"
+  },
+  "text8": {
+   "path": "/home/pi/telltale_sp2027/s3_20261106_024815_0b8db7/text8.bin",
+   "sha256": "19274966d26afb3e377d2122124d94450d63d649bd851849559670b831774bdf"
+  }
+ }
+}

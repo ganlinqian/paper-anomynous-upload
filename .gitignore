@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+outputs/
+external/
+/samples/v4137801df28c_930c_crop.iq.gz
+/samples/v6d922e460947_930c_crop.iq.gz
+/data/power_c36/c2_2026-11-16_06-26-02.csv
+.venv/

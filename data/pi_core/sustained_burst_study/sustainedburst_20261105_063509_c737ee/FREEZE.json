@@ -1,0 +1,657 @@
+{
+ "campaign": "sustainedburst_20261105_063509_c737ee",
+ "stage": "sustained_burst_confirmation",
+ "plan": [
+  {
+   "milliseconds": 100,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "sfb2c8149d92d",
+   "block": 0,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "561b107ba3dbc32e8ed5ee78a9019026",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 1000,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s8b067d4164ae",
+   "block": 0,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "561b107ba3dbc32e8ed5ee78a9019026",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 0,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": false,
+   "expected_condition": false,
+   "id": "scb909cec8eaa",
+   "block": 0,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "561b107ba3dbc32e8ed5ee78a9019026",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "milliseconds": 10,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s83167696db77",
+   "block": 0,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "561b107ba3dbc32e8ed5ee78a9019026",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 10,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s023824a220f7",
+   "block": 1,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "0bb770ae9e2e0f69aeaf8af1b59c6f02",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 0,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": false,
+   "expected_condition": false,
+   "id": "sd478e08b4de8",
+   "block": 1,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "0bb770ae9e2e0f69aeaf8af1b59c6f02",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "milliseconds": 1000,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s4651079a6086",
+   "block": 1,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "0bb770ae9e2e0f69aeaf8af1b59c6f02",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 100,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s50245d06a4d5",
+   "block": 1,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "0bb770ae9e2e0f69aeaf8af1b59c6f02",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 100,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s1dfc2ad4f492",
+   "block": 2,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "e43d50c93c56bb467c053f7e0dc21118",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 1000,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "sabc1f16bc9d0",
+   "block": 2,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "e43d50c93c56bb467c053f7e0dc21118",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 0,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": false,
+   "expected_condition": false,
+   "id": "s57f65b4ad1d8",
+   "block": 2,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "e43d50c93c56bb467c053f7e0dc21118",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "milliseconds": 10,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "sbd4c9085a34f",
+   "block": 2,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "e43d50c93c56bb467c053f7e0dc21118",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 10,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s2018732ba026",
+   "block": 3,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "fa37e889beb87f2c728afd3f2698716d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 0,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": false,
+   "expected_condition": false,
+   "id": "s365211dc1dd4",
+   "block": 3,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "fa37e889beb87f2c728afd3f2698716d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "milliseconds": 1000,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "se5669ac1decd",
+   "block": 3,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "fa37e889beb87f2c728afd3f2698716d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 100,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "sab6a3e92f162",
+   "block": 3,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "fa37e889beb87f2c728afd3f2698716d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 0,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": false,
+   "expected_condition": false,
+   "id": "s2d204baf5eb1",
+   "block": 4,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "2e7d1301bdc388491afec0480edcfdb7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "milliseconds": 10,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "sfad3a40cc2e1",
+   "block": 4,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "2e7d1301bdc388491afec0480edcfdb7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 1000,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "sa2b0151cd28e",
+   "block": 4,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "2e7d1301bdc388491afec0480edcfdb7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 100,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "s240f0db88011",
+   "block": 4,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "2e7d1301bdc388491afec0480edcfdb7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 0,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": false,
+   "expected_condition": false,
+   "id": "s53fffe7507c0",
+   "block": 5,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "7cc501594848ddf1805fc67fdd60c6cc",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "milliseconds": 1000,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "se45e83faf187",
+   "block": 5,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "7cc501594848ddf1805fc67fdd60c6cc",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 10,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "sc519afa30a26",
+   "block": 5,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "7cc501594848ddf1805fc67fdd60c6cc",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "milliseconds": 100,
+   "cover": true,
+   "family": "burst",
+   "actual_condition": true,
+   "expected_condition": false,
+   "id": "se80610ebfc32",
+   "block": 5,
+   "stage": "sustained_burst_confirmation",
+   "request": {
+    "id": "7cc501594848ddf1805fc67fdd60c6cc",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  }
+ ],
+ "seconds": 4,
+ "cooldown_s": 25,
+ "winroot": "F:/Data/telltale_sustained_burst_20261105/sustainedburst_20261105_063509_c737ee",
+ "piroot": "/home/pi/telltale_scenarios_rf_20261104/sustainedburst_20261105_063509_c737ee",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=44.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 41.28,
+   "ddr_c": 37.84
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 0,
+   "model": "WDC WD10EZEX-08WN4A0",
+   "free": 23675322368,
+   "console_user": null,
+   "other_workloads": 0,
+   "target_drive": "F",
+   "concurrent_source_transfer": true,
+   "query_user": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "No User exists for *\n"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 35540,
+  "root": "F:\\Data\\telltale_sustained_burst_20261105\\sustainedburst_20261105_063509_c737ee"
+ },
+ "source_sha256": {
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\sustained_burst_study\\PROTOCOL.md": "b6e606617659c020080baf788f50d58e82054c75061cc7eeb23684fc64855030",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\sustained_burst_study\\collect_sustained_burst.py": "7e3b49deda853d003dd35de145e2c6b3ba3f94528de8f98ed5deb970a08f8725",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\sustained_burst_study\\pi_api.py": "b47f64a08866f1d31a8013ce3dc8497375f93361fc9117df5c18ff56fec64d7c",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\burst.c": "0c9e028481fe41345d4a75a77ff5f1aa1b382bdbb66eb5ef296a7d79cef864c0",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\order_study\\ordered.c": "3532cc11373fc31e7c944f8c93215c327945012527311983e39d476cfbfa5a6a",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\sustained_burst_study\\rig_capture_stagger.py": "3fde5c0cd0f6a75e49564376b88b32c50dda24e6d816cb9f3721407c055dfd46",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\ENGINEERING_RESTART_20261105.md": "d40d428dd5bfd4e63f6745013c384c13ba5c4fe0c0e11bac72739ca9c2218588",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\BURST_EXPLORATORY_FREEZE.json": "e43e226984b4034dcd0f86aa3423dcd6a0e1faa88ebc3b4c9449fb23640c1f22",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\BURST_EXPLORATORY_RECEIPT.json": "30ca3dbdb2edb9c742609bc8b612db5a0d86d5dc36ab7d092629f9fa20fe3ef4"
+ },
+ "utc": "2026-11-05T06:35:13Z",
+ "trusted_policy_in_worker": false,
+ "models_sha256": "e43e226984b4034dcd0f86aa3423dcd6a0e1faa88ebc3b4c9449fb23640c1f22",
+ "all_trials_test_only": true,
+ "continuous_sha_min_s": 1.5,
+ "planned_bytes": 7680000000,
+ "reserve_bytes": 12000000000,
+ "selected_after_C09_outcome": true,
+ "concurrent_transfer": {
+  "F": {
+   "completed": 102,
+   "planned": 176,
+   "bytes": 16320000000,
+   "elapsed_s": 1743.0149999999994,
+   "utc": "2026-11-04T18:41:36Z"
+  },
+  "J": {
+   "completed": 19,
+   "planned": 64,
+   "bytes": 6080000000,
+   "elapsed_s": 885.5149999999994,
+   "utc": "2026-11-04T18:41:18Z"
+  },
+  "resume": {
+   "completed": 240,
+   "planned": 240,
+   "resumed_uploaded": 119,
+   "elapsed_s": 2066.094000000001,
+   "utc": "2026-11-05T03:40:42Z"
+  }
+ }
+}

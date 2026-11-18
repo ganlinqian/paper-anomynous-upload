@@ -1,0 +1,216 @@
+{
+ "utc": "2026-11-16T18:23:23Z",
+ "campaign": "s1m_20261116_165318_f72e62",
+ "model_sha256": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+ "n": 107,
+ "n_test": 99,
+ "primary": "avg_whole_temporal",
+ "no_fit": true,
+ "calibration_ids": [
+  "na5c3cbb5ebc3",
+  "n02c4a6d48ffe",
+  "nb8fa01388a6c",
+  "n67b8b4bf8cfe",
+  "n220d7bbe4fca",
+  "n580bb9e7d5e1",
+  "n413885fe9051",
+  "ne58063c037cc"
+ ],
+ "summary": {
+  "avg_whole_temporal": {
+   "by_condition": {
+    "deferred16": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip16": {
+     "alerts": 14,
+     "n": 14
+    },
+    "gzip16_alt": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip16_p12": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 6,
+     "n": 6
+    },
+    "persist12": {
+     "alerts": 1,
+     "n": 8
+    },
+    "persist25": {
+     "alerts": 2,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 1,
+     "n": 31
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    },
+    "silent_e1": {
+     "alerts": 0,
+     "n": 8
+    }
+   },
+   "tp": 40,
+   "fn": 27,
+   "fp": 0,
+   "tn": 32,
+   "accuracy": 0.7272727272727273,
+   "accuracy_95pct": [
+    0.6285285398069604,
+    0.8119610063013487
+   ],
+   "tpr": 0.5970149253731343,
+   "fpr": 0.0,
+   "tpr_95pct": [
+    0.4700413457880289,
+    0.7151261043758184
+   ],
+   "fpr_95pct": [
+    0.0,
+    0.10888116067935288
+   ],
+   "balanced_accuracy": 0.7985074626865671,
+   "auc": 0.8857276119402985
+  },
+  "whole_C0.1": {
+   "by_condition": {
+    "deferred16": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip16": {
+     "alerts": 14,
+     "n": 14
+    },
+    "gzip16_alt": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip16_p12": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 6,
+     "n": 6
+    },
+    "persist12": {
+     "alerts": 1,
+     "n": 8
+    },
+    "persist25": {
+     "alerts": 2,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 3,
+     "n": 31
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    },
+    "silent_e1": {
+     "alerts": 0,
+     "n": 8
+    }
+   },
+   "tp": 40,
+   "fn": 27,
+   "fp": 2,
+   "tn": 30,
+   "accuracy": 0.7070707070707071,
+   "accuracy_95pct": [
+    0.6070912730152385,
+    0.7942614069282845
+   ],
+   "tpr": 0.5970149253731343,
+   "fpr": 0.0625,
+   "tpr_95pct": [
+    0.4700413457880289,
+    0.7151261043758184
+   ],
+   "fpr_95pct": [
+    0.007660736346456388,
+    0.20806942989500746
+   ],
+   "balanced_accuracy": 0.7672574626865671,
+   "auc": 0.8521455223880596
+  },
+  "temporal_C0.1": {
+   "by_condition": {
+    "deferred16": {
+     "alerts": 0,
+     "n": 8
+    },
+    "gzip16": {
+     "alerts": 14,
+     "n": 14
+    },
+    "gzip16_alt": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip16_p12": {
+     "alerts": 8,
+     "n": 8
+    },
+    "gzip3_d19": {
+     "alerts": 5,
+     "n": 6
+    },
+    "persist12": {
+     "alerts": 0,
+     "n": 8
+    },
+    "persist25": {
+     "alerts": 2,
+     "n": 8
+    },
+    "silent": {
+     "alerts": 4,
+     "n": 31
+    },
+    "silent_cal": {
+     "alerts": 0,
+     "n": 8
+    },
+    "silent_e1": {
+     "alerts": 0,
+     "n": 8
+    }
+   },
+   "tp": 40,
+   "fn": 27,
+   "fp": 1,
+   "tn": 31,
+   "accuracy": 0.7171717171717171,
+   "accuracy_95pct": [
+    0.6177836016306721,
+    0.8031383061691827
+   ],
+   "tpr": 0.5970149253731343,
+   "fpr": 0.03125,
+   "tpr_95pct": [
+    0.4700413457880289,
+    0.7151261043758184
+   ],
+   "fpr_95pct": [
+    0.0007908685979525573,
+    0.1621709941815115
+   ],
+   "balanced_accuracy": 0.7828824626865671,
+   "auc": 0.8633395522388059
+  }
+ }
+}

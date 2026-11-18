@@ -1,0 +1,18 @@
+[
+ {
+  "source": "v4137801df28c_930c.iq",
+  "byte_start": 31059456,
+  "byte_end": 141722752,
+  "n_bytes": 110663296,
+  "sha256_uncompressed": "0c4e8e76703a1df11c47a7a47c4965dd7fa5389a74dd09060c76dece26425353",
+  "file": "v4137801df28c_930c_crop.iq.gz"
+ },
+ {
+  "source": "v6d922e460947_930c.iq",
+  "byte_start": 35253760,
+  "byte_end": 143557760,
+  "n_bytes": 108304000,
+  "sha256_uncompressed": "4d728cd50c92163ccfa0618c0c92f9810488ae50fb145794eab6d53e58e2f6d8",
+  "file": "v6d922e460947_930c_crop.iq.gz"
+ }
+]

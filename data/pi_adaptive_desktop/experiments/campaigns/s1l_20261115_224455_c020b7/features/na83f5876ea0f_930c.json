@@ -1,0 +1,25 @@
+{
+ "id": "na83f5876ea0f",
+ "radio": "930c",
+ "filename": "na83f5876ea0f_930c.iq",
+ "raw_sha256": "7ac078d70dda06dafaf1c58dad371418dacd6639a19435fd349b88dab059bb78",
+ "raw_bytes": 320000000,
+ "feature_path": "<DATA>\\telltale_sp2027\\s1l_20261115_224455_c020b7\\features\\na83f5876ea0f_930c.npz",
+ "frames": 782,
+ "samples_consumed": 160000000,
+ "full_contiguous": true,
+ "empty_frequency_groups": [
+  0,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63
+ ],
+ "feature_dim": 260,
+ "mean_power_db": 5.205643912401868,
+ "max_clip_fraction": 0.0,
+ "extractor": "win4_extract.py",
+ "numpy": "2.0.2"
+}

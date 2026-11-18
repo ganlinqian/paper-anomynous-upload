@@ -1,0 +1,27 @@
+{
+ "utc": "2026-11-15T17:23:30.718659+00:00",
+ "note": "C36 re-run (s1l, new campaign). First C36 batch s1l_20261115_162746_babc18 stopped fail-closed at run 43 (16:52:50 UTC): the 16bc radio spawned 3.83 s after 930c (C34/C35: 0/192 gaps > 1 s; this batch 2/43), so 930c finished before the call ended (sample-conservation check). Suspected cause: ATK-C.exe (C2 host software, ~1.3 cores, Normal priority) pre-empting BELOW_NORMAL SDR processes; same single Intel xHCI controller for C2 and both HackRFs. Mitigation: ATK-C set to Idle priority at ~17:23 UTC, C2 stays on capture_pc (user choice 2). The interrupted batch is kept and reported separately as interrupted; this re-run replaces it for all pre-specified C36 endpoints. Detectors, code, endpoints and power-meter plan unchanged (hashes checked against PRE_C36_FREEZE.json). Post-sync of batch 1 = pre-sync of re-run: sync_pulses_c36a_post_c36b_pre_20261115T172319Z.json.",
+ "sha256": {
+  "experiments/models/C35_SELFROLL_MODELS.json": "d3fd4760cc5bc847a2a7f2232d8da67a37da4a08527c0e67ec3db65bef28fd3e",
+  "experiments/models/C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments/models/C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments/process_sp2027.py": "a426837e34532a62fe60e95641891652fc6ed44b246f174b5054ff70a95b88e5",
+  "experiments/collect_sp2027_wait.py": "414b13c9edd4b5c429b08a4e6e60028eadca314dd8c7631e61ac50798d54dd7c",
+  "experiments/pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "experiments/run_sp2027_chain.ps1": "3737dc1ae53e6519ef33057a26ad48fe587fea900ebe1867752e5b93aa8433ba",
+  "experiments/start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments/rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts/c35_stats.py": "1548a679c804e477bf8fdfda81cdd005ab21600a34f6fd27f799ab73df8f0f3d",
+  "scripts/c36_stats.py": "1798db6e4216cb6e2ead8f67b70a24a421a9a7ca7e395a1da7db786884bdb3b2",
+  "experiments/freeze_receipts/PRE_C36_FREEZE.json": "f2f9525ec82965e7db1cb1e3e03271cd7080b6c2b6d7258a400c40ad8a35d80d",
+  "power_c36/POWER_PLAN.md": "105e3ba5eff4636b946348969617ce2c813ecbf1b8d50e5de8c96f2c88b24fed",
+  "power_c36/sync_pulses.py": "09e3288ed5d5ced24447c423071ed3c7e1ab3a5df3b5b21d21d3c2253ac834f3",
+  "power_c36/align_sync.py": "7b8e99e880dc4c29d7440ef4873faf225ba129794c98e752a2907ff544e0f4cc",
+  "power_c36/set_atk_idle.py": "31c9717df084eadf1bfc178ba052515244cc881832688393387ff11a3e022eb0",
+  "power_c36/spawn_gaps.py": "2afa22e9979c98a151f3e3949d21009aefe6edf59c40c8805f1f96d03570bf2d"
+ },
+ "interrupted_campaign": "s1l_20261115_162746_babc18",
+ "rerun_started": false,
+ "user_approved": true,
+ "approval": "user 2026-11-15: 2 (keep C2 on capture_pc, lower ATK-C priority to Idle, re-run C36)"
+}

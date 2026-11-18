@@ -1,0 +1,767 @@
+{
+ "campaign": "untracedwait_20261105_061041_b80fac",
+ "stage": "untraced_wait_confirmation",
+ "plan": [
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "ua2e51a9d6dea",
+   "block": 0,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "bc06c4c2de30fbc12a6eae18ca08c2d2",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "u71719d290fbd",
+   "block": 0,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "bc06c4c2de30fbc12a6eae18ca08c2d2",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "ubb5898a383a1",
+   "block": 0,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "bc06c4c2de30fbc12a6eae18ca08c2d2",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "u3bf86d7ad901",
+   "block": 0,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "bc06c4c2de30fbc12a6eae18ca08c2d2",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "u2cdcac28bcd3",
+   "block": 1,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "891d52d7b5c25d758ee53f7a2bf21f98",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "u910c433c4a5c",
+   "block": 1,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "891d52d7b5c25d758ee53f7a2bf21f98",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "uef3cbcd2beb7",
+   "block": 1,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "891d52d7b5c25d758ee53f7a2bf21f98",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "uc3157874c537",
+   "block": 1,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "891d52d7b5c25d758ee53f7a2bf21f98",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "ua55ca768cec4",
+   "block": 2,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "1d9f5b4989e8a9b38fc5e93858d0cbca",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "uce09e5230f53",
+   "block": 2,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "1d9f5b4989e8a9b38fc5e93858d0cbca",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "ue7224b08b492",
+   "block": 2,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "1d9f5b4989e8a9b38fc5e93858d0cbca",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "u5cb07d85e660",
+   "block": 2,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "1d9f5b4989e8a9b38fc5e93858d0cbca",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "u316926373f5f",
+   "block": 3,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "9eaad315f3da0f80d9f752887c77716e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "ub3319e6ec8e6",
+   "block": 3,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "9eaad315f3da0f80d9f752887c77716e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "uc60578aaec55",
+   "block": 3,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "9eaad315f3da0f80d9f752887c77716e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "ub03766c9dc4e",
+   "block": 3,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "9eaad315f3da0f80d9f752887c77716e",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "u6f754fdd36a1",
+   "block": 4,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "0e25560a36631133e2582c78a733a6af",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "u1be18283d369",
+   "block": 4,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "0e25560a36631133e2582c78a733a6af",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "u708e4d6b26a9",
+   "block": 4,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "0e25560a36631133e2582c78a733a6af",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "uf36c8d574160",
+   "block": 4,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "0e25560a36631133e2582c78a733a6af",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "ua8f49fe5d4ac",
+   "block": 5,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "d768231b69cf9170978b134c877f241f",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "ue9c75cc4f899",
+   "block": 5,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "d768231b69cf9170978b134c877f241f",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "u89262517091b",
+   "block": 5,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "d768231b69cf9170978b134c877f241f",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "u72d50f8d51be",
+   "block": 5,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "d768231b69cf9170978b134c877f241f",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "u756dcbe990b2",
+   "block": 6,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "b5352a434a26ac5fc6576e48c9c6f332",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "ua2fc131e841b",
+   "block": 6,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "b5352a434a26ac5fc6576e48c9c6f332",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "u615dda8321ff",
+   "block": 6,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "b5352a434a26ac5fc6576e48c9c6f332",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "u45cb458184c7",
+   "block": 6,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "b5352a434a26ac5fc6576e48c9c6f332",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "cover": false,
+   "id": "u64e76d9ee3f4",
+   "block": 7,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "82101d79322341f50ea18b3d8376c0cd",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "cover": false,
+   "id": "ud6d7e2ae7771",
+   "block": 7,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "82101d79322341f50ea18b3d8376c0cd",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "cover": false,
+   "id": "ua1e5b329a41d",
+   "block": 7,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "82101d79322341f50ea18b3d8376c0cd",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "cover": false,
+   "id": "u074dcf3fcc68",
+   "block": 7,
+   "stage": "untraced_wait_confirmation",
+   "request": {
+    "id": "82101d79322341f50ea18b3d8376c0cd",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  }
+ ],
+ "seconds": 8,
+ "cooldown_s": 25,
+ "winroot": "F:/Data/telltale_untraced_wait_20261105/untracedwait_20261105_061041_b80fac",
+ "piroot": "/home/pi/telltale_scenarios_rf_20261104/untracedwait_20261105_061041_b80fac",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=44.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 40.85,
+   "ddr_c": 37.64
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 0,
+   "model": "WDC WD10EZEX-08WN4A0",
+   "free": 44155715584,
+   "console_user": null,
+   "other_workloads": 0,
+   "target_drive": "F",
+   "concurrent_source_transfer": true,
+   "query_user": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "No User exists for *\n"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 31244,
+  "root": "F:\\Data\\telltale_untraced_wait_20261105\\untracedwait_20261105_061041_b80fac"
+ },
+ "source_sha256": {
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\untraced_wait_study\\PROTOCOL.md": "0bf2ee93d4494c63cdaac16c1dfb3cae12605cd222a21817947ef15d599f720c",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\untraced_wait_study\\collect_untraced_wait.py": "f2ef5159dbde412d972d99670a0960abed9cc45014013a4668e90910b6c16c71",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\untraced_wait_study\\pi_api.py": "4b1205548742d2922cb5b6fa9651ca74f597ff8e695c65fe8845dfeba0ce989f",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\rig_capture_stagger.py": "1f4e22112ef002ed8f239e268a8ae648de8607f8420d02b4543bd1a57c3ffe43",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\ENGINEERING_RESTART_20261105.md": "d40d428dd5bfd4e63f6745013c384c13ba5c4fe0c0e11bac72739ca9c2218588",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\WAIT_CONFIRMATION_MODELS.json": "2c802e7b01ee7b48cf17fee742f033f1267f557b272408db3a29fb1b352460d3",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\WAIT_MODELS_RECEIPT.json": "6240c9f5e432e5463bd8eefc0e310110577635ef376584f73e6a4b76339d359e",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\RELATIVE_REFERENCE_MODELS.json": "70d72ecf5321b6ee0a68cce74077fd7e5adc121087efda5ea7868a41a94b071b",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\analysis_extensions\\EXECUTION_WINDOW_MODELS.json": "f238ff8e1a3f73a9d2fa29f0495a4d30cc36c5e255b02cb714a48432614e4224"
+ },
+ "utc": "2026-11-05T06:10:57Z",
+ "trusted_policy_in_worker": false,
+ "syscall_tracing": false,
+ "all_trials_test_only": true,
+ "pilot_sha256": "e9ac0d91dc3235d06d1176d8269b4a9d718e366b7787961ae085b4930efe6917",
+ "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+ "concurrent_resume_transfer": {
+  "completed": 240,
+  "planned": 240,
+  "resumed_uploaded": 119,
+  "elapsed_s": 2066.094000000001,
+  "utc": "2026-11-05T03:40:42Z"
+ }
+}

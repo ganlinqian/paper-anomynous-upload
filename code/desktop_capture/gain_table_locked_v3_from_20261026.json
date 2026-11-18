@@ -1,0 +1,2260 @@
+{
+ "table": {
+  "0": [
+   8,
+   0
+  ],
+  "20": [
+   8,
+   0
+  ],
+  "40": [
+   8,
+   8
+  ],
+  "60": [
+   16,
+   4
+  ],
+  "80": [
+   24,
+   0
+  ],
+  "100": [
+   16,
+   8
+  ],
+  "120": [
+   16,
+   8
+  ],
+  "140": [
+   24,
+   0
+  ],
+  "160": [
+   24,
+   4
+  ],
+  "180": [
+   16,
+   4
+  ],
+  "200": [
+   16,
+   4
+  ],
+  "220": [
+   16,
+   0
+  ],
+  "240": [
+   16,
+   4
+  ],
+  "260": [
+   16,
+   4
+  ],
+  "280": [
+   16,
+   0
+  ],
+  "300": [
+   8,
+   0
+  ],
+  "320": [
+   16,
+   0
+  ],
+  "340": [
+   16,
+   0
+  ],
+  "360": [
+   16,
+   0
+  ],
+  "380": [
+   16,
+   4
+  ],
+  "400": [
+   24,
+   0
+  ],
+  "420": [
+   16,
+   16
+  ],
+  "440": [
+   16,
+   8
+  ],
+  "460": [
+   16,
+   8
+  ],
+  "480": [
+   16,
+   4
+  ],
+  "500": [
+   16,
+   8
+  ],
+  "520": [
+   24,
+   8
+  ],
+  "540": [
+   24,
+   8
+  ],
+  "560": [
+   16,
+   16
+  ],
+  "580": [
+   16,
+   8
+  ],
+  "600": [
+   24,
+   8
+  ],
+  "620": [
+   24,
+   8
+  ],
+  "640": [
+   16,
+   16
+  ],
+  "660": [
+   24,
+   8
+  ],
+  "680": [
+   24,
+   8
+  ],
+  "700": [
+   24,
+   8
+  ],
+  "720": [
+   24,
+   8
+  ],
+  "740": [
+   16,
+   16
+  ],
+  "760": [
+   16,
+   0
+  ],
+  "780": [
+   16,
+   8
+  ],
+  "800": [
+   24,
+   8
+  ],
+  "820": [
+   24,
+   8
+  ],
+  "840": [
+   24,
+   8
+  ],
+  "860": [
+   24,
+   8
+  ],
+  "880": [
+   24,
+   8
+  ],
+  "900": [
+   24,
+   8
+  ],
+  "920": [
+   16,
+   12
+  ],
+  "940": [
+   16,
+   12
+  ],
+  "960": [
+   24,
+   0
+  ],
+  "980": [
+   24,
+   8
+  ],
+  "1000": [
+   24,
+   8
+  ],
+  "1020": [
+   24,
+   8
+  ],
+  "1040": [
+   24,
+   0
+  ],
+  "1060": [
+   24,
+   8
+  ],
+  "1080": [
+   24,
+   8
+  ],
+  "1100": [
+   24,
+   8
+  ],
+  "1120": [
+   24,
+   0
+  ],
+  "1140": [
+   24,
+   4
+  ],
+  "1160": [
+   24,
+   8
+  ],
+  "1180": [
+   24,
+   8
+  ],
+  "1200": [
+   24,
+   8
+  ],
+  "1220": [
+   24,
+   4
+  ],
+  "1240": [
+   24,
+   8
+  ],
+  "1260": [
+   24,
+   4
+  ],
+  "1280": [
+   24,
+   8
+  ],
+  "1300": [
+   24,
+   4
+  ],
+  "1320": [
+   24,
+   8
+  ],
+  "1340": [
+   24,
+   4
+  ],
+  "1360": [
+   24,
+   0
+  ],
+  "1380": [
+   24,
+   0
+  ],
+  "1400": [
+   24,
+   4
+  ],
+  "1420": [
+   24,
+   4
+  ],
+  "1440": [
+   24,
+   8
+  ],
+  "1460": [
+   24,
+   8
+  ],
+  "1480": [
+   24,
+   8
+  ],
+  "1500": [
+   24,
+   4
+  ],
+  "1520": [
+   24,
+   4
+  ],
+  "1540": [
+   24,
+   4
+  ],
+  "1560": [
+   24,
+   8
+  ],
+  "1580": [
+   24,
+   8
+  ],
+  "1600": [
+   24,
+   8
+  ],
+  "1620": [
+   24,
+   8
+  ],
+  "1640": [
+   24,
+   8
+  ],
+  "1660": [
+   24,
+   8
+  ],
+  "1680": [
+   24,
+   8
+  ],
+  "1700": [
+   24,
+   8
+  ],
+  "1720": [
+   24,
+   8
+  ],
+  "1740": [
+   24,
+   8
+  ],
+  "1760": [
+   24,
+   8
+  ],
+  "1780": [
+   24,
+   8
+  ],
+  "1800": [
+   24,
+   8
+  ],
+  "1820": [
+   24,
+   8
+  ],
+  "1840": [
+   24,
+   0
+  ],
+  "1860": [
+   24,
+   4
+  ],
+  "1880": [
+   24,
+   0
+  ],
+  "1900": [
+   24,
+   8
+  ],
+  "1920": [
+   24,
+   8
+  ],
+  "1940": [
+   24,
+   8
+  ],
+  "1960": [
+   24,
+   8
+  ],
+  "1980": [
+   24,
+   8
+  ],
+  "2000": [
+   24,
+   8
+  ],
+  "2020": [
+   24,
+   8
+  ],
+  "2040": [
+   24,
+   8
+  ],
+  "2060": [
+   24,
+   8
+  ],
+  "2080": [
+   24,
+   8
+  ],
+  "2100": [
+   8,
+   0
+  ],
+  "2120": [
+   8,
+   0
+  ],
+  "2140": [
+   8,
+   0
+  ],
+  "2160": [
+   16,
+   0
+  ],
+  "2180": [
+   16,
+   8
+  ],
+  "2200": [
+   16,
+   16
+  ],
+  "2220": [
+   16,
+   16
+  ],
+  "2240": [
+   24,
+   8
+  ],
+  "2260": [
+   24,
+   8
+  ],
+  "2280": [
+   16,
+   8
+  ],
+  "2300": [
+   8,
+   8
+  ],
+  "2320": [
+   8,
+   0
+  ],
+  "2340": [
+   8,
+   8
+  ],
+  "2360": [
+   16,
+   12
+  ],
+  "2380": [
+   8,
+   0
+  ],
+  "2400": [
+   0,
+   0
+  ],
+  "2420": [
+   0,
+   0
+  ],
+  "2440": [
+   0,
+   0
+  ],
+  "2460": [
+   8,
+   0
+  ],
+  "2480": [
+   16,
+   0
+  ]
+ },
+ "source": "full 125-band pilot sweep; peak target 0.25FS plus 8dB headroom; previously clipped bands lowered at least 24dB",
+ "gain_policy": "frozen across all formal labels; additional burst headroom: LNA<=24, VGA<=16, sum<=32; earlier pilot1 and pilot2 excluded",
+ "pilot_manifest_sha256": "806a24ea6946f24d4ad0d4de080dd2de6acff1a424281b98c04b75f69463443f",
+ "changes": [
+  {
+   "start_mhz": 0,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 2.625e-05,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 20,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 0.7109375,
+   "observed_clip": 0.0,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 40,
+   "before": [
+    8,
+    16
+   ],
+   "after": [
+    8,
+    8
+   ],
+   "observed_peak_fs": 0.140625,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 60,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    4
+   ],
+   "observed_peak_fs": 0.3515625,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 80,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 8.25e-05,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 100,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.1953125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 120,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.515625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 140,
+   "before": [
+    32,
+    16
+   ],
+   "after": [
+    24,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 1.75e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 160,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    4
+   ],
+   "observed_peak_fs": 0.8984375,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 180,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    4
+   ],
+   "observed_peak_fs": 0.28125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 200,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    4
+   ],
+   "observed_peak_fs": 0.78125,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 220,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 0.5546875,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 240,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    4
+   ],
+   "observed_peak_fs": 0.96875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 260,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    4
+   ],
+   "observed_peak_fs": 0.6640625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 280,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 0.578125,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 300,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 0.8671875,
+   "observed_clip": 0.0,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 320,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 0.546875,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 340,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 3.5e-05,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 360,
+   "before": [
+    16,
+    20
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 0.9140625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 380,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    4
+   ],
+   "observed_peak_fs": 0.734375,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 400,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 5.25e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 420,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    16
+   ],
+   "observed_peak_fs": 0.25,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 440,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.140625,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 460,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.1796875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 480,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    4
+   ],
+   "observed_peak_fs": 0.640625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 500,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.4140625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 520,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    8
+   ],
+   "observed_peak_fs": 0.515625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 540,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    8
+   ],
+   "observed_peak_fs": 0.4765625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 560,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    16
+   ],
+   "observed_peak_fs": 0.25,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 580,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.1171875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 600,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    8
+   ],
+   "observed_peak_fs": 0.4765625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 620,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    8
+   ],
+   "observed_peak_fs": 0.4453125,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 640,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    16
+   ],
+   "observed_peak_fs": 0.1328125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 660,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    16
+   ],
+   "observed_peak_fs": 0.1953125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 680,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    12
+   ],
+   "observed_peak_fs": 0.28125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 700,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    12
+   ],
+   "observed_peak_fs": 0.375,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 720,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    16
+   ],
+   "observed_peak_fs": 0.25,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 740,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    16
+   ],
+   "observed_peak_fs": 0.2421875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 760,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 0.40625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 780,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.140625,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 800,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.359375,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 820,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    8
+   ],
+   "observed_peak_fs": 0.4453125,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 840,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.28125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 860,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    16
+   ],
+   "observed_peak_fs": 0.234375,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 880,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    8
+   ],
+   "observed_peak_fs": 0.421875,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 900,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    8
+   ],
+   "observed_peak_fs": 0.6171875,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 920,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    12
+   ],
+   "observed_peak_fs": 0.28125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 940,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    12
+   ],
+   "observed_peak_fs": 0.2578125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 960,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 3.45e-05,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 980,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    8
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.001354,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1000,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    8
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00013525,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1020,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    8
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00335975,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1040,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 3.2e-05,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1060,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    16
+   ],
+   "observed_peak_fs": 0.1953125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 1080,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    16
+   ],
+   "observed_peak_fs": 0.21875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 1100,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.28125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 1120,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 4e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1140,
+   "before": [
+    32,
+    28
+   ],
+   "after": [
+    32,
+    4
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 2.25e-05,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1160,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.671875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1180,
+   "before": [
+    32,
+    20
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.1875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 1200,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.2578125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 1220,
+   "before": [
+    32,
+    28
+   ],
+   "after": [
+    32,
+    4
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 1.25e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1240,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.671875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1260,
+   "before": [
+    32,
+    28
+   ],
+   "after": [
+    32,
+    4
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 2.25e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1280,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    8
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.01095675,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1300,
+   "before": [
+    40,
+    28
+   ],
+   "after": [
+    40,
+    4
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00184925,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1320,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    8
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00086975,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1340,
+   "before": [
+    40,
+    28
+   ],
+   "after": [
+    40,
+    4
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00067675,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1360,
+   "before": [
+    40,
+    24
+   ],
+   "after": [
+    40,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 3.35e-05,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1380,
+   "before": [
+    40,
+    20
+   ],
+   "after": [
+    40,
+    0
+   ],
+   "observed_peak_fs": 0.8828125,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1400,
+   "before": [
+    40,
+    24
+   ],
+   "after": [
+    40,
+    4
+   ],
+   "observed_peak_fs": 0.9140625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1420,
+   "before": [
+    40,
+    28
+   ],
+   "after": [
+    40,
+    4
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 2.25e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1440,
+   "before": [
+    40,
+    28
+   ],
+   "after": [
+    40,
+    8
+   ],
+   "observed_peak_fs": 0.796875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1460,
+   "before": [
+    40,
+    24
+   ],
+   "after": [
+    40,
+    8
+   ],
+   "observed_peak_fs": 0.5390625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 1480,
+   "before": [
+    40,
+    28
+   ],
+   "after": [
+    40,
+    8
+   ],
+   "observed_peak_fs": 0.9765625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1500,
+   "before": [
+    40,
+    24
+   ],
+   "after": [
+    40,
+    4
+   ],
+   "observed_peak_fs": 0.8046875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1520,
+   "before": [
+    40,
+    28
+   ],
+   "after": [
+    40,
+    4
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 1.25e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1540,
+   "before": [
+    40,
+    24
+   ],
+   "after": [
+    40,
+    4
+   ],
+   "observed_peak_fs": 0.8046875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1560,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.671875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1580,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.6640625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1600,
+   "before": [
+    32,
+    28
+   ],
+   "after": [
+    32,
+    20
+   ],
+   "observed_peak_fs": 0.2109375,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 1620,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    8
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00013425,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1640,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    20
+   ],
+   "observed_peak_fs": 0.2578125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 1660,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    12
+   ],
+   "observed_peak_fs": 0.9765625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1680,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    8
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00223,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1700,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    12
+   ],
+   "observed_peak_fs": 0.8046875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1720,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    16
+   ],
+   "observed_peak_fs": 0.5546875,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 1740,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    16
+   ],
+   "observed_peak_fs": 0.6171875,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 1760,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    16
+   ],
+   "observed_peak_fs": 0.625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 1780,
+   "before": [
+    40,
+    32
+   ],
+   "after": [
+    40,
+    12
+   ],
+   "observed_peak_fs": 0.671875,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1800,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.3828125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 1820,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    16
+   ],
+   "observed_peak_fs": 0.140625,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 1840,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 5e-07,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1860,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    4
+   ],
+   "observed_peak_fs": 0.9453125,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1880,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 1.5e-06,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 1900,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    8
+   ],
+   "observed_peak_fs": 0.5,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 1920,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.9765625,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 1940,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    16
+   ],
+   "observed_peak_fs": 0.53125,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 1960,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    24
+   ],
+   "observed_peak_fs": 0.2265625,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 1980,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    24
+   ],
+   "observed_peak_fs": 0.203125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2000,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    12
+   ],
+   "observed_peak_fs": 0.328125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 2020,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    24
+   ],
+   "observed_peak_fs": 0.2421875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2040,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    20
+   ],
+   "observed_peak_fs": 0.375,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 2060,
+   "before": [
+    32,
+    32
+   ],
+   "after": [
+    32,
+    24
+   ],
+   "observed_peak_fs": 0.1875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2080,
+   "before": [
+    32,
+    24
+   ],
+   "after": [
+    32,
+    16
+   ],
+   "observed_peak_fs": 0.171875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2100,
+   "before": [
+    8,
+    8
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 0.1875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2120,
+   "before": [
+    8,
+    8
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 0.234375,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2140,
+   "before": [
+    8,
+    8
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 0.2265625,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2160,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 0.4453125,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 2180,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.421875,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 2200,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    16
+   ],
+   "observed_peak_fs": 0.1328125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2220,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    16
+   ],
+   "observed_peak_fs": 0.0859375,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2240,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    12
+   ],
+   "observed_peak_fs": 0.3203125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 2260,
+   "before": [
+    24,
+    24
+   ],
+   "after": [
+    24,
+    8
+   ],
+   "observed_peak_fs": 0.5,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 2280,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    8
+   ],
+   "observed_peak_fs": 0.40625,
+   "observed_clip": 0.0,
+   "attenuation_db": 16
+  },
+  {
+   "start_mhz": 2300,
+   "before": [
+    8,
+    16
+   ],
+   "after": [
+    8,
+    8
+   ],
+   "observed_peak_fs": 0.1484375,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2320,
+   "before": [
+    8,
+    8
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 0.234375,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2340,
+   "before": [
+    8,
+    16
+   ],
+   "after": [
+    8,
+    8
+   ],
+   "observed_peak_fs": 0.1953125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2360,
+   "before": [
+    16,
+    24
+   ],
+   "after": [
+    16,
+    12
+   ],
+   "observed_peak_fs": 0.3203125,
+   "observed_clip": 0.0,
+   "attenuation_db": 12
+  },
+  {
+   "start_mhz": 2380,
+   "before": [
+    8,
+    8
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 0.1328125,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  },
+  {
+   "start_mhz": 2400,
+   "before": [
+    16,
+    8
+   ],
+   "after": [
+    0,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.0016275,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 2420,
+   "before": [
+    16,
+    12
+   ],
+   "after": [
+    0,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.0064395,
+   "attenuation_db": 28
+  },
+  {
+   "start_mhz": 2440,
+   "before": [
+    16,
+    4
+   ],
+   "after": [
+    0,
+    0
+   ],
+   "observed_peak_fs": 0.4453125,
+   "observed_clip": 0.0,
+   "attenuation_db": 20
+  },
+  {
+   "start_mhz": 2460,
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    8,
+    0
+   ],
+   "observed_peak_fs": 1.0,
+   "observed_clip": 0.00097975,
+   "attenuation_db": 24
+  },
+  {
+   "start_mhz": 2480,
+   "before": [
+    16,
+    8
+   ],
+   "after": [
+    16,
+    0
+   ],
+   "observed_peak_fs": 0.2421875,
+   "observed_clip": 0.0,
+   "attenuation_db": 8
+  }
+ ],
+ "version": "v3"
+}

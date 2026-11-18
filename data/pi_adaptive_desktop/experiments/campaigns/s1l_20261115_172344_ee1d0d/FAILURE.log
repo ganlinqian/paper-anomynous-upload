@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/ws_main\results\sp2027\experiments\collect_sp2027_wait.py", line 283, in main
+    row['capture_ready'] = rig.rpc({'op': 'capture', 'id': cfg['id'], 'seconds': 8})
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/ws_pi\results\scenario_rf_20261104\collect.py", line 19, in rpc
+    self.i.write(json.dumps(q)+"\n");self.i.flush();return self.read()
+                                                           ^^^^^^^^^^^
+  File "<WORKSPACE>/ws_pi\results\scenario_rf_20261104\collect.py", line 16, in read
+    if r["state"]=="error":raise RuntimeError(r["error"])
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Traceback (most recent call last):
+  File "<DATA>\telltale_sp2027\rig_s1l_20261115_172344_ee1d0d.py", line 93, in <module>
+    try:main()
+  File "<DATA>\telltale_sp2027\rig_s1l_20261115_172344_ee1d0d.py", line 71, in main
+    if time.monotonic()>until or any(not x["running"] for x in marks):raise RuntimeError("capture did not become ready "+str(marks))
+RuntimeError: capture did not become ready [{'radio': '930c', 'bytes': 0, 'running': True}, {'radio': '16bc', 'bytes': 0, 'running': True}]
+

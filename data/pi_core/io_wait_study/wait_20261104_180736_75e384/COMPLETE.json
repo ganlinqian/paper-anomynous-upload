@@ -1,0 +1,7 @@
+{
+ "utc": "2026-11-04T18:25:38Z",
+ "trials": 32,
+ "valid": 32,
+ "raw_bytes": 20480000000,
+ "same_canonical_trace_per_block": true
+}

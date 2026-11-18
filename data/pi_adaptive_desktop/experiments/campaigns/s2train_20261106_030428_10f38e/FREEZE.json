@@ -1,0 +1,404 @@
+{
+ "campaign": "s2train_20261106_030428_10f38e",
+ "stage": "train",
+ "plan": [
+  {
+   "id": "v835e0bca0115",
+   "block": 0,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "f85ecdec42765b02a755a676cd3b0f94",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v3528ac3d41e8",
+   "block": 0,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "f85ecdec42765b02a755a676cd3b0f94",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v8fbe5fcfdce6",
+   "block": 0,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "f85ecdec42765b02a755a676cd3b0f94",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v1a31abc86112",
+   "block": 0,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "f85ecdec42765b02a755a676cd3b0f94",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v50479d952589",
+   "block": 1,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "1493343c8a78fb01c49d1bef82f024c7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "vec523ea2870b",
+   "block": 1,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "1493343c8a78fb01c49d1bef82f024c7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "vebd07a62d01e",
+   "block": 1,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "1493343c8a78fb01c49d1bef82f024c7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v0b3a2f7044bd",
+   "block": 1,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "1493343c8a78fb01c49d1bef82f024c7",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v1c8506d760a1",
+   "block": 2,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "ea46b9db805bd3e4acf3db714603e5c3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v2ab8c576ac5e",
+   "block": 2,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "ea46b9db805bd3e4acf3db714603e5c3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v536740110e88",
+   "block": 2,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "ea46b9db805bd3e4acf3db714603e5c3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v90d3568571b2",
+   "block": 2,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "ea46b9db805bd3e4acf3db714603e5c3",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v0bf636fb13ba",
+   "block": 3,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "6cb03865c0a209411fdc59d27d85123b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v74e3edb50f3a",
+   "block": 3,
+   "stage": "sp2027_s2train",
+   "order": "VX",
+   "actual_verify_first": true,
+   "expected_verify_first": true,
+   "request": {
+    "id": "6cb03865c0a209411fdc59d27d85123b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v9c743287f1a2",
+   "block": 3,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "6cb03865c0a209411fdc59d27d85123b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  },
+  {
+   "id": "v98c3d99f01b3",
+   "block": 3,
+   "stage": "sp2027_s2train",
+   "order": "XV",
+   "actual_verify_first": false,
+   "expected_verify_first": true,
+   "request": {
+    "id": "6cb03865c0a209411fdc59d27d85123b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   }
+  }
+ ],
+ "seconds": 8,
+ "cooldown_s": 25,
+ "winroot": "<DATA>/telltale_sp2027/s2train_20261106_030428_10f38e",
+ "piroot": "/home/pi/telltale_sp2027/s2train_20261106_030428_10f38e",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=45.7'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 43.42,
+   "ddr_c": 39.79
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 2,
+   "model": "ST1000DM003-1ER162",
+   "free": 747913498624,
+   "console_user": "desktop\\win",
+   "other_workloads": 0,
+   "cpu_load": 4,
+   "remote_tools": [
+    "AweSun:4376",
+    "AweSun:6804",
+    "AweSun:40472",
+    "awesun_guard:7008",
+    "GameViewer:47528",
+    "GameViewerHealthd:6356",
+    "GameViewerServer:6252",
+    "GameViewerService:4312"
+   ],
+   "target_drive": "J",
+   "concurrent_source_transfer": true,
+   "query_user": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-06T03:04:32Z"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 59208,
+  "root": "<DATA>\\telltale_sp2027\\s2train_20261106_030428_10f38e"
+ },
+ "source_sha256": {
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\collect_sp2027_order.py": "bb41205a90afc09f4a1fdd5139c009a1b91956d76721ea1ab43d17476e363edd",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\pi_api_sp2027_order.py": "1ee1b81fca076a8ffc72972d0c22401e78d2c78463fa1e5c4e21bb0dfbed58e3",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\03_.md": "13a775b88065ef582bd817f7d82cd5ff77b8cf4efac65e7389664912ee639699",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\rig_capture_stagger.py": "1f4e22112ef002ed8f239e268a8ae648de8607f8420d02b4543bd1a57c3ffe43",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\collect.py": "75f956acd8d52d40621788650c583828a651e44744e765526ef3f752e443b446"
+ },
+ "utc": "2026-11-06T03:04:53Z",
+ "syscall_tracing": false,
+ "fixtures": {
+  "archive_sha256": "8bd263c43d8332016c9ee8b73d0aef7b27d3144771e138c9bc5b52d3b0bdd767",
+  "plain_sha256": "c8781d07b0cd8560af548f6f7ffbf4f88feb238c810ea5f1fa1b86481a059990",
+  "payload_mib": 96
+ },
+ "envelope_s": 2.5
+}

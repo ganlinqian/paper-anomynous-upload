@@ -1,0 +1,18 @@
+{
+ "utc": "2026-11-16T23:51:03.855918Z",
+ "note": "hashed before the C38 chain started (no s1o/s1p data existed)",
+ "sha256": {
+  "<WORKSPACE>/ws_revision\\results\\c38\\analyze_c38.py": "255dce5529783b9d85f4899b816b928090c556df8e20be67b0b3ec471a45abae",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\c38_env.py": "9dfcbfb83d27dea75f9e3778cf78e6c9fd86ef2a3b147e2039675b99ce5eacbb",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\win4_envelope.py": "196ee99ee45698e5079bd665fb46ae3326551a3314e90877a95b72bdc0e61497",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\C38_PREREG.md": "474550b6f98ff20318a97882f1afb2ca92a375cd5eff128a06646442be6665e3",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\collect_sp2027_c38.py": "1a737370963f33aafb941ca77377bf01f0debef4134c3d1cd81ca037d005d886",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\pi_api_sp2027_c38.py": "0a2fdd83976eb76a350d57bcc146be1e8a9b8dc8f9e0032672f4a4a2b1ec8d9b",
+  "<WORKSPACE>/ws_main\\results\\sp2027\\experiments\\run_c38_chain.ps1": "ebef99f6fabec4dd763882c569d53bc9dafa27943ba0dd481d1847cbb6e2eaf1",
+  "<WORKSPACE>/ws_revision\\results\\c38\\explore_c38.py": "4f8e48d9c90b67fd186c1553916cdf6aa7c711886d2cfdca029ace612b627591",
+  "<WORKSPACE>/ws_revision\\results\\c38\\env_explore.py": "2a2a345d99e5736f15747538060d36f9270bc4c6f5ec01403b7c55b29fdd536e",
+  "<WORKSPACE>/ws_revision\\results\\c38\\env_variants.py": "3be95e68b479b092af2044ff290ffda6d0de357ec46ad251d30dfab581a11658",
+  "<WORKSPACE>/ws_revision\\results\\c38\\env_variants.json": "4d7ecbb783415a429e8f786775f41a9fbd5f0a03d87e5861bede56e5ad90aa37",
+  "<WORKSPACE>/ws_revision\\results\\c38\\explore_c38.json": "0bc280918787709b0381197898cbbc802a3201f0a58849cdcc819f440cb3c46a"
+ }
+}

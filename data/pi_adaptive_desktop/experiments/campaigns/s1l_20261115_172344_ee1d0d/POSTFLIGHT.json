@@ -1,0 +1,19 @@
+{
+ "own_worker_stop": {
+  "rc": 0,
+  "stdout": "",
+  "stderr": ""
+ },
+ "rig": {
+  "rc": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\r\n  File \"<DATA>\\telltale_sp2027\\rig_s1l_20261115_172344_ee1d0d.py\", line 93, in <module>\r\n    try:main()\r\n  File \"<DATA>\\telltale_sp2027\\rig_s1l_20261115_172344_ee1d0d.py\", line 71, in main\r\n    if time.monotonic()>until or any(not x[\"running\"] for x in marks):raise RuntimeError(\"capture did not become ready \"+str(marks))\r\nRuntimeError: capture did not become ready [{'radio': '930c', 'bytes': 0, 'running': True}, {'radio': '16bc', 'bytes': 0, 'running': True}]\r\n"
+ },
+ "restore": {
+  "rc": 0,
+  "stdout": "",
+  "stderr": ""
+ },
+ "pi_state": "ondemand\n600000\n1800000\nthrottled=0x0\ntemp=49.1'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+ "pi_lock_release": 0
+}

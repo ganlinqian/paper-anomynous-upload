@@ -1,0 +1,12 @@
+{
+ "utc": "2026-11-10T16:01:57.8202998Z",
+ "note": "C31 operational amendment before any C31 run: user (2026-11-10) approved C31 and said ToDesk on capture_pc may stay closed; chain gains -KeepToDeskOff (skip restore). No analysis/model/controller change.",
+ "sha256": {
+  "experiments\\run_sp2027_chain.ps1": "0bf434e6c627a61f6c04786941ddf0d6c1ef2140bba2233a5dc8c6d9b3d96052",
+  "experiments\\start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments\\models\\C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments\\process_sp2027.py": "903ff73f58feb4545d95ffd4504c416977f3c9f2305d1e9cb8a5cd088720ed86",
+  "experiments\\collect_sp2027_wait.py": "a85ba2c34c9f21282c72ff842230d94217d15e802d239a5f49a03300e74c1739"
+ },
+ "user_approved": true
+}

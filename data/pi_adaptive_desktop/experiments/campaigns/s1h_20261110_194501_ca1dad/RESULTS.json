@@ -1,0 +1,2102 @@
+[
+ {
+  "id": "ne7bd7b5660a8",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=41.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 38.25,
+    "ddr_c": 35.09
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.1
+  },
+  "ready": {
+   "ready": true,
+   "pid": 282930,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 13293477600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 26738688,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 17039360,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:45:13Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 13573664100,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 38010880,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 28311552,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334747659045900,
+  "return_desktop_ns": 334751720933500,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 17636877800,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 198180864,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 188481536,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 21283750200,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ne7bd7b5660a8_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ne7bd7b5660a8_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ne7bd7b5660a8_930c.iq"
+     ],
+     "spawn_win_mono_ns": 12517106400
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ne7bd7b5660a8_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ne7bd7b5660a8_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ne7bd7b5660a8_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 12773519100
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 334755368960700,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655639034750425,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655643078765509,
+   "http_sent_ns": 1655639054180751,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655643078893768
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.0618876,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=41.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 38.67,
+    "ddr_c": 35.02
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "n6fbd3cc3c8b9",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=42.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 38.67,
+    "ddr_c": 35.02
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.5
+  },
+  "ready": {
+   "ready": true,
+   "pid": 282951,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 48720961100,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 27262976,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 16777216,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:45:49Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 49159745600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 44564480,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 34078720,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334783244924100,
+  "return_desktop_ns": 334787360363000,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 53276175600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 206569472,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 196083712,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 56672290900,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n6fbd3cc3c8b9_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n6fbd3cc3c8b9_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n6fbd3cc3c8b9_930c.iq"
+     ],
+     "spawn_win_mono_ns": 47942299300
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n6fbd3cc3c8b9_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n6fbd3cc3c8b9_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n6fbd3cc3c8b9_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 48210770700
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 334790757674800,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655674609888791,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655678714232656,
+   "http_sent_ns": 1655674633676831,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655678714361673
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.1154389,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 38.67,
+    "ddr_c": 35.02
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "n985b04f249a6",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.14,
+    "ddr_c": 35.85
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.2
+  },
+  "ready": {
+   "ready": true,
+   "pid": 282973,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 83791507100,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 28573696,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 17825792,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:46:24Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 84227829800,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 45613056,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 34865152,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334818312816300,
+  "return_desktop_ns": 334822396260500,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 88312237900,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 206569472,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 195821568,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 91464719200,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n985b04f249a6_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n985b04f249a6_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n985b04f249a6_930c.iq"
+     ],
+     "spawn_win_mono_ns": 82982252700
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n985b04f249a6_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n985b04f249a6_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n985b04f249a6_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 83242872900
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 334825549729400,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655709677462295,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655713739757952,
+   "http_sent_ns": 1655709692207742,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655713739887174
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.0834442,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=42.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.14,
+    "ddr_c": 35.85
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "n55f15106000e",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.14,
+    "ddr_c": 35.85
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.4
+  },
+  "ready": {
+   "ready": true,
+   "pid": 282993,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 119260901300,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 27525120,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 16252928,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:46:59Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 119611744200,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 41418752,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 30146560,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334853696875800,
+  "return_desktop_ns": 334857813435700,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 123729775600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 203685888,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 192413696,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 126972149000,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n55f15106000e_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n55f15106000e_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n55f15106000e_930c.iq"
+     ],
+     "spawn_win_mono_ns": 118475432800
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n55f15106000e_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n55f15106000e_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n55f15106000e_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 118763813500
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 334861057021600,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655745060452020,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655749161057981,
+   "http_sent_ns": 1655745080095733,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655749161191573
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.1165599,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=42.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.19,
+    "ddr_c": 36.41
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "nd99091360a5b",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.19,
+    "ddr_c": 36.41
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.2
+  },
+  "ready": {
+   "ready": true,
+   "pid": 283014,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 154147575300,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 27787264,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 17563648,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:47:34Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 154495765000,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 41680896,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 31719424,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334888580857100,
+  "return_desktop_ns": 334892723875700,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 158639987200,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 205520896,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 201064448,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 161803930200,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\nd99091360a5b_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\nd99091360a5b_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\nd99091360a5b_930c.iq"
+     ],
+     "spawn_win_mono_ns": 153343819700
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\nd99091360a5b_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\nd99091360a5b_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\nd99091360a5b_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 153610225300
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 334895888835400,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655779944527365,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655784079054805,
+   "http_sent_ns": 1655779951948431,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655784079195489
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.1430186,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.19,
+    "ddr_c": 36.41
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "necf375e11f59",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.04,
+    "ddr_c": 36.49
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.3
+  },
+  "ready": {
+   "ready": true,
+   "pid": 283036,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 189051069800,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 27000832,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 16252928,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:48:09Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 189352584800,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 38797312,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 28049408,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334923437508100,
+  "return_desktop_ns": 334927546339600,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 193462540000,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 200802304,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 190054400,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 197041984200,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\necf375e11f59_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\necf375e11f59_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\necf375e11f59_930c.iq"
+     ],
+     "spawn_win_mono_ns": 188279071700
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\necf375e11f59_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\necf375e11f59_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\necf375e11f59_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 188546377100
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 334931126662400,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655814799765183,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655818898946505,
+   "http_sent_ns": 1655814812582457,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655818899077856
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.1088315,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.04,
+    "ddr_c": 36.49
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "n76f8629e8ff9",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=42.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.31,
+    "ddr_c": 36.43
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.3
+  },
+  "ready": {
+   "ready": true,
+   "pid": 283058,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 224404057100,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 27000832,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 16777216,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:48:44Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 224753558600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 40632320,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 30408704,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334958838330100,
+  "return_desktop_ns": 334962876742500,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 228793228700,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 199753728,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 189530112,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 232246387800,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n76f8629e8ff9_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n76f8629e8ff9_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n76f8629e8ff9_930c.iq"
+     ],
+     "spawn_win_mono_ns": 223632937900
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n76f8629e8ff9_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n76f8629e8ff9_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n76f8629e8ff9_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 223892397200
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 334966331236500,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655850202584732,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655854229996140,
+   "http_sent_ns": 1655850216330963,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655854230131917
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.0384124,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=43.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.31,
+    "ddr_c": 36.43
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "n9e1178c12bff",
+  "block": -1,
+  "stage": "sp2027_s1h",
+  "condition": "silent_cal",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=42.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.31,
+    "ddr_c": 36.43
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.3
+  },
+  "ready": {
+   "ready": true,
+   "pid": 283078,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 259349995400,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 27262976,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 17301504,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:49:19Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 259720636100,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 41943040,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 31981568,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 334993805534100,
+  "return_desktop_ns": 334997838096000,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 263754549800,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 200802304,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 190840832,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 267034000200,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n9e1178c12bff_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n9e1178c12bff_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n9e1178c12bff_930c.iq"
+     ],
+     "spawn_win_mono_ns": 258570959000
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n9e1178c12bff_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n9e1178c12bff_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n9e1178c12bff_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 258827623600
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 335001118638500,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655885167482862,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655889190875535,
+   "http_sent_ns": 1655885175601386,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655889191014941
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "fbb21a4b8b9c1113b838d358a11a4e9b",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "6281eac59ad52b264a54d0fb7162e31fc147f1a7dd291043660dc9ed399f56f6",
+  "elapsed_s": 4.0325619,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=44.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.31,
+    "ddr_c": 36.43
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "ncce598b8373e",
+  "block": 0,
+  "stage": "sp2027_s1h",
+  "condition": "silent",
+  "actual_active": false,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "05775db7f6b7e2592048757f76a8bdf8",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=44.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.61,
+    "ddr_c": 36.89
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.1
+  },
+  "ready": {
+   "ready": true,
+   "pid": 283100,
+   "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 294162291600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 27000832,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 16515072,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:49:54Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 294576743600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 43253760,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 32768000,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 335028661497400,
+  "return_desktop_ns": 335032707370500,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 298624022700,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 202899456,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 192413696,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 302055650100,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ncce598b8373e_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ncce598b8373e_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ncce598b8373e_930c.iq"
+     ],
+     "spawn_win_mono_ns": 293386084300
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ncce598b8373e_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ncce598b8373e_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\ncce598b8373e_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 293654516800
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 335036140281200,
+  "private": {
+   "activity_code": "Q___",
+   "archive": {},
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655920028278200,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655924059460058,
+   "http_sent_ns": 1655920036961259,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand16.bin",
+   "output_bytes": 0,
+   "reply_ns": 1655924059591039
+  },
+  "archive_check": {
+   "fetched": false,
+   "remote_bytes": 0
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "05775db7f6b7e2592048757f76a8bdf8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "05775db7f6b7e2592048757f76a8bdf8",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "7885e14fe7f3f7ef7e33946c721a0410a720427ea3ff45610e0b832d0901e6ad",
+  "elapsed_s": 4.0458731,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=44.3'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 40.61,
+    "ddr_c": 36.89
+   }
+  },
+  "valid": true
+ },
+ {
+  "id": "n246f81085156",
+  "block": 0,
+  "stage": "sp2027_s1h",
+  "condition": "gzip32",
+  "actual_active": true,
+  "expected_active": false,
+  "dvfs_cap_khz": null,
+  "request": {
+   "id": "05775db7f6b7e2592048757f76a8bdf8",
+   "method": "solve",
+   "params": {
+    "values": [
+     13,
+     31,
+     53,
+     73,
+     97
+    ]
+   }
+  },
+  "pre": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=44.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.17,
+    "ddr_c": 36.86
+   },
+   "thermal_waits": 0,
+   "thermal_cool_cycles": 0,
+   "thermal_wait_s": 0.3
+  },
+  "ready": {
+   "ready": true,
+   "pid": 283121,
+   "input_sha256": "5d47ae9e888806a2b2fd4d3fc849694111422d32ecb6148f872e8ebb464ab38a",
+   "independently_checked_tracer_pid": 0
+  },
+  "capture_ready": {
+   "state": "capturing",
+   "win_mono_ns": 329270865000,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 26738688,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 16252928,
+     "running": true
+    }
+   ],
+   "session_check": {
+    "rc": 1,
+    "stdout": " USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n win                   console             1  Active      none   2026/11/5 16:43\n",
+    "stderr": "",
+    "todesk_running": false,
+    "utc": "2026-11-10T19:50:29Z"
+   }
+  },
+  "before": {
+   "state": "mark",
+   "win_mono_ns": 329540149800,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 37224448,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 26738688,
+     "running": true
+    }
+   ]
+  },
+  "dispatch_desktop_ns": 335063624830500,
+  "return_desktop_ns": 335068874120000,
+  "after": {
+   "state": "mark",
+   "win_mono_ns": 334790702600,
+   "marks": [
+    {
+     "radio": "930c",
+     "bytes": 244056064,
+     "running": true
+    },
+    {
+     "radio": "16bc",
+     "bytes": 233570304,
+     "running": true
+    }
+   ]
+  },
+  "rf": {
+   "state": "complete",
+   "win_mono_ns": 337202905600,
+   "radios": [
+    {
+     "radio": "930c",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n246f81085156_930c.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n246f81085156_930c.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "1800000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n246f81085156_930c.iq"
+     ],
+     "spawn_win_mono_ns": 328508792600
+    },
+    {
+     "radio": "16bc",
+     "raw": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n246f81085156_16bc.iq",
+     "log": "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n246f81085156_16bc.rf.log",
+     "rc": 0,
+     "bytes": 320000000,
+     "expected_bytes": 320000000,
+     "command": [
+      "C:/HackRF/bin/hackrf_transfer.exe",
+      "-d",
+      "<hackrf-serial>",
+      "-f",
+      "105000000",
+      "-s",
+      "20000000",
+      "-l",
+      "32",
+      "-g",
+      "20",
+      "-a",
+      "0",
+      "-n",
+      "160000000",
+      "-r",
+      "<DATA>\\telltale_sp2027\\s1h_20261110_194501_ca1dad\\n246f81085156_16bc.iq"
+     ],
+     "spawn_win_mono_ns": 328771801600
+    }
+   ]
+  },
+  "rf_finish_desktop_ns": 335071287677200,
+  "private": {
+   "activity_code": "A___",
+   "archive": {
+    "begin_ns": 1655954991320342,
+    "fsync_end_ns": 1655960223147340,
+    "process_end_ns": 1655957311978702,
+    "returncode": 0,
+    "stderr": "",
+    "throttle_cycles": 0
+   },
+   "archive_inside_wait": false,
+   "background": {},
+   "background_inside_wait": false,
+   "background_kind": null,
+   "begin_ns": 1655954984157793,
+   "compressor": "gzip",
+   "duty": 1.0,
+   "dvfs": {},
+   "http_received_ns": 1655959124224103,
+   "http_sent_ns": 1655954991306676,
+   "input_path": "/home/pi/telltale_sp2027/s1h_20261110_194501_ca1dad/rand32.bin",
+   "output_bytes": 33560007,
+   "reply_ns": 1655960223374950
+  },
+  "archive_check": {
+   "fetched": true,
+   "gz_bytes": 33560007,
+   "gz_sha256": "03505f9e3ce9078efac75f447304344a0662eef833f08a8944584dd1a10a1c19",
+   "decompressed_bytes": 33554432,
+   "matches_input": true
+  },
+  "canonical_trace": {
+   "request": {
+    "id": "05775db7f6b7e2592048757f76a8bdf8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "response": {
+    "id": "05775db7f6b7e2592048757f76a8bdf8",
+    "result": 267,
+    "status": "complete"
+   }
+  },
+  "canonical_trace_sha256": "7885e14fe7f3f7ef7e33946c721a0410a720427ea3ff45610e0b832d0901e6ad",
+  "elapsed_s": 5.2492895,
+  "post": {
+   "state": "performance\n1800000\n1800000\nthrottled=0x80000\ntemp=45.7'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+   "temperature": {
+    "cpu_c": 41.17,
+    "ddr_c": 36.86
+   }
+  },
+  "valid": false
+ }
+]

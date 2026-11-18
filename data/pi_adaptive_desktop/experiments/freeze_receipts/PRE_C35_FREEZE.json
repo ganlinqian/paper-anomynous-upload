@@ -1,0 +1,33 @@
+{
+ "utc": "2026-11-11T15:28:04.1890321Z",
+ "note": "C35 (s1k): prospective test of the C35 false-alarm control (self pre-dispatch reference + rolling reference of last 4 no-work calls, P>0.7), frozen 2026-11-11T15:25:33Z on nine sessions C24..C34; same boot and probe placement, ~13-14 h after C34; not the reboot cross-day test; fixed before any C35 run (session ws_followup)",
+ "sha256": {
+  "experiments\\models\\C35_SELFROLL_MODELS.json": "d3fd4760cc5bc847a2a7f2232d8da67a37da4a08527c0e67ec3db65bef28fd3e",
+  "experiments\\models\\C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments\\models\\C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments\\models\\C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "a426837e34532a62fe60e95641891652fc6ed44b246f174b5054ff70a95b88e5",
+  "experiments\\collect_sp2027_wait.py": "af0d177c830aeb713c2ca842459701a669c8772d696e8126c4b66c53ca81115a",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "scripts\\make_pi_api_c33.py": "83c594dd6eb3484d5aa98e2742ffd40ecb71bee4c591c21622db493960bf79c3",
+  "experiments\\run_sp2027_chain.ps1": "5a9f206de52e6ee43d2ed71b790ce027f5d9ee7b7f68215547d3cf4aa8277302",
+  "experiments\\start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts\\c35_stats.py": "1548a679c804e477bf8fdfda81cdd005ab21600a34f6fd27f799ab73df8f0f3d",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "scripts\\c35_cache.py": "1822ca70a46fd7978cee547c0c23e7137ea32d6bd2fea698df09def2e21926aa",
+  "scripts\\explore_c35_fa.py": "f756ae69079e6eb89d3ec1eff98a4d57dd58f6c618fc9767b183b973f94c3a74",
+  "stats\\explore_c35_fa.json": "a9430a69e6caee7380eb960fe44a2e28a3901ab6face8ec16018a68a6d9bf1a4",
+  "stats\\c35_cache.npz": "d71e3c2d335c4bd810934b25115c283e655ee71db34bbcab27cf439e5200af28",
+  "scratch\\smoke_c35.py": "27a9be89626b562462adea56846a5258f364a575f425a34aafe51aaffac28d19",
+  "scratch\\smoke_c35_stats.py": "b50e578303a1a95da580d2123a4a5454d7fd04e36e66cc09c428b41963f48eaf",
+  "stats\\smoke_c35_stats_on_c34.json": "94826ddb0ba3dac69120813fddf10b47074a709beb13b78650e8769f55bec47a",
+  "PROTOCOL_LEGACY.md": "ac5d6691288a767b12e6f8268fefcc4a2233ca4cacf8faab4f28fc9269bb68e6"
+ },
+ "c35_started": false,
+ "user_approved": true,
+ "approval": "user 2026-11-11: "
+}

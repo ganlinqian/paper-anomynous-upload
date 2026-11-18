@@ -1,0 +1,326 @@
+{
+ "exploratory": true,
+ "calibration": "silent runs of blocks 0-3",
+ "results": {
+  "call_whole": {
+   "C24": {
+    "raw": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.975,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "1/8",
+      "gzip4_d25": "7/8",
+      "gzip8_d50": "8/8",
+      "text8": "8/8"
+     }
+    },
+    "sesscal": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "1/8",
+     "auc_vs_heldout_silent": 0.972,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "5/8",
+      "gzip4_d25": "8/8",
+      "gzip8_d50": "8/8",
+      "text8": "8/8"
+     }
+    },
+    "thrcal": {
+     "threshold": 0.0069,
+     "false_alarms_blocks4_7": "2/8",
+     "auc_vs_heldout_silent": 0.975,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "7/8",
+      "gzip4_d25": "8/8",
+      "gzip8_d50": "8/8",
+      "text8": "8/8"
+     }
+    },
+    "both": {
+     "threshold": 0.1258,
+     "false_alarms_blocks4_7": "3/8",
+     "auc_vs_heldout_silent": 0.972,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "6/8",
+      "gzip4_d25": "8/8",
+      "gzip8_d50": "8/8",
+      "text8": "8/8"
+     }
+    }
+   },
+   "C27": {
+    "raw": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "4/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    },
+    "sesscal": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    },
+    "thrcal": {
+     "threshold": 0.9928,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    },
+    "both": {
+     "threshold": 0.6761,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    }
+   },
+   "C28": {
+    "raw": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.922,
+     "by_condition": {
+      "gzip05_d03": "1/8",
+      "gzip1_d03": "1/8",
+      "gzip1_d06": "3/8",
+      "gzip2_d06": "3/8",
+      "gzip2_d12": "2/8",
+      "gzip3_d19": "5/8"
+     }
+    },
+    "sesscal": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.935,
+     "by_condition": {
+      "gzip05_d03": "1/8",
+      "gzip1_d03": "1/8",
+      "gzip1_d06": "4/8",
+      "gzip2_d06": "4/8",
+      "gzip2_d12": "5/8",
+      "gzip3_d19": "8/8"
+     }
+    },
+    "thrcal": {
+     "threshold": 0.2402,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.922,
+     "by_condition": {
+      "gzip05_d03": "3/8",
+      "gzip1_d03": "2/8",
+      "gzip1_d06": "3/8",
+      "gzip2_d06": "4/8",
+      "gzip2_d12": "5/8",
+      "gzip3_d19": "7/8"
+     }
+    },
+    "both": {
+     "threshold": 0.354,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.935,
+     "by_condition": {
+      "gzip05_d03": "1/8",
+      "gzip1_d03": "2/8",
+      "gzip1_d06": "5/8",
+      "gzip2_d06": "4/8",
+      "gzip2_d12": "6/8",
+      "gzip3_d19": "8/8"
+     }
+    }
+   }
+  },
+  "call_temporal": {
+   "C24": {
+    "raw": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.981,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "2/8",
+      "gzip4_d25": "8/8",
+      "gzip8_d50": "7/8",
+      "text8": "8/8"
+     }
+    },
+    "sesscal": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.978,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "5/8",
+      "gzip4_d25": "8/8",
+      "gzip8_d50": "8/8",
+      "text8": "8/8"
+     }
+    },
+    "thrcal": {
+     "threshold": 0.026,
+     "false_alarms_blocks4_7": "1/8",
+     "auc_vs_heldout_silent": 0.981,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "5/8",
+      "gzip4_d25": "8/8",
+      "gzip8_d50": "8/8",
+      "text8": "8/8"
+     }
+    },
+    "both": {
+     "threshold": 0.2372,
+     "false_alarms_blocks4_7": "1/8",
+     "auc_vs_heldout_silent": 0.978,
+     "by_condition": {
+      "gzip16": "8/8",
+      "gzip2_d12": "5/8",
+      "gzip4_d25": "8/8",
+      "gzip8_d50": "8/8",
+      "text8": "8/8"
+     }
+    }
+   },
+   "C27": {
+    "raw": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "8/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    },
+    "sesscal": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "1/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    },
+    "thrcal": {
+     "threshold": 0.9778,
+     "false_alarms_blocks4_7": "1/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    },
+    "both": {
+     "threshold": 0.558,
+     "false_alarms_blocks4_7": "1/8",
+     "auc_vs_heldout_silent": 1.0,
+     "by_condition": {
+      "bzip2_r": "8/8",
+      "gzip16": "8/8",
+      "gzip3_d19": "8/8",
+      "gzip4_d25": "8/8",
+      "gzip6_d37": "8/8",
+      "json8": "8/8"
+     }
+    }
+   },
+   "C28": {
+    "raw": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.854,
+     "by_condition": {
+      "gzip05_d03": "1/8",
+      "gzip1_d03": "0/8",
+      "gzip1_d06": "0/8",
+      "gzip2_d06": "0/8",
+      "gzip2_d12": "2/8",
+      "gzip3_d19": "2/8"
+     }
+    },
+    "sesscal": {
+     "threshold": 0.5,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.862,
+     "by_condition": {
+      "gzip05_d03": "2/8",
+      "gzip1_d03": "1/8",
+      "gzip1_d06": "0/8",
+      "gzip2_d06": "0/8",
+      "gzip2_d12": "7/8",
+      "gzip3_d19": "7/8"
+     }
+    },
+    "thrcal": {
+     "threshold": 0.048,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.854,
+     "by_condition": {
+      "gzip05_d03": "1/8",
+      "gzip1_d03": "1/8",
+      "gzip1_d06": "0/8",
+      "gzip2_d06": "0/8",
+      "gzip2_d12": "5/8",
+      "gzip3_d19": "7/8"
+     }
+    },
+    "both": {
+     "threshold": 0.8002,
+     "false_alarms_blocks4_7": "0/8",
+     "auc_vs_heldout_silent": 0.862,
+     "by_condition": {
+      "gzip05_d03": "1/8",
+      "gzip1_d03": "1/8",
+      "gzip1_d06": "0/8",
+      "gzip2_d06": "0/8",
+      "gzip2_d12": "5/8",
+      "gzip3_d19": "7/8"
+     }
+    }
+   }
+  }
+ }
+}

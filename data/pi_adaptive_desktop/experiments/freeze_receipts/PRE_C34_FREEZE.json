@@ -1,0 +1,25 @@
+{
+ "utc": "2026-11-11T00:59:47.9255026Z",
+ "note": "C34 (s1j): ~8 h time-separated hold-out, same boot and probe placement (user 2026-11-11: no reboot, nobody on site); frozen detectors only (primary C31 ensemble); fixed before any C34 run (session ws_followup)",
+ "sha256": {
+  "experiments\\models\\C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments\\models\\C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments\\models\\C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "98c683493454be405321426c1d91fe8b9431c0b89cf564372d6d1c68768dd983",
+  "experiments\\collect_sp2027_wait.py": "d7b11a5701c023737e0fb100bba56354ae8bc32dbcb902ae8d11d5c539a424cd",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\pi_api_sp2027_c33.py": "e57c2ee890b14b1215cac596e37099c3b6ce1f2d9c9e3ce71c01f1ffd3e40c39",
+  "scripts\\make_pi_api_c33.py": "83c594dd6eb3484d5aa98e2742ffd40ecb71bee4c591c21622db493960bf79c3",
+  "experiments\\run_sp2027_chain.ps1": "a078a20069842bf9dbe988fec17609cba137075132de159e6ba2aaadbdd98524",
+  "experiments\\start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts\\c34_stats.py": "5c1b449da3df8c0fb99500acecb1ca532463e487be3a9661fd80f9fd25059bc7",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "stats\\c34_stats_SMOKE_on_s1g.json": "f622ed716d017bf2a2cc4467374494f242ea570a455367dd8bcf9521858f2541",
+  "PROTOCOL_LEGACY.md": "14e253b4403632ffe2475e7da1f112d9ac6e4f2307e0505f386e6fd7d3fd068a"
+ },
+ "c34_started": false,
+ "user_approved": true
+}

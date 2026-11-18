@@ -1,0 +1,21 @@
+{
+ "utc": "2026-11-10T14:57:59.5444649Z",
+ "note": "C30 (s1e): C27 workload set re-tested under the C29 protocol; primary = frozen C29 model, secondary = C30 all-session model; fixed before any C30 run; user approval 2026-11-10 (session ws_followup)",
+ "model_frozen_utc": "2026-11-10T14:57:21Z",
+ "sha256": {
+  "experiments\\models\\C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "50672c96ad6dd142cf192b6e22d8c1f63d887aa6e94727ecc9885970740605db",
+  "experiments\\collect_sp2027_wait.py": "39cc5afc682a1e8cf1bdc7ccf7f8e7c90e293f97caed66ef1ea28cf4356fbd41",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\run_sp2027_chain.ps1": "5373fe16d1d259ea31cab0389f205c2faae144a6f973505073b0908c0f3e77cb",
+  "experiments\\start_sp2027_chain.ps1": "16097bbf42c9ca75084b2439452d0b290e0adba5dbf8d28cb29bbe0c1b20b318",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts\\c30_stats.py": "80f29fe5b1d3c97c8043ddce4fb9386ab3143f2068c5816a8b98befdcdecc5c8",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "PROTOCOL_LEGACY.md": "632d2e82579fc8f862281935d070b4af421b56481e6c85dc33102f6a0f6a8d95"
+ },
+ "c30_started": false,
+ "approved_by_user": true
+}

@@ -1,0 +1,28 @@
+{
+ "utc": "2026-11-10T17:47:36.6310397Z",
+ "note": "C32 (s1g): false-alarm control; prospective test of the C31 ensemble with negative weight x2 (LOSO-selected), 32 test silents; fixed before any C32 run; user chose to continue false-alarm control (2026-11-10, session ws_followup)",
+ "model_frozen_utc": "2026-11-10T17:46:38Z",
+ "exploration_run_utc": "2026-11-10T17:44:54Z",
+ "sha256": {
+  "experiments\\models\\C32_NEGW_MODELS.json": "bf29e8eba64d2df7baead59d89da40d69575f66611470095a6f1ef07e50f1dbd",
+  "experiments\\models\\C31_ENSEMBLE_MODELS.json": "ea9a0d4fa7400864b8a398edd1852d261af1b6d052a5ef92ef8c5d332d445710",
+  "experiments\\models\\C30_ALLSESS_MODELS.json": "64cf6ca022c336db260962478b3ba9e9d5cdcd8a864c56f287646a1c8e69822b",
+  "experiments\\models\\C29_LOWDUTY_MODELS.json": "c8a9a3026e4fc1aa547e381cbeca9b0e1bd52d0582dd6627475fa2b8b9a07696",
+  "experiments\\models\\C27_DIVERSE_MODELS.json": "ac7914713642c2fed1eb3f1cd8cca4943a6d99b2bcc7b5501d8c44de2528ea18",
+  "experiments\\process_sp2027.py": "98c683493454be405321426c1d91fe8b9431c0b89cf564372d6d1c68768dd983",
+  "experiments\\collect_sp2027_wait.py": "151689a504845ca32c3400743b76021819e297523e401b4ff211d11e3af89aae",
+  "experiments\\pi_api_sp2027_wait.py": "ce9d0e91529172c56b6072f1a29bf87c81d2003ab5e02eb41129db66cb090ba2",
+  "experiments\\run_sp2027_chain.ps1": "cc117947a64635c70af42b5d65c7421666100e003135a07b2970231567fcbce8",
+  "experiments\\start_sp2027_chain.ps1": "5341d83ccda384e5ab718e7d4c30dcbad84445b5a093fd0c1fcdfbe7c2f67b1a",
+  "experiments\\rig_capture_stagger_sp2027.py": "1b30bccb1df8aca6f8314594b0397906e9bee11593944c34f2a705b84d7b63f5",
+  "scripts\\c32_stats.py": "84e5094558d909978482ec08e9d388b36d54e562af15e2635e5a198999d3e904",
+  "scripts\\c30_stats.py": "80f29fe5b1d3c97c8043ddce4fb9386ab3143f2068c5816a8b98befdcdecc5c8",
+  "scripts\\c28_stats.py": "fd2cceea84d59a9354cf9852728530390873a370ba716397c9413ee28b01b5e5",
+  "scripts\\explore_c32_loso.py": "23e852812721648509a9295d65fdffd2f619b8bcec87a7007d040533cae996d1",
+  "stats\\explore_c32_loso.json": "0962d992bd2da09b0db4b336b8ddc84d4c8cf0d96105449b5b0a466c465c6ed2",
+  "scratch\\smoke_c32.py": "d30748bb723ad7097cfc153de9442ac2d1c7cbb9e61547924772e78aeff04c6d",
+  "PROTOCOL_LEGACY.md": "dac7cb31bb505ee503c5002909114ebe81a2a73b406d700b19862787c1580928"
+ },
+ "c32_started": false,
+ "user_approved": true
+}

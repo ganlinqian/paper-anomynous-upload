@@ -1,0 +1,721 @@
+{
+ "campaign": "wait_20261104_180736_75e384",
+ "stage": "wait",
+ "plan": [
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "zd45fc9b8bf29",
+   "block": 0,
+   "stage": "wait",
+   "request": {
+    "id": "0865638ca5ea27f728feb82925d2c63a",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "z5ff6143c7c24",
+   "block": 0,
+   "stage": "wait",
+   "request": {
+    "id": "0865638ca5ea27f728feb82925d2c63a",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "zf38df00342bb",
+   "block": 0,
+   "stage": "wait",
+   "request": {
+    "id": "0865638ca5ea27f728feb82925d2c63a",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "z5a55938fc5c0",
+   "block": 0,
+   "stage": "wait",
+   "request": {
+    "id": "0865638ca5ea27f728feb82925d2c63a",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "z56d3a91f0e2e",
+   "block": 1,
+   "stage": "wait",
+   "request": {
+    "id": "587469023dd1ef93e8f916cce3554347",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "zf1693ec776cd",
+   "block": 1,
+   "stage": "wait",
+   "request": {
+    "id": "587469023dd1ef93e8f916cce3554347",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "zf68126747eca",
+   "block": 1,
+   "stage": "wait",
+   "request": {
+    "id": "587469023dd1ef93e8f916cce3554347",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "z9d25b978deba",
+   "block": 1,
+   "stage": "wait",
+   "request": {
+    "id": "587469023dd1ef93e8f916cce3554347",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "z7973e81d33a5",
+   "block": 2,
+   "stage": "wait",
+   "request": {
+    "id": "b5886332dc9c47102e7b95cb96d381ac",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "zc69940151826",
+   "block": 2,
+   "stage": "wait",
+   "request": {
+    "id": "b5886332dc9c47102e7b95cb96d381ac",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "zda1826e74724",
+   "block": 2,
+   "stage": "wait",
+   "request": {
+    "id": "b5886332dc9c47102e7b95cb96d381ac",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "z94a1678dc118",
+   "block": 2,
+   "stage": "wait",
+   "request": {
+    "id": "b5886332dc9c47102e7b95cb96d381ac",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "z80d7f7e1d341",
+   "block": 3,
+   "stage": "wait",
+   "request": {
+    "id": "87a0e3713933fe04b289dbaa32fb902d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "zdd8047e272f6",
+   "block": 3,
+   "stage": "wait",
+   "request": {
+    "id": "87a0e3713933fe04b289dbaa32fb902d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "zca565e63909b",
+   "block": 3,
+   "stage": "wait",
+   "request": {
+    "id": "87a0e3713933fe04b289dbaa32fb902d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "z7bf42b7e7a1d",
+   "block": 3,
+   "stage": "wait",
+   "request": {
+    "id": "87a0e3713933fe04b289dbaa32fb902d",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "z03d57fe16098",
+   "block": 4,
+   "stage": "wait",
+   "request": {
+    "id": "1769c2eef040deb87ee7a0b3979541c8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "zb7a4a46a4b5c",
+   "block": 4,
+   "stage": "wait",
+   "request": {
+    "id": "1769c2eef040deb87ee7a0b3979541c8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "za2fca854b271",
+   "block": 4,
+   "stage": "wait",
+   "request": {
+    "id": "1769c2eef040deb87ee7a0b3979541c8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "z8e6dda79f02a",
+   "block": 4,
+   "stage": "wait",
+   "request": {
+    "id": "1769c2eef040deb87ee7a0b3979541c8",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "z5e4271a9a066",
+   "block": 5,
+   "stage": "wait",
+   "request": {
+    "id": "980a9e3502a76151ab584b649a5613c9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "z59c120d48be1",
+   "block": 5,
+   "stage": "wait",
+   "request": {
+    "id": "980a9e3502a76151ab584b649a5613c9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "z7be94992bb0a",
+   "block": 5,
+   "stage": "wait",
+   "request": {
+    "id": "980a9e3502a76151ab584b649a5613c9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "z60e22dd4e56f",
+   "block": 5,
+   "stage": "wait",
+   "request": {
+    "id": "980a9e3502a76151ab584b649a5613c9",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "z73b543e6866b",
+   "block": 6,
+   "stage": "wait",
+   "request": {
+    "id": "c4fc2f60543b46c246310f3398f00b91",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "z35ddb67eb0d7",
+   "block": 6,
+   "stage": "wait",
+   "request": {
+    "id": "c4fc2f60543b46c246310f3398f00b91",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "zf5c2ca267d42",
+   "block": 6,
+   "stage": "wait",
+   "request": {
+    "id": "c4fc2f60543b46c246310f3398f00b91",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "zf60ebecca043",
+   "block": 6,
+   "stage": "wait",
+   "request": {
+    "id": "c4fc2f60543b46c246310f3398f00b91",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": false,
+   "id": "za5334efc1382",
+   "block": 7,
+   "stage": "wait",
+   "request": {
+    "id": "6e57ad83594274166c6cac0b2dd33960",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": false,
+   "actual_active": false,
+   "id": "z96268a158004",
+   "block": 7,
+   "stage": "wait",
+   "request": {
+    "id": "6e57ad83594274166c6cac0b2dd33960",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  },
+  {
+   "expected_active": false,
+   "actual_active": true,
+   "id": "ze8e6d87eea10",
+   "block": 7,
+   "stage": "wait",
+   "request": {
+    "id": "6e57ad83594274166c6cac0b2dd33960",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": true
+  },
+  {
+   "expected_active": true,
+   "actual_active": true,
+   "id": "z409d4f19beaa",
+   "block": 7,
+   "stage": "wait",
+   "request": {
+    "id": "6e57ad83594274166c6cac0b2dd33960",
+    "method": "solve",
+    "params": {
+     "values": [
+      13,
+      31,
+      53,
+      73,
+      97
+     ]
+    }
+   },
+   "attack_attempt": false
+  }
+ ],
+ "seconds": 8,
+ "cooldown_s": 25,
+ "winroot": "<DATA>/telltale_iowait_20261104/wait_20261104_180736_75e384",
+ "piroot": "/home/pi/telltale_scenarios_rf_20261104/wait_20261104_180736_75e384",
+ "pre_state": {
+  "state": "ondemand\n600000\n1800000\nthrottled=0x80000\ntemp=43.8'C\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             DOWN           \nwlan0            UP             192.0.2.5/24 fd00::1 fd00::1 fd00::1 \n",
+  "temperature": {
+   "cpu_c": 41.17,
+   "ddr_c": 37.61
+  }
+ },
+ "rig_preflight": {
+  "state": "locked_ready",
+  "preflight": {
+   "bus": "SATA",
+   "disk": 2,
+   "model": "ST1000DM003-1ER162",
+   "free": 883623706624,
+   "console_user": null,
+   "other_workloads": 0,
+   "target_drive": "J",
+   "concurrent_source_transfer": true,
+   "query_user": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "No User exists for *\n"
+   },
+   "hackrf_info": "hackrf_info version: 2023.01.1\nlibhackrf version: 2023.01.1 (0.8)\nFound HackRF\nIndex: 0\nSerial number: <hackrf-serial>\nBoard ID Number: 2 (HackRF One)\nFirmware Version: 2024.02.1 (API:1.08)\nPart ID Number: 0xa000cb3c 0x005d4363\nHardware Revision: unknown\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n\nFound HackRF\nIndex: 1\nSerial number: <hackrf-serial>\nBoard ID Number: 4 (HackRF One)\nFirmware Version: 2023.01.1 (API:1.07)\nPart ID Number: 0xa000cb3c 0x005d475f\nHardware Revision: r9\nHardware does not appear to have been manufactured by Great Scott Gadgets.\nHardware supported by installed firmware:\n    HackRF One\n"
+  },
+  "pid": 3536,
+  "root": "<DATA>\\telltale_iowait_20261104\\wait_20261104_180736_75e384"
+ },
+ "source_sha256": {
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\io_wait_study\\PROTOCOL.md": "70d328119386674604699f1345242fc72a08d011b046f0feae8de86fb37552f2",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\io_wait_study\\collect_wait.py": "8f2e59a5e34d8870c13faed36b2ffd8db200110d357b4b59c0a8d83d5489a3fe",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\io_wait_study\\pi_api.py": "ae2bb1b325c1d6a51d72422c929ce78653a52351a3c624dee8f3284c1d56ca0e",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\rig_capture.py": "8b77170234937a1c45aaf17b997c58082078a894e99a6a18bac7a8b5b60f5911",
+  "<WORKSPACE>/ws_pi\\results\\scenario_rf_20261104\\burst_study\\bridge_utils.py": "7017efab335b82d5161047c2229dde7080504e9a58a4cc1ec91df4e06b13b243"
+ },
+ "utc": "2026-11-04T18:07:49Z",
+ "trusted_policy_in_worker": false,
+ "pilot_sha256": "b6619eee9f46aaee13b981fdb6079aa7525ed4de399d5bf6cb83a9cb7dfd9d70",
+ "input_sha256": "5b267dcc4738be3b52d912e17540bac8aa900a7a7688ab3f724ee518e43f013a"
+}
